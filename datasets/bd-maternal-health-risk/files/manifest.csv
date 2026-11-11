@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "maternal_health_risk.csv","One row per pregnant woman",1205,13,"text/csv",50215,"daa02cb8e44c27ae836ca8b331ff35d964e3fc09f7815adf96f5fb00e76cf9cd"
-"bd-maternal-health-risk.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",69347,"8c6668a7c0c5ed714696513175be9f7cab5d7e9ad2279306bd5c6f14934fb283"
-"bd-maternal-health-risk-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57495,"244713cbe8521cc8f54600711c31400260d966530db9bd8797095de8ba6d6c9f"
+"bd-maternal-health-risk.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",69347,"b7b635b5c05a77ed544fa7426cba35146af1d9d17f52c56fdbd3458224911cf6"
+"bd-maternal-health-risk-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57495,"ad39a1b36b50cccc6679482255875ceb129ca862864d3911a492f82ced0882cb"

@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "colon.csv","Two rows per patient, one for recurrence and one for death",1858,16,"text/csv",79664,"2b00b5369a8617989f2df739cf1b254f6b5d7be6a4f5d00db9aa542918f1135d"
-"us-colon-cancer-adjuvant-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",108955,"96705c52b3f4185b7f93a53b2745e4cd48e79b6a7bb452c2d458cc31d34b8643"
-"us-colon-cancer-adjuvant-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57636,"d77cb85a3098d8be038eaaca6e91d427a7a423afff41d3c5af7f175be1374143"
+"us-colon-cancer-adjuvant-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",108955,"3a9b0d144731e68b61ddb345ab9a9d7256865e5ee7ff218062dd726c23d44681"
+"us-colon-cancer-adjuvant-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57636,"9f06c679c26cb3d866347c287b094ad909dc9345040441240bfbabbb083fa4f3"

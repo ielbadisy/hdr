@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "melanoma_gide.csv","One row per patient",75,11,"text/csv",6575,"887a496bd5a7652dffa1d0f2c54db11630167ee8d03c146cd87874c385fc0ecd"
-"au-melanoma-checkpoint-gide.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",15259,"c7c76f963cb7a4404e5901f2b57d7e59930bfbe03a2806e2e27e3e3b26edb71f"
-"au-melanoma-checkpoint-gide-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57377,"dc5504f313cffcdae954bc4b6622f0d76f3f6f27e6031cb6072aa96c02faa192"
+"au-melanoma-checkpoint-gide.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",15259,"23f119bb7fc1a94d1481b638168a2668a3aebf39008a02ccb23c458ed56f7f4d"
+"au-melanoma-checkpoint-gide-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57377,"3e1e112189020a895728dbbbec87799bac9fe31bf2f8844dddc01265bc14c7ac"
