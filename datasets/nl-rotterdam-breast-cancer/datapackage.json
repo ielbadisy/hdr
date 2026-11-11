@@ -1,0 +1,122 @@
+{
+  "profile": "data-package",
+  "name": "nl-rotterdam-breast-cancer",
+  "id": "https://doi.org/10.XXXXX/hdr-nl-0001.v1.0.0",
+  "title": "Rotterdam tumour bank breast cancer cohort",
+  "description": "Records of 2,982 women with primary breast cancer operated on between 1978 and 1993 whose tumour tissue was stored in the Rotterdam tumour bank, the Netherlands: age, menopausal status, tumour size, grade, nodes, hormone receptors, adjuvant treatment, and time to relapse and to death.",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Cancer", "Breast cancer", "Survival analysis", "Prognostic model", "External validation"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/nl-rotterdam-breast-cancer/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Erasmus MC Cancer Institute (Daniel den Hoed Cancer Center), Rotterdam, Royston P, Altman DG (2013). External validation of a Cox prognostic model: principles and methods. BMC Medical Research Methodology 13: 33",
+      "path": "https://doi.org/10.1186/1471-2288-13-33"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "rotterdam",
+      "path": "files/rotterdam.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 148791,
+      "hash": "sha256:59598780fb4c4fd26a4a32289d514fbc499f7366b753ceb2b89bbe3a3db46cde",
+      "schema": {
+        "fields": [
+          {
+            "name": "pid",
+            "type": "integer",
+            "description": "Patient identifier"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year of surgery"
+          },
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "Age at surgery (years)"
+          },
+          {
+            "name": "meno",
+            "type": "integer",
+            "description": "Menopausal status (0 premenopausal, 1 postmenopausal)"
+          },
+          {
+            "name": "size",
+            "type": "string",
+            "description": "Tumour size in mm (<=20, 20-50, >50)"
+          },
+          {
+            "name": "grade",
+            "type": "integer",
+            "description": "Differentiation grade (2 or 3)"
+          },
+          {
+            "name": "nodes",
+            "type": "integer",
+            "description": "Number of positive lymph nodes"
+          },
+          {
+            "name": "pgr",
+            "type": "integer",
+            "description": "Progesterone receptors (fmol/L)"
+          },
+          {
+            "name": "er",
+            "type": "integer",
+            "description": "Oestrogen receptors (fmol/L)"
+          },
+          {
+            "name": "hormon",
+            "type": "integer",
+            "description": "Hormonal treatment (1 yes, 0 no)"
+          },
+          {
+            "name": "chemo",
+            "type": "integer",
+            "description": "Chemotherapy (1 yes, 0 no)"
+          },
+          {
+            "name": "rtime",
+            "type": "number",
+            "description": "Days to relapse or last follow-up"
+          },
+          {
+            "name": "recur",
+            "type": "integer",
+            "description": "Relapse (1 yes, 0 no)"
+          },
+          {
+            "name": "dtime",
+            "type": "number",
+            "description": "Days to death or last follow-up"
+          },
+          {
+            "name": "death",
+            "type": "integer",
+            "description": "Death (1 dead, 0 alive)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "profile": "data-package",
+  "name": "au-melanoma-checkpoint-gide",
+  "id": "https://doi.org/10.XXXXX/hdr-au-0001.v1.0.0",
+  "title": "Metastatic melanoma on immune checkpoint blockade",
+  "description": "Patients with stage IV melanoma treated with anti-PD-1 alone (pembrolizumab or nivolumab) or combined with ipilimumab, at Melanoma Institute Australia and other centres: 75 patients with treatment, best response, tumour neoantigen counts and overall survival.",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Cancer", "Immunotherapy", "Survival analysis", "Genomics"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/au-melanoma-checkpoint-gide/",
+  "licenses": [
+    {
+      "name": "ODbL-1.0",
+      "path": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "title": "ODbL 1.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Melanoma Institute Australia and The University of Sydney, Gide TN et al. (2019). Distinct immune cell populations define response to anti-PD-1 monotherapy and anti-PD-1/anti-CTLA-4 combined therapy. Cancer Cell 35(2): 238-255",
+      "path": "https://www.cbioportal.org/study/summary?id=mel_iatlas_gide_2019"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "melanoma_gide",
+      "path": "files/melanoma_gide.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 6575,
+      "hash": "sha256:887a496bd5a7652dffa1d0f2c54db11630167ee8d03c146cd87874c385fc0ecd",
+      "schema": {
+        "fields": [
+          {
+            "name": "time",
+            "type": "number",
+            "description": "Months from start of treatment to death or end of follow-up"
+          },
+          {
+            "name": "status",
+            "type": "integer",
+            "description": "Status at end of follow-up (1 dead, 0 censored)"
+          },
+          {
+            "name": "age",
+            "type": "number",
+            "description": "Age (years)"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "description": "Sex (Female, Male)"
+          },
+          {
+            "name": "treatment",
+            "type": "string",
+            "description": "Regimen (anti-PD-1, ipilimumab + anti-PD-1)"
+          },
+          {
+            "name": "drug",
+            "type": "string",
+            "description": "Drugs received (Pembrolizumab, Nivolumab, Ipilimumab Pembrolizumab, Ipilimumab Nivolumab)"
+          },
+          {
+            "name": "response",
+            "type": "string",
+            "description": "Best response by RECIST (Complete Response, Partial Response, Stable Disease, Progressive Disease)"
+          },
+          {
+            "name": "cta_self_neoantigen",
+            "type": "integer",
+            "description": "Number of cancer-testis antigen and self neoantigens in pre-treatment tumour RNA"
+          },
+          {
+            "name": "splice_neoantigen",
+            "type": "integer",
+            "description": "Number of splice-variant neoantigens in pre-treatment tumour RNA"
+          },
+          {
+            "name": "fusion_neoantigen",
+            "type": "integer",
+            "description": "Number of gene-fusion neoantigens in pre-treatment tumour RNA"
+          },
+          {
+            "name": "erv_neoantigen",
+            "type": "integer",
+            "description": "Number of endogenous retrovirus neoantigens in pre-treatment tumour RNA"
+          }
+        ]
+      }
+    }
+  ]
+}

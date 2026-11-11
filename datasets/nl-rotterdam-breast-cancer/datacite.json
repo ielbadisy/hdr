@@ -1,0 +1,99 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-nl-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Rotterdam tumour bank breast cancer cohort"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/nl-rotterdam-breast-cancer/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Cancer"
+        },
+        {
+          "subject": "Breast cancer"
+        },
+        {
+          "subject": "Survival analysis"
+        },
+        {
+          "subject": "Prognostic model"
+        },
+        {
+          "subject": "External validation"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "dateType": "Issued"
+        },
+        {
+          "date": "1978/1993",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Netherlands, Kingdom of the"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Records of 2,982 women with primary breast cancer operated on between 1978 and 1993 whose tumour tissue was stored in the Rotterdam tumour bank, the Netherlands: age, menopausal status, tumour size, grade, nodes, hormone receptors, adjuvant treatment, and time to relapse and to death.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Erasmus MC Cancer Institute (Daniel den Hoed Cancer Center), Rotterdam, Royston P, Altman DG (2013). External validation of a Cox prognostic model: principles and methods. BMC Medical Research Methodology 13: 33. Taken from the BioBench R package (dataset rotterdam), which took them from survival::rotterdam.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1186/1471-2288-13-33",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

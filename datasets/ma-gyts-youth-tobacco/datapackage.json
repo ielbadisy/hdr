@@ -1,0 +1,182 @@
+{
+  "profile": "data-package",
+  "name": "ma-gyts-youth-tobacco",
+  "id": "https://doi.org/10.XXXXX/hdr-ma-0003.v1.0.0",
+  "title": "Morocco Global Youth Tobacco Survey, student records",
+  "description": "Student-level records from the Global Youth Tobacco Survey (GYTS) in Morocco: tobacco and e-cigarette use, exposure to second-hand smoke, media and school messages, and family background, with survey weight, stratum and primary sampling unit for design-based analysis.",
+  "version": "1.0.0",
+  "created": "2026-11-02",
+  "keywords": ["Tobacco", "Adolescent health", "Survey data", "Second-hand smoke", "E-cigarettes"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/ma-gyts-youth-tobacco/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "World Health Organization and US Centers for Disease Control and Prevention, with the Ministry of Health of Morocco, Global Youth Tobacco Survey (GYTS), Morocco",
+      "path": "https://www.cdc.gov/tobacco/global/gtss/index.html"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "gyts_morocco",
+      "path": "files/gyts_morocco.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Student records",
+      "description": "One row per student",
+      "bytes": 1230612,
+      "hash": "sha256:a7882b03c4b79e2a5cf92185cf702fd219ab3536be933b2e5a3175224f8ed44f",
+      "schema": {
+        "fields": [
+          {
+            "name": "FinalWgt",
+            "type": "number",
+            "description": "Final survey weight"
+          },
+          {
+            "name": "age",
+            "type": "string",
+            "description": "Age group"
+          },
+          {
+            "name": "gender",
+            "type": "string",
+            "description": "Sex"
+          },
+          {
+            "name": "income",
+            "type": "string",
+            "description": "Pocket money available"
+          },
+          {
+            "name": "parent_work",
+            "type": "string",
+            "description": "Which parents work"
+          },
+          {
+            "name": "father_education",
+            "type": "string",
+            "description": "Father's education"
+          },
+          {
+            "name": "mother_education",
+            "type": "string",
+            "description": "Mother's education"
+          },
+          {
+            "name": "living_env",
+            "type": "string",
+            "description": "Urban or rural"
+          },
+          {
+            "name": "age_first_cig",
+            "type": "string",
+            "description": "Age at first cigarette"
+          },
+          {
+            "name": "cigar_use",
+            "type": "string",
+            "description": "Smoked cigarettes in the past 30 days"
+          },
+          {
+            "name": "noncig_use",
+            "type": "string",
+            "description": "Used other smoked tobacco in the past 30 days"
+          },
+          {
+            "name": "smokeless_use",
+            "type": "string",
+            "description": "Used smokeless tobacco in the past 30 days"
+          },
+          {
+            "name": "parent_smoke",
+            "type": "string",
+            "description": "A parent smokes"
+          },
+          {
+            "name": "friends_smoke",
+            "type": "string",
+            "description": "How many close friends smoke"
+          },
+          {
+            "name": "home_SHS",
+            "type": "string",
+            "description": "Exposed to second-hand smoke at home"
+          },
+          {
+            "name": "outside_SHS",
+            "type": "string",
+            "description": "Exposed to second-hand smoke outside the home"
+          },
+          {
+            "name": "indoor_ban",
+            "type": "string",
+            "description": "Supports a ban on smoking in enclosed public places"
+          },
+          {
+            "name": "outdoor_ban",
+            "type": "string",
+            "description": "Supports a ban on smoking in outdoor public places"
+          },
+          {
+            "name": "antitobacco_media",
+            "type": "string",
+            "description": "Saw anti-tobacco messages in the media"
+          },
+          {
+            "name": "antitobacco_school",
+            "type": "string",
+            "description": "Taught about the dangers of tobacco at school"
+          },
+          {
+            "name": "tobacco_media",
+            "type": "string",
+            "description": "Saw tobacco advertising or promotion"
+          },
+          {
+            "name": "offer_freetobacco",
+            "type": "string",
+            "description": "Was offered free tobacco products"
+          },
+          {
+            "name": "own_items",
+            "type": "string",
+            "description": "Owns an item with a tobacco brand logo"
+          },
+          {
+            "name": "knowledge_harm",
+            "type": "string",
+            "description": "Thinks second-hand smoke is harmful"
+          },
+          {
+            "name": "e_cig",
+            "type": "string",
+            "description": "Has used e-cigarettes"
+          },
+          {
+            "name": "Stratum",
+            "type": "integer",
+            "description": "Sampling stratum"
+          },
+          {
+            "name": "PSU",
+            "type": "integer",
+            "description": "Primary sampling unit (school)"
+          }
+        ]
+      }
+    }
+  ]
+}

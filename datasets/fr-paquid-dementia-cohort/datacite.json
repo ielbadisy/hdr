@@ -1,0 +1,102 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-fr-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "PAQUID cohort on brain ageing, sample of 2,561"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/fr-paquid-dementia-cohort/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Dementia"
+        },
+        {
+          "subject": "Ageing"
+        },
+        {
+          "subject": "Cohort study"
+        },
+        {
+          "subject": "Competing risks"
+        },
+        {
+          "subject": "Cognitive tests"
+        },
+        {
+          "subject": "Time-dependent ROC"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "dateType": "Issued"
+        },
+        {
+          "date": "1988/2000",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "France"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "A sample of 2,561 people aged 65 and over from PAQUID, a prospective cohort on functional and cerebral ageing started in 1988 in Gironde and Dordogne, south-western France: two cognitive test scores at baseline and time to dementia or to death without dementia over up to 12 years.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: PAQUID study group, Inserm and University of Bordeaux, Dartigues JF et al. (1992). The Paquid epidemiological program on brain ageing. Neuroepidemiology 11 (Suppl 1): 14-18. Taken from the BioBench R package (dataset paquid), which took them from riskRegression::Paquid, first released in the timeROC package.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1159/000110955",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

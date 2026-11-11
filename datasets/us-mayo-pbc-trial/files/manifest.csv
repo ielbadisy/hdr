@@ -1,0 +1,4 @@
+"file","description","rows","cols","format","bytes","sha256"
+"pbc.csv","One row per patient",418,20,"text/csv",31698,"1dbab06d2db283e0e6b6b0fef1d0d5eab8cac227286eef9f2e9419e8f9994c8f"
+"us-mayo-pbc-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",49803,"8fc0b8cae0edcb03f30083162862c2447951376cf44a7f4f785e16ac1a857104"
+"us-mayo-pbc-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",56303,"030050b5c3d92954f817515476fe45003bdf5164e6f0e7ab089acb2649d6e8bd"

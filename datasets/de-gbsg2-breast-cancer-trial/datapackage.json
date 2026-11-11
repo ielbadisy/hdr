@@ -1,0 +1,97 @@
+{
+  "profile": "data-package",
+  "name": "de-gbsg2-breast-cancer-trial",
+  "id": "https://doi.org/10.XXXXX/hdr-de-0001.v1.0.0",
+  "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+  "description": "Patient records from the GBSG-2 randomised 2x2 trial of hormonal treatment and chemotherapy duration in node-positive breast cancer in Germany: tumour and patient characteristics with recurrence-free survival time.",
+  "version": "1.0.0",
+  "created": "2026-11-02",
+  "keywords": ["Cancer", "Breast cancer", "Randomised trial", "Survival analysis"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/de-gbsg2-breast-cancer-trial/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "German Breast Cancer Study Group, Schumacher M et al. (1994). Randomized 2x2 trial evaluating hormonal treatment and the duration of chemotherapy in node-positive breast cancer patients. J Clin Oncol 12: 2086-2093",
+      "path": "https://doi.org/10.1200/JCO.1994.12.10.2086"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "gbsg2",
+      "path": "files/gbsg2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 25955,
+      "hash": "sha256:55339518aaf7314719d43d9d108710f38a54e2d41b435c215bec903c5bf7a178",
+      "schema": {
+        "fields": [
+          {
+            "name": "horTh",
+            "type": "string",
+            "description": "Hormonal therapy (yes, no)"
+          },
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "Age (years)"
+          },
+          {
+            "name": "menostat",
+            "type": "string",
+            "description": "Menopausal status (Pre, Post)"
+          },
+          {
+            "name": "tsize",
+            "type": "integer",
+            "description": "Tumour size (mm)"
+          },
+          {
+            "name": "tgrade",
+            "type": "string",
+            "description": "Tumour grade (I, II, III)"
+          },
+          {
+            "name": "pnodes",
+            "type": "integer",
+            "description": "Number of positive lymph nodes"
+          },
+          {
+            "name": "progrec",
+            "type": "integer",
+            "description": "Progesterone receptor (fmol)"
+          },
+          {
+            "name": "estrec",
+            "type": "integer",
+            "description": "Oestrogen receptor (fmol)"
+          },
+          {
+            "name": "time",
+            "type": "integer",
+            "description": "Recurrence-free survival time (days)"
+          },
+          {
+            "name": "cens",
+            "type": "integer",
+            "description": "Event (1 recurrence or death, 0 censored)"
+          }
+        ]
+      }
+    }
+  ]
+}

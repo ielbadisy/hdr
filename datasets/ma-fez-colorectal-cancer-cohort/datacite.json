@@ -1,0 +1,99 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-ma-0004.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/ma-fez-colorectal-cancer-cohort/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Cancer"
+        },
+        {
+          "subject": "Colorectal cancer"
+        },
+        {
+          "subject": "Survival analysis"
+        },
+        {
+          "subject": "Treatment delay"
+        },
+        {
+          "subject": "Morocco"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "dateType": "Issued"
+        },
+        {
+          "date": "2009/2015",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Morocco"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Retrospective cohort of 346 patients with colorectal cancer diagnosed and followed at Hassan II University Hospital, Fez, Morocco, between 2009 and 2015: sociodemographic, tumour, molecular and treatment characteristics, delay to start of treatment, and overall survival over 36 months from diagnosis.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Hassan II University Hospital and Sidi Mohamed Ben Abdellah University, Fez, El Badisy I et al. (2024). Risk factors affecting patients survival with colorectal cancer in Morocco: survival analysis using an interpretable machine learning approach. Scientific Reports 14: 3556. Taken from the BioBench R package (dataset crcfes), which took them from the biostatlab package, which took them from the authors' figshare file dataset_CRC_Fes.csv.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1038/s41598-024-51304-3",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

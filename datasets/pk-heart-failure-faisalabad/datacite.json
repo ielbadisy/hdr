@@ -1,0 +1,96 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-pk-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Heart failure clinical records, Faisalabad"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/pk-heart-failure-faisalabad/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Cardiovascular disease"
+        },
+        {
+          "subject": "Heart failure"
+        },
+        {
+          "subject": "Survival analysis"
+        },
+        {
+          "subject": "Clinical records"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-02",
+          "dateType": "Issued"
+        },
+        {
+          "date": "2015/2015",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Pakistan"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Clinical records and follow-up of 299 patients with left ventricular systolic dysfunction admitted to the Faisalabad Institute of Cardiology and the Allied Hospital, Faisalabad, Pakistan, in 2015, with time to death or censoring.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Government College University and Faisalabad Institute of Cardiology, Ahmad T et al. (2017). Survival analysis of heart failure patients: a case study. PLOS ONE 12(7): e0181001. Taken from the BioBench R package (dataset heartfailure), which took them from the biostatlab package.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1371/journal.pone.0181001",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

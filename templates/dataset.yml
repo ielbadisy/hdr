@@ -1,0 +1,76 @@
+# HDR deposit metadata. Fill every field marked REQUIRED.
+# Rules: https://elbadisyimad.com/hdr/rules.html   Example: example-dataset.yml
+# Strings with ":" or "#" must be quoted.
+
+id: ""                   # assigned by HDR
+slug: ""                 # short name, lowercase-with-dashes
+title: ""                # REQUIRED
+version: "1.0.0"
+date: 2026-01-01
+status: draft
+doi: ""                  # assigned by HDR
+
+abstract: >-             # REQUIRED, 50 to 5000 characters
+  What the data are, where, when, at what level.
+
+topics: []
+keywords: []
+language: en
+
+creators:                # REQUIRED, at least one
+  - name: ""
+    orcid: ""
+    affiliation: ""
+
+depositor:
+  name: ""
+  email: ""              # never published
+
+origin:                  # REQUIRED (rule R1): no origin, no deposit
+  type: official-report  # official-report | survey | registry | surveillance | study | other
+  organisation: ""       # REQUIRED: who produced the data
+  country: ""            # REQUIRED: ISO 3166 alpha-3, e.g. MAR
+  title: ""              # REQUIRED: publication, survey, registry or study
+  title_original: ""     # title in the original language, if different
+  editions: ""
+  url: ""                # REQUIRED: url or doi where the origin can be checked
+  doi: ""
+  accessed: ""
+  tables: ""             # tables or pages used
+  terms: ""              # REQUIRED (R3): reuse terms of the origin
+  how: ""                # REQUIRED: how the data were obtained or derived
+  ethics: ""             # R8: approval reference, for study data
+
+coverage:
+  countries: []          # ISO 3166 alpha-3 codes
+  geography: ""
+  start:
+  end:
+  unit: ""
+
+licence: CC-BY-4.0       # CC-BY-4.0, CC0-1.0 or ODbL-1.0
+
+overview: |
+  Longer description, in paragraphs.
+
+good_for: []
+not_good_for: []
+
+files:                   # REQUIRED: one entry per CSV in data/
+  - name: "table.csv"
+    title: ""
+    description: ""
+    variables:           # REQUIRED (R6): every column, in any order
+      - {name: "", type: "", description: ""}
+
+known_issues: []
+
+validation:              # R9: checks against the origin
+  - {check: "", hdr: "", source: "", gap: "", verdict: pass}   # verdict: pass | note
+
+versions:
+  - {version: "1.0.0", date: 2026-01-01, changes: "First release"}
+
+# Filled by HDR after publication when an error is reported.
+corrections: []
+#  - {date: 2026-01-01, what: "Measles 2021, Tanger-Assilah: 12 instead of 21 (table 80)", outcome: "Confirmed, fixed in 1.0.1"}

@@ -1,0 +1,4 @@
+"file","description","rows","cols","format","bytes","sha256"
+"colorectal_cancer.csv","One row per patient",346,19,"text/csv",55440,"c0469de9818f99976a4a239ebe78de41c6eb1df8551777554e5b4f7257d315df"
+"ma-fez-colorectal-cancer-cohort.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",33968,"a538529508158879f43f3a2199fbddcd5949c8151ec9426648b57ab242b9df57"
+"ma-fez-colorectal-cancer-cohort-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",61285,"4116db22a2f53c245d4affd14c48cbbaa5d5dfecef2302dc33bae5365be56c09"

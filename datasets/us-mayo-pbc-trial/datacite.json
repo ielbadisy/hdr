@@ -1,0 +1,96 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-us-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Mayo Clinic primary biliary cholangitis trial"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/us-mayo-pbc-trial/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Liver disease"
+        },
+        {
+          "subject": "Randomised trial"
+        },
+        {
+          "subject": "Survival analysis"
+        },
+        {
+          "subject": "Competing risks"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-02",
+          "dateType": "Issued"
+        },
+        {
+          "date": "1974/1984",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "United States of America"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Patients with primary biliary cholangitis seen at the Mayo Clinic, 1974 to 1984: the 312 participants of the randomised trial of D-penicillamine versus placebo and 106 eligible patients who were followed but not randomised, with laboratory values and survival.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Mayo Clinic, Fleming TR, Harrington DP (1991). Counting Processes and Survival Analysis. Wiley; Therneau TM, Grambsch PM (2000). Modeling Survival Data. Springer. Taken from the BioBench R package (dataset pbc), which took them from survival::pbc.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "https://CRAN.R-project.org/package=survival",
+          "relatedIdentifierType": "URL",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

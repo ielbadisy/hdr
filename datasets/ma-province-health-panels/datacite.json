@@ -1,0 +1,105 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-ma-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Morocco province health panels, 2019-2024"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/ma-province-health-panels/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Communicable diseases"
+        },
+        {
+          "subject": "Health workforce"
+        },
+        {
+          "subject": "Population"
+        },
+        {
+          "subject": "Public health surveillance"
+        },
+        {
+          "subject": "Health systems"
+        },
+        {
+          "subject": "Subnational"
+        },
+        {
+          "subject": "Panel data"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-10-25",
+          "dateType": "Issued"
+        },
+        {
+          "date": "2019/2024",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Morocco"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Notifiable disease cases, public and private health workforce, and target populations for every Moroccan province and prefecture, 2019-2024, extracted from the Ministry of Health annual reports and checked against their printed totals.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco, Santé en Chiffres (editions 2019, 2020, 2021, 2022, 2023, 2024). Tables were extracted from the PDF reports with scripted parsers (position-based column matching for tables where blank cells stand for zero), then province names and region spellings were harmonised.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "https://www.sante.gov.ma",
+          "relatedIdentifierType": "URL",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "6 files"
+      ]
+    }
+  }
+}

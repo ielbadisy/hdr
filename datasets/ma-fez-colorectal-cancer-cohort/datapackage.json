@@ -1,0 +1,142 @@
+{
+  "profile": "data-package",
+  "name": "ma-fez-colorectal-cancer-cohort",
+  "id": "https://doi.org/10.XXXXX/hdr-ma-0004.v1.0.0",
+  "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+  "description": "Retrospective cohort of 346 patients with colorectal cancer diagnosed and followed at Hassan II University Hospital, Fez, Morocco, between 2009 and 2015: sociodemographic, tumour, molecular and treatment characteristics, delay to start of treatment, and overall survival over 36 months from diagnosis.",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Cancer", "Colorectal cancer", "Survival analysis", "Treatment delay", "Morocco"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/ma-fez-colorectal-cancer-cohort/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hassan II University Hospital and Sidi Mohamed Ben Abdellah University, Fez, El Badisy I et al. (2024). Risk factors affecting patients survival with colorectal cancer in Morocco: survival analysis using an interpretable machine learning approach. Scientific Reports 14: 3556",
+      "path": "https://doi.org/10.1038/s41598-024-51304-3"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "colorectal_cancer",
+      "path": "files/colorectal_cancer.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 55440,
+      "hash": "sha256:c0469de9818f99976a4a239ebe78de41c6eb1df8551777554e5b4f7257d315df",
+      "schema": {
+        "fields": [
+          {
+            "name": "Age",
+            "type": "integer",
+            "description": "Age at diagnosis (years)"
+          },
+          {
+            "name": "Marital.status",
+            "type": "string",
+            "description": "Marital status (Single, Married, Divorced, Widowed)"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "description": "Sex (Female, Male)"
+          },
+          {
+            "name": "Insurance",
+            "type": "string",
+            "description": "Health insurance cover (No, Yes)"
+          },
+          {
+            "name": "Residency",
+            "type": "string",
+            "description": "Area of residence (Rural, Urban)"
+          },
+          {
+            "name": "Personal.history",
+            "type": "string",
+            "description": "Personal history of cancer or colorectal disease (No, Yes)"
+          },
+          {
+            "name": "Family.history",
+            "type": "string",
+            "description": "Family history of cancer (No, Yes)"
+          },
+          {
+            "name": "Site",
+            "type": "string",
+            "description": "Tumour site (Colon, Rectum)"
+          },
+          {
+            "name": "Subsite",
+            "type": "string",
+            "description": "Tumour subsite (Right colon, Transverse colon, Left colon, Superior rectal, Middle rectum, Inferior rectum)"
+          },
+          {
+            "name": "Surgery",
+            "type": "string",
+            "description": "Surgery performed (No, Yes)"
+          },
+          {
+            "name": "Stage",
+            "type": "string",
+            "description": "Stage at diagnosis (Local, Regional, Distant)"
+          },
+          {
+            "name": "Histological.type",
+            "type": "string",
+            "description": "Histological type (Adenocarcinoma lieberkinien, Mucinous adenocarcinoma, Signet ring cell adenocarcinoma)"
+          },
+          {
+            "name": "Tumor.differentiation",
+            "type": "string",
+            "description": "Tumour differentiation (Well, Moderately, Undifferentiated)"
+          },
+          {
+            "name": "Braf.mutated",
+            "type": "string",
+            "description": "BRAF mutation (No, Yes)"
+          },
+          {
+            "name": "Ras.mutated",
+            "type": "string",
+            "description": "RAS mutation (No, Yes)"
+          },
+          {
+            "name": "MSI.MSS.status",
+            "type": "string",
+            "description": "Microsatellite instability (No, Yes)"
+          },
+          {
+            "name": "time",
+            "type": "integer",
+            "description": "Months from diagnosis to death or censoring (at most 36)"
+          },
+          {
+            "name": "event",
+            "type": "integer",
+            "description": "Death (1 dead, 0 censored)"
+          },
+          {
+            "name": "Delay",
+            "type": "integer",
+            "description": "Delay to start of treatment (days)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "profile": "data-package",
+  "name": "ma-province-health-panels",
+  "id": "https://doi.org/10.XXXXX/hdr-ma-0001.v1.0.0",
+  "title": "Morocco province health panels, 2019-2024",
+  "description": "Notifiable disease cases, public and private health workforce, and target populations for every Moroccan province and prefecture, 2019-2024, extracted from the Ministry of Health annual reports and checked against their printed totals.",
+  "version": "1.0.0",
+  "created": "2026-10-25",
+  "keywords": ["Communicable diseases", "Health workforce", "Population", "Public health surveillance", "Health systems", "Subnational", "Panel data"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/ma-province-health-panels/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco, Santé en Chiffres (editions 2019, 2020, 2021, 2022, 2023, 2024)",
+      "path": "https://www.sante.gov.ma"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "merged_panel_wide",
+      "path": "files/merged_panel_wide.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Analysis-ready panel",
+      "description": "One row per province and year: five diseases reported in all years, denominators, workforce totals and rates",
+      "bytes": 74200,
+      "hash": "sha256:8ff2e23bfbab6116dd6eeba13fb1248ff0c1a60cea1675ffedf7a0b57d991ce8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year of the report edition"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Health region (12)"
+          },
+          {
+            "name": "province_prefecture",
+            "type": "string",
+            "description": "Province or prefecture (Casablanca as one unit)"
+          },
+          {
+            "name": "cases_Coqueluche",
+            "type": "number",
+            "description": "Reported pertussis cases"
+          },
+          {
+            "name": "cases_Lepre",
+            "type": "number",
+            "description": "Reported leprosy cases"
+          },
+          {
+            "name": "cases_Leptospirose",
+            "type": "number",
+            "description": "Reported leptospirosis cases"
+          },
+          {
+            "name": "cases_Rougeole",
+            "type": "number",
+            "description": "Reported measles cases"
+          },
+          {
+            "name": "cases_Tetanos",
+            "type": "number",
+            "description": "Reported tetanus cases"
+          },
+          {
+            "name": "diseases_reported_total",
+            "type": "number",
+            "description": "Sum of all diseases reported that year; not comparable between 2019-2021 and 2022-2024"
+          },
+          {
+            "name": "population_totale",
+            "type": "number",
+            "description": "Total population (programme target)"
+          },
+          {
+            "name": "naissances_attendues",
+            "type": "number",
+            "description": "Expected births"
+          },
+          {
+            "name": "enfants_moins_1an",
+            "type": "number",
+            "description": "Children under 1 year"
+          },
+          {
+            "name": "enfants_moins_5ans",
+            "type": "number",
+            "description": "Children under 5 years"
+          },
+          {
+            "name": "medecins_public_total",
+            "type": "number",
+            "description": "Public-sector doctors (headcount)"
+          },
+          {
+            "name": "infirmiers_public_total",
+            "type": "number",
+            "description": "Public-sector nurses and technicians (headcount)"
+          },
+          {
+            "name": "medecins_prive_total",
+            "type": "number",
+            "description": "Private-sector doctors (headcount)"
+          },
+          {
+            "name": "medecins_public_per_10k_pop",
+            "type": "number",
+            "description": "Public doctors per 10,000 population"
+          },
+          {
+            "name": "infirmiers_public_per_10k_pop",
+            "type": "number",
+            "description": "Public nurses and technicians per 10,000 population"
+          },
+          {
+            "name": "medecins_prive_per_10k_pop",
+            "type": "number",
+            "description": "Private doctors per 10,000 population"
+          },
+          {
+            "name": "cases_Coqueluche_per_100k",
+            "type": "number",
+            "description": "Pertussis cases per 100,000 population"
+          },
+          {
+            "name": "cases_Lepre_per_100k",
+            "type": "number",
+            "description": "Leprosy cases per 100,000 population"
+          },
+          {
+            "name": "cases_Leptospirose_per_100k",
+            "type": "number",
+            "description": "Leptospirosis cases per 100,000 population"
+          },
+          {
+            "name": "cases_Rougeole_per_100k",
+            "type": "number",
+            "description": "Measles cases per 100,000 population"
+          },
+          {
+            "name": "cases_Tetanos_per_100k",
+            "type": "number",
+            "description": "Tetanus cases per 100,000 population"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pathology_panel_long",
+      "path": "files/pathology_panel_long.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Reported cases, all diseases",
+      "description": "One row per year, province and disease (35 disease labels over the period)",
+      "bytes": 459126,
+      "hash": "sha256:4b59f2d516369d3541461166671a4101dc37ec38a47be63ab49dc2ecbc8fb2f3",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Health region"
+          },
+          {
+            "name": "province_prefecture",
+            "type": "string",
+            "description": "Province or prefecture"
+          },
+          {
+            "name": "disease",
+            "type": "string",
+            "description": "Disease label as printed in the report (French)"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Reported cases. A disease absent in a year was not reported that year; it does not mean zero"
+          }
+        ]
+      }
+    },
+    {
+      "name": "hr_panel_long",
+      "path": "files/hr_panel_long.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Health workforce",
+      "description": "One row per year, province, table and indicator; Casablanca split into 8 prefectures",
+      "bytes": 1040074,
+      "hash": "sha256:51a5e6be66dde9ccd20db3aab92ba62bbf3bc3e8796aa04cdd36bb55bf74090a",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Health region"
+          },
+          {
+            "name": "province_prefecture",
+            "type": "string",
+            "description": "Province or prefecture (81 units)"
+          },
+          {
+            "name": "table",
+            "type": "string",
+            "description": "medecins_public, infirmiers_public or medecins_prive"
+          },
+          {
+            "name": "indicator",
+            "type": "string",
+            "description": "Prefix gives the care network: rh_ hospitals, ressp_ primary care, rems_ medico-social, prive_ private sector"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Headcount"
+          }
+        ]
+      }
+    },
+    {
+      "name": "population_panel_long",
+      "path": "files/population_panel_long.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Target populations",
+      "description": "One row per year, province and indicator, urban, rural and total",
+      "bytes": 535281,
+      "hash": "sha256:ce1ad970c1800c7497634554243016a575fa4bb2c47fc41360a0583d96c728b0",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Health region"
+          },
+          {
+            "name": "province_prefecture",
+            "type": "string",
+            "description": "Province or prefecture; __REGION_TOTAL__ marks the region's own total row"
+          },
+          {
+            "name": "indicator",
+            "type": "string",
+            "description": "pop_totale, naissances_attendues, enfants_moins_1an, enfants_12_23_mois or enfants_moins_5ans, each with _urbain, _rural or _ensemble"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Persons"
+          }
+        ]
+      }
+    }
+  ]
+}

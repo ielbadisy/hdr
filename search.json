@@ -1,0 +1,1346 @@
+[
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html",
+    "href": "datasets/us-mayo-pbc-trial/index.html",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "",
+    "text": "HDR-US-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#description",
+    "href": "datasets/us-mayo-pbc-trial/index.html#description",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Description",
+    "text": "Description\nPatients with primary biliary cholangitis seen at the Mayo Clinic, 1974 to 1984: the 312 participants of the randomised trial of D-penicillamine versus placebo and 106 eligible patients who were followed but not randomised, with laboratory values and survival.\nThe reference dataset for the Mayo risk score and a standard example for Cox and competing-risk models."
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#origin",
+    "href": "datasets/us-mayo-pbc-trial/index.html#origin",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Mayo Clinic\nPublished in Fleming TR, Harrington DP (1991). Counting Processes and Survival Analysis. Wiley; Therneau TM, Grambsch PM (2000). Modeling Survival Data. Springer\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset pbc), which took them from survival::pbc.\nPublished on HDR HDR-US-0001, version 1.0.0\n\nOrigin address: https://CRAN.R-project.org/package=survival (accessed 2026-11-02). Reuse terms: Distributed openly for research in the survival R package (LGPL)."
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#files",
+    "href": "datasets/us-mayo-pbc-trial/index.html#files",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npbc.csv\nOne row per patient\n418\n20\n32 kB\n1dbab06d2db2…\n\n\nus-mayo-pbc-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n50 kB\n8fc0b8cae0ed…\n\n\nus-mayo-pbc-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n030050b5c3d9…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#variables",
+    "href": "datasets/us-mayo-pbc-trial/index.html#variables",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Variables",
+    "text": "Variables\n\npbc.csv\nOne row per patient\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nid\ninteger\nPatient identifier\n\n\ntime\ninteger\nDays from registration to death, transplant or end of follow-up\n\n\nstatus\ninteger\nStatus at end of follow-up (0 censored, 1 transplant, 2 dead)\n\n\ntrt\ninteger\nTreatment (1 D-penicillamine, 2 placebo, missing not randomised)\n\n\nage\nnumber\nAge (years)\n\n\nsex\nstring\nSex (m, f)\n\n\nascites\ninteger\nAscites (1 yes, 0 no)\n\n\nhepato\ninteger\nHepatomegaly (1 yes, 0 no)\n\n\nspiders\ninteger\nSpider angiomas (1 yes, 0 no)\n\n\nedema\nnumber\nOedema (0 none, 0.5 untreated or controlled by diuretics, 1 despite diuretics)\n\n\nbili\nnumber\nSerum bilirubin (mg/dL)\n\n\nchol\ninteger\nSerum cholesterol (mg/dL)\n\n\nalbumin\nnumber\nSerum albumin (g/dL)\n\n\ncopper\ninteger\nUrine copper (ug/day)\n\n\nalk.phos\nnumber\nAlkaline phosphatase (U/L)\n\n\nast\nnumber\nAspartate aminotransferase (U/mL)\n\n\ntrig\ninteger\nTriglycerides (mg/dL)\n\n\nplatelet\ninteger\nPlatelet count\n\n\nprotime\nnumber\nStandardised blood clotting time (s)\n\n\nstage\ninteger\nHistologic stage (1 to 4)"
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#known-issues",
+    "href": "datasets/us-mayo-pbc-trial/index.html#known-issues",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nRows 313 to 418 were not randomised (trt is missing) and have more missing values."
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#report",
+    "href": "datasets/us-mayo-pbc-trial/index.html#report",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •pbc.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#explore",
+    "href": "datasets/us-mayo-pbc-trial/index.html#explore",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Explore",
+    "text": "Explore\nThe first table, pbc.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#load-the-data",
+    "href": "datasets/us-mayo-pbc-trial/index.html#load-the-data",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/us-mayo-pbc-trial/files/\"\nx &lt;- read.csv(paste0(base, \"pbc.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/us-mayo-pbc-trial/files/\"\nx = pd.read_csv(base + \"pbc.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/us-mayo-pbc-trial/files/pbc.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#cite",
+    "href": "datasets/us-mayo-pbc-trial/index.html#cite",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Mayo Clinic primary biliary cholangitis trial (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/us-mayo-pbc-trial/\n\nPlease also cite the origin: Mayo Clinic, Fleming TR, Harrington DP (1991). Counting Processes and Survival Analysis. Wiley; Therneau TM, Grambsch PM (2000). Modeling Survival Data. Springer."
+  },
+  {
+    "objectID": "datasets/us-mayo-pbc-trial/index.html#versions",
+    "href": "datasets/us-mayo-pbc-trial/index.html#versions",
+    "title": "Mayo Clinic primary biliary cholangitis trial",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-02\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "",
+    "text": "HDR-PK-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#description",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#description",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Description",
+    "text": "Description\nClinical records and follow-up of 299 patients with left ventricular systolic dysfunction admitted to the Faisalabad Institute of Cardiology and the Allied Hospital, Faisalabad, Pakistan, in 2015, with time to death or censoring.\nA small, complete cohort widely used to teach survival analysis and to compare prediction models."
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#origin",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#origin",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Government College University and Faisalabad Institute of Cardiology\nPublished in Ahmad T et al. (2017). Survival analysis of heart failure patients: a case study. PLOS ONE 12(7): e0181001\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset heartfailure), which took them from the biostatlab package.\nPublished on HDR HDR-PK-0001, version 1.0.0\n\nOrigin address: https://doi.org/10.1371/journal.pone.0181001 (accessed 2026-11-02). Reuse terms: Published with the article under CC BY 4.0; reused by Chicco and Jurman (2020)."
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#files",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#files",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nheart_failure.csv\nOne row per patient\n299\n13\n12 kB\n23833b0c0653…\n\n\npk-heart-failure-faisalabad.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n27 kB\ndd63e38a58a3…\n\n\npk-heart-failure-faisalabad-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n3e25ccce03c1…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#variables",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#variables",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Variables",
+    "text": "Variables\n\nheart_failure.csv\nOne row per patient\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nage\nnumber\nAge (years)\n\n\nanaemia\ninteger\nAnaemia (1 yes, 0 no)\n\n\ncreatinine_phosphokinase\ninteger\nCPK enzyme in blood (mcg/L)\n\n\ndiabetes\ninteger\nDiabetes (1 yes, 0 no)\n\n\nejection_fraction\ninteger\nLeft ventricular ejection fraction (%)\n\n\nhigh_blood_pressure\ninteger\nHypertension (1 yes, 0 no)\n\n\nplatelets\nnumber\nPlatelets (kiloplatelets/mL)\n\n\nserum_creatinine\nnumber\nSerum creatinine (mg/dL)\n\n\nserum_sodium\ninteger\nSerum sodium (mEq/L)\n\n\nsex\ninteger\nSex (1 man, 0 woman)\n\n\nsmoking\ninteger\nSmoker (1 yes, 0 no)\n\n\ntime\ninteger\nFollow-up time (days)\n\n\nDEATH_EVENT\ninteger\nDied during follow-up (1 yes, 0 censored)"
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#known-issues",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#known-issues",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nFollow-up is short (4 to 285 days)."
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#report",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#report",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •heart_failure.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#explore",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#explore",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Explore",
+    "text": "Explore\nThe first table, heart_failure.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#load-the-data",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#load-the-data",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/pk-heart-failure-faisalabad/files/\"\nx &lt;- read.csv(paste0(base, \"heart_failure.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/pk-heart-failure-faisalabad/files/\"\nx = pd.read_csv(base + \"heart_failure.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/pk-heart-failure-faisalabad/files/heart_failure.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#cite",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#cite",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Heart failure clinical records, Faisalabad (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/pk-heart-failure-faisalabad/\n\nPlease also cite the origin: Government College University and Faisalabad Institute of Cardiology, Ahmad T et al. (2017). Survival analysis of heart failure patients: a case study. PLOS ONE 12(7): e0181001."
+  },
+  {
+    "objectID": "datasets/pk-heart-failure-faisalabad/index.html#versions",
+    "href": "datasets/pk-heart-failure-faisalabad/index.html#versions",
+    "title": "Heart failure clinical records, Faisalabad",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-02\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html",
+    "href": "datasets/ma-province-health-panels/index.html",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "",
+    "text": "HDR-MA-0001 version 1.0.0 Draft Origin verified Checked against the origin Report an error"
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#description",
+    "href": "datasets/ma-province-health-panels/index.html#description",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Description",
+    "text": "Description\nNotifiable disease cases, public and private health workforce, and target populations for every Moroccan province and prefecture, 2019-2024, extracted from the Ministry of Health annual reports and checked against their printed totals.\nMorocco’s Ministry of Health publishes a yearly statistical report, Santé en Chiffres, as a PDF. Its province-level tables are the most detailed public picture of disease surveillance and health workforce in the country, but they are hard to use: tables change from year to year, blank cells stand for zeros, and place names are spelled inconsistently.\nThis dataset brings four of those tables for the six editions 2019 to 2024 into clean long-format tables, plus one analysis-ready wide table that joins them."
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#origin",
+    "href": "datasets/ma-province-health-panels/index.html#origin",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco\nPublished in Santé en Chiffres, editions 2019, 2020, 2021, 2022, 2023, 2024\nTables used Communicable diseases (tables 79-84 depending on edition); public doctors by network (table 37); public nurses and technicians by network (tables 39-40); private doctors (tables 41-42); target populations by province.\nHow obtained Tables were extracted from the PDF reports with scripted parsers (position-based column matching for tables where blank cells stand for zero), then province names and region spellings were harmonised.\nPublished on HDR HDR-MA-0001, version 1.0.0\n\nOrigin address: https://www.sante.gov.ma (accessed 2026-07-20). Reuse terms: Publicly released reports. No reuse licence is stated in the reports; HDR publishes the extracted figures with attribution and does not re-host the reports."
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#files",
+    "href": "datasets/ma-province-health-panels/index.html#files",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmerged_panel_wide.csv\nOne row per province and year: five diseases reported in all years, denominators, workforce totals and rates\n450\n24\n74 kB\n8ff2e23bfbab…\n\n\npathology_panel_long.csv\nOne row per year, province and disease (35 disease labels over the period)\n8,400\n5\n459 kB\n4b59f2d51636…\n\n\nhr_panel_long.csv\nOne row per year, province, table and indicator; Casablanca split into 8 prefectures\n13,776\n6\n1.0 MB\n51a5e6be66dd…\n\n\npopulation_panel_long.csv\nOne row per year, province and indicator, urban, rural and total\n7,830\n5\n535 kB\nce1ad970c180…\n\n\nma-province-health-panels.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n697 kB\n3a4645d3861c…\n\n\nma-province-health-panels-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n65 kB\nbdad05b5fc26…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#variables",
+    "href": "datasets/ma-province-health-panels/index.html#variables",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Variables",
+    "text": "Variables\n\nmerged_panel_wide.csv\nOne row per province and year: five diseases reported in all years, denominators, workforce totals and rates\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nyear\ninteger\nCalendar year of the report edition\n\n\nregion\nstring\nHealth region (12)\n\n\nprovince_prefecture\nstring\nProvince or prefecture (Casablanca as one unit)\n\n\ncases_Coqueluche\nnumber\nReported pertussis cases\n\n\ncases_Lepre\nnumber\nReported leprosy cases\n\n\ncases_Leptospirose\nnumber\nReported leptospirosis cases\n\n\ncases_Rougeole\nnumber\nReported measles cases\n\n\ncases_Tetanos\nnumber\nReported tetanus cases\n\n\ndiseases_reported_total\nnumber\nSum of all diseases reported that year; not comparable between 2019-2021 and 2022-2024\n\n\npopulation_totale\nnumber\nTotal population (programme target)\n\n\nnaissances_attendues\nnumber\nExpected births\n\n\nenfants_moins_1an\nnumber\nChildren under 1 year\n\n\nenfants_moins_5ans\nnumber\nChildren under 5 years\n\n\nmedecins_public_total\nnumber\nPublic-sector doctors (headcount)\n\n\ninfirmiers_public_total\nnumber\nPublic-sector nurses and technicians (headcount)\n\n\nmedecins_prive_total\nnumber\nPrivate-sector doctors (headcount)\n\n\nmedecins_public_per_10k_pop\nnumber\nPublic doctors per 10,000 population\n\n\ninfirmiers_public_per_10k_pop\nnumber\nPublic nurses and technicians per 10,000 population\n\n\nmedecins_prive_per_10k_pop\nnumber\nPrivate doctors per 10,000 population\n\n\ncases_Coqueluche_per_100k\nnumber\nPertussis cases per 100,000 population\n\n\ncases_Lepre_per_100k\nnumber\nLeprosy cases per 100,000 population\n\n\ncases_Leptospirose_per_100k\nnumber\nLeptospirosis cases per 100,000 population\n\n\ncases_Rougeole_per_100k\nnumber\nMeasles cases per 100,000 population\n\n\ncases_Tetanos_per_100k\nnumber\nTetanus cases per 100,000 population\n\n\n\n\n\npathology_panel_long.csv\nOne row per year, province and disease (35 disease labels over the period)\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nyear\ninteger\nCalendar year\n\n\nregion\nstring\nHealth region\n\n\nprovince_prefecture\nstring\nProvince or prefecture\n\n\ndisease\nstring\nDisease label as printed in the report (French)\n\n\nvalue\nnumber\nReported cases. A disease absent in a year was not reported that year; it does not mean zero\n\n\n\n\n\nhr_panel_long.csv\nOne row per year, province, table and indicator; Casablanca split into 8 prefectures\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nyear\ninteger\nCalendar year\n\n\nregion\nstring\nHealth region\n\n\nprovince_prefecture\nstring\nProvince or prefecture (81 units)\n\n\ntable\nstring\nmedecins_public, infirmiers_public or medecins_prive\n\n\nindicator\nstring\nPrefix gives the care network: rh_ hospitals, ressp_ primary care, rems_ medico-social, prive_ private sector\n\n\nvalue\nnumber\nHeadcount\n\n\n\n\n\npopulation_panel_long.csv\nOne row per year, province and indicator, urban, rural and total\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nyear\ninteger\nCalendar year\n\n\nregion\nstring\nHealth region\n\n\nprovince_prefecture\nstring\nProvince or prefecture; REGION_TOTAL marks the region’s own total row\n\n\nindicator\nstring\npop_totale, naissances_attendues, enfants_moins_1an, enfants_12_23_mois or enfants_moins_5ans, each with _urbain, _rural or _ensemble\n\n\nvalue\nnumber\nPersons"
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#known-issues",
+    "href": "datasets/ma-province-health-panels/index.html#known-issues",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nThe list of reported diseases changed in 2022. 2019-2021 reports separate notifiable diseases and diseases under surveillance; 2022-2024 use one surveillance list. COVID-19 appears only in 2022-2023, meningitis only from 2023, rheumatic carditis only until 2021.\nLeprosy 2019 is very likely an artefact. The national rate drops from 37.9 per 100,000 in 2019 to near zero from 2021 and never recovers. Run a sensitivity analysis without 2019.\nFood poisoning outbreaks (TIAC) 2020-2021 are approximate. The source leaves zero cells blank in these years; blanks were read as zeros.\nCasablanca has two grains. Disease and population tables give one unit; the workforce table gives 8 prefectures. The merged file sums them to one unit.\nPopulation figures are programme targets, not census counts. They are revised between editions (2024 total 36.8 million, lower than 2023 at 37.6 million).\nAnnex tables differ slightly from headline figures, typically by about 1%, likely different data cut-off dates. This dataset reproduces the annex tables."
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#checks",
+    "href": "datasets/ma-province-health-panels/index.html#checks",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Checks against the origin",
+    "text": "Checks against the origin\nEach check compares a figure in this dataset with the same figure printed in the origin.\n\n\n\n\n\n\n\n\n\n\nCheck\nThis dataset\nOrigin\nGap\nResult\n\n\n\n\nDisease counts, province sums vs regional subtotal rows (all years)\nEqual\nSubtotal rows\n0%\nmatch\n\n\nTuberculosis 2023, national total\n32,174\n32,429 (headline)\n0.8%\nsmall gap, explained\n\n\nPublic doctors 2023, national total\n14,679\n14,510 (headline)\n1.2%\nsmall gap, explained\n\n\nPopulation, province sums vs national row (all years)\nEqual\nNational row\n0%\nmatch"
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#report",
+    "href": "datasets/ma-province-health-panels/index.html#report",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •merged_panel_wide.csvpathology_panel_long.csvhr_panel_long.csvpopulation_panel_long.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#explore",
+    "href": "datasets/ma-province-health-panels/index.html#explore",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Explore",
+    "text": "Explore\nThe first table, merged_panel_wide.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#load-the-data",
+    "href": "datasets/ma-province-health-panels/index.html#load-the-data",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/ma-province-health-panels/files/\"\nx &lt;- read.csv(paste0(base, \"merged_panel_wide.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/ma-province-health-panels/files/\"\nx = pd.read_csv(base + \"merged_panel_wide.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/ma-province-health-panels/files/merged_panel_wide.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#cite",
+    "href": "datasets/ma-province-health-panels/index.html#cite",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Morocco province health panels, 2019-2024 (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/ma-province-health-panels/\n\nPlease also cite the origin: Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco, Santé en Chiffres (editions 2019, 2020, 2021, 2022, 2023, 2024)."
+  },
+  {
+    "objectID": "datasets/ma-province-health-panels/index.html#versions",
+    "href": "datasets/ma-province-health-panels/index.html#versions",
+    "title": "Morocco province health panels, 2019-2024",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-10-25\nFirst release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "",
+    "text": "HDR-MA-0003 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#description",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#description",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Description",
+    "text": "Description\nStudent-level records from the Global Youth Tobacco Survey (GYTS) in Morocco: tobacco and e-cigarette use, exposure to second-hand smoke, media and school messages, and family background, with survey weight, stratum and primary sampling unit for design-based analysis.\nThe GYTS is the global standard survey of tobacco use among school students. This file keeps one row per student with the weight, stratum and PSU needed for weighted estimates."
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#origin",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#origin",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by World Health Organization and US Centers for Disease Control and Prevention, with the Ministry of Health of Morocco\nPublished in Global Youth Tobacco Survey (GYTS), Morocco\nTables used Not stated\nHow obtained School-based survey of students aged 13 to 15. Records were taken from the BioBench R package (dataset tobaccomorocco), which took them from the biostatlab package; blank answers are coded as missing.\nPublished on HDR HDR-MA-0003, version 1.0.0\n\nOrigin address: https://www.cdc.gov/tobacco/global/gtss/index.html (accessed 2026-11-02). Reuse terms: GYTS public-use data files are released by CDC for research use with attribution."
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#files",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#files",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngyts_morocco.csv\nOne row per student\n3,915\n27\n1.2 MB\na7882b03c4b7…\n\n\nma-gyts-youth-tobacco.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n337 kB\n205a6bbce513…\n\n\nma-gyts-youth-tobacco-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n087e334ea89e…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#variables",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#variables",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Variables",
+    "text": "Variables\n\ngyts_morocco.csv\nOne row per student\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nFinalWgt\nnumber\nFinal survey weight\n\n\nage\nstring\nAge group\n\n\ngender\nstring\nSex\n\n\nincome\nstring\nPocket money available\n\n\nparent_work\nstring\nWhich parents work\n\n\nfather_education\nstring\nFather’s education\n\n\nmother_education\nstring\nMother’s education\n\n\nliving_env\nstring\nUrban or rural\n\n\nage_first_cig\nstring\nAge at first cigarette\n\n\ncigar_use\nstring\nSmoked cigarettes in the past 30 days\n\n\nnoncig_use\nstring\nUsed other smoked tobacco in the past 30 days\n\n\nsmokeless_use\nstring\nUsed smokeless tobacco in the past 30 days\n\n\nparent_smoke\nstring\nA parent smokes\n\n\nfriends_smoke\nstring\nHow many close friends smoke\n\n\nhome_SHS\nstring\nExposed to second-hand smoke at home\n\n\noutside_SHS\nstring\nExposed to second-hand smoke outside the home\n\n\nindoor_ban\nstring\nSupports a ban on smoking in enclosed public places\n\n\noutdoor_ban\nstring\nSupports a ban on smoking in outdoor public places\n\n\nantitobacco_media\nstring\nSaw anti-tobacco messages in the media\n\n\nantitobacco_school\nstring\nTaught about the dangers of tobacco at school\n\n\ntobacco_media\nstring\nSaw tobacco advertising or promotion\n\n\noffer_freetobacco\nstring\nWas offered free tobacco products\n\n\nown_items\nstring\nOwns an item with a tobacco brand logo\n\n\nknowledge_harm\nstring\nThinks second-hand smoke is harmful\n\n\ne_cig\nstring\nHas used e-cigarettes\n\n\nStratum\ninteger\nSampling stratum\n\n\nPSU\ninteger\nPrimary sampling unit (school)"
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#known-issues",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#known-issues",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nUse the survey design. Ignore FinalWgt, Stratum and PSU and the estimates will be biased and the standard errors too small."
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#report",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#report",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •gyts_morocco.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#explore",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#explore",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Explore",
+    "text": "Explore\nThe first table, gyts_morocco.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#load-the-data",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#load-the-data",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/ma-gyts-youth-tobacco/files/\"\nx &lt;- read.csv(paste0(base, \"gyts_morocco.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/ma-gyts-youth-tobacco/files/\"\nx = pd.read_csv(base + \"gyts_morocco.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/ma-gyts-youth-tobacco/files/gyts_morocco.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#cite",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#cite",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Morocco Global Youth Tobacco Survey, student records (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/ma-gyts-youth-tobacco/\n\nPlease also cite the origin: World Health Organization and US Centers for Disease Control and Prevention, with the Ministry of Health of Morocco, Global Youth Tobacco Survey (GYTS), Morocco."
+  },
+  {
+    "objectID": "datasets/ma-gyts-youth-tobacco/index.html#versions",
+    "href": "datasets/ma-gyts-youth-tobacco/index.html#versions",
+    "title": "Morocco Global Youth Tobacco Survey, student records",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-02\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "",
+    "text": "HDR-GB-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#description",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#description",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Description",
+    "text": "Description\nThe Medical Research Council trial of streptomycin plus bed rest versus bed rest alone in 107 young adults with acute progressive pulmonary tuberculosis, published in 1948 and widely seen as the first modern randomised controlled trial. Patient-level records reconstructed from the published report.\nA small, famous trial that is ideal for teaching randomisation, two-arm comparisons and ordinal outcomes."
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#origin",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#origin",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Medical Research Council, Streptomycin in Tuberculosis Trials Committee\nPublished in Streptomycin in Tuberculosis Trials Committee (1948). Streptomycin treatment of pulmonary tuberculosis. British Medical Journal 2(4582): 769-782\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset streptb), which took them from medicaldata::strep_tb.\nPublished on HDR HDR-GB-0001, version 1.0.0\n\nOrigin address: https://CRAN.R-project.org/package=medicaldata (accessed 2026-11-11). Reuse terms: Records reconstructed from the published 1948 report and distributed openly in the medicaldata R package (MIT)."
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#files",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#files",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nstreptomycin_tb.csv\nOne row per patient\n107\n13\n12 kB\ne89576ee6baf…\n\n\ngb-streptomycin-tuberculosis-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n17 kB\n26a7e78ffb04…\n\n\ngb-streptomycin-tuberculosis-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n59 kB\n5ce00df101f7…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#variables",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#variables",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Variables",
+    "text": "Variables\n\nstreptomycin_tb.csv\nOne row per patient\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\npatient_id\nstring\nInvented patient identifier\n\n\narm\nstring\nTreatment arm (Streptomycin, Control)\n\n\ndose_strep_g\nnumber\nDaily dose of streptomycin (g)\n\n\ndose_PAS_g\nnumber\nDaily dose of para-aminosalicylic acid (g); 0 for everyone in this trial\n\n\ngender\nstring\nSex (M, F)\n\n\nbaseline_condition\nstring\nGeneral condition at baseline (1_Good, 2_Fair, 3_Poor)\n\n\nbaseline_temp\nstring\nMaximum evening temperature at baseline, in four bands (degrees F)\n\n\nbaseline_esr\nstring\nErythrocyte sedimentation rate at baseline, in four bands (mm per hour)\n\n\nbaseline_cavitation\nstring\nCavitation on the baseline chest X-ray (yes, no)\n\n\nstrep_resistance\nstring\nStreptomycin resistance at 6 months (1_sens_0-8 sensitive, 2_mod_8-99 moderate, 3_resist_100+ resistant)\n\n\nradiologic_6m\nstring\nRadiological response on chest X-ray at 6 months, from 1_Death to 6_Considerable_improvement\n\n\nrad_num\nnumber\nRadiological response at 6 months as a number (1 death to 6 considerable improvement)\n\n\nimproved\nboolean\nImproved at 6 months (TRUE if rad_num is 5 or 6)"
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#known-issues",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#known-issues",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nReconstructed, not original, records. Rows were rebuilt from the tables of the 1948 article, so the joint distribution of variables may differ from the true data.\nstrep_resistance and radiologic_6m are measured at 6 months, after treatment, and are not baseline predictors.\nNo one received PAS in this trial (dose_PAS_g is always 0)."
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#report",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#report",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •streptomycin_tb.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#explore",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#explore",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Explore",
+    "text": "Explore\nThe first table, streptomycin_tb.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#load-the-data",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#load-the-data",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/gb-streptomycin-tuberculosis-trial/files/\"\nx &lt;- read.csv(paste0(base, \"streptomycin_tb.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/gb-streptomycin-tuberculosis-trial/files/\"\nx = pd.read_csv(base + \"streptomycin_tb.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/gb-streptomycin-tuberculosis-trial/files/streptomycin_tb.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#cite",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#cite",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). MRC streptomycin trial for pulmonary tuberculosis (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/gb-streptomycin-tuberculosis-trial/\n\nPlease also cite the origin: Medical Research Council, Streptomycin in Tuberculosis Trials Committee, Streptomycin in Tuberculosis Trials Committee (1948). Streptomycin treatment of pulmonary tuberculosis. British Medical Journal 2(4582): 769-782."
+  },
+  {
+    "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#versions",
+    "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#versions",
+    "title": "MRC streptomycin trial for pulmonary tuberculosis",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html",
+    "title": "Copenhagen Stroke Study",
+    "section": "",
+    "text": "HDR-DK-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#description",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#description",
+    "title": "Copenhagen Stroke Study",
+    "section": "Description",
+    "text": "Description\nPatients admitted with acute stroke to Bispebjerg Hospital, Copenhagen, in the Copenhagen Stroke Study: 518 patients with cardiovascular risk factors, stroke subtype, Scandinavian Stroke Scale score at admission and long-term survival.\nA subset of a community-based stroke cohort, used in the pec package to show prediction error curves for Cox models and random survival forests."
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#origin",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#origin",
+    "title": "Copenhagen Stroke Study",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Copenhagen Stroke Study, Bispebjerg Hospital\nPublished in Jorgensen HS, Nakayama H, Reith J, Raaschou HO, Olsen TS (1996). Acute stroke with atrial fibrillation. The Copenhagen Stroke Study. Stroke 27(10): 1765-1769\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset stroke), which took them from pec::cost.\nPublished on HDR HDR-DK-0001, version 1.0.0\n\nOrigin address: https://CRAN.R-project.org/package=pec (accessed 2026-11-11). Reuse terms: Distributed openly for research in the pec R package (GPL 2 or later)."
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#files",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#files",
+    "title": "Copenhagen Stroke Study",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncopenhagen_stroke.csv\nOne row per patient\n518\n15\n37 kB\nb725a2cb72be…\n\n\ndk-copenhagen-stroke-study.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\nf9005b2cab6a…\n\n\ndk-copenhagen-stroke-study-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n1844c25dff2e…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#variables",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#variables",
+    "title": "Copenhagen Stroke Study",
+    "section": "Variables",
+    "text": "Variables\n\ncopenhagen_stroke.csv\nOne row per patient\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nage\ninteger\nAge (years)\n\n\nsex\nstring\nSex (female, male)\n\n\nhypTen\nstring\nHypertension (yes, no)\n\n\nihd\nstring\nHistory of ischaemic heart disease at admission (yes, no)\n\n\nprevStroke\nstring\nPrevious stroke before admission (yes, no)\n\n\nothDisease\nstring\nOther disabling disease, such as severe dementia (yes, no)\n\n\nalcohol\nstring\nDaily alcohol consumption (yes, no)\n\n\ndiabetes\nstring\nDiabetes, blood glucose above 11 mmol/L (yes, no)\n\n\nsmoke\nstring\nDaily smoking (yes, no)\n\n\natrialFib\nstring\nAtrial fibrillation (yes, no)\n\n\nhemor\nstring\nStroke subtype (yes haemorrhage, no infarction)\n\n\nstrokeScore\ninteger\nScandinavian Stroke Scale score at admission (0 worst to 58 best)\n\n\ncholest\nnumber\nSerum cholesterol\n\n\ntime\ninteger\nDays from admission to death or end of follow-up\n\n\nstatus\ninteger\nStatus at end of follow-up (1 dead, 0 censored)"
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#known-issues",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#known-issues",
+    "title": "Copenhagen Stroke Study",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nA subset of the study. The full Copenhagen Stroke Study enrolled 1,197 patients; how these 518 were selected is not documented.\nCholesterol units are not documented. Values suggest mmol/L."
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#report",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#report",
+    "title": "Copenhagen Stroke Study",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •copenhagen_stroke.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#explore",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#explore",
+    "title": "Copenhagen Stroke Study",
+    "section": "Explore",
+    "text": "Explore\nThe first table, copenhagen_stroke.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#load-the-data",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#load-the-data",
+    "title": "Copenhagen Stroke Study",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/dk-copenhagen-stroke-study/files/\"\nx &lt;- read.csv(paste0(base, \"copenhagen_stroke.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/dk-copenhagen-stroke-study/files/\"\nx = pd.read_csv(base + \"copenhagen_stroke.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/dk-copenhagen-stroke-study/files/copenhagen_stroke.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#cite",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#cite",
+    "title": "Copenhagen Stroke Study",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Copenhagen Stroke Study (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/dk-copenhagen-stroke-study/\n\nPlease also cite the origin: Copenhagen Stroke Study, Bispebjerg Hospital, Jorgensen HS, Nakayama H, Reith J, Raaschou HO, Olsen TS (1996). Acute stroke with atrial fibrillation. The Copenhagen Stroke Study. Stroke 27(10): 1765-1769."
+  },
+  {
+    "objectID": "datasets/dk-copenhagen-stroke-study/index.html#versions",
+    "href": "datasets/dk-copenhagen-stroke-study/index.html#versions",
+    "title": "Copenhagen Stroke Study",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html",
+    "href": "datasets/bd-maternal-health-risk/index.html",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "",
+    "text": "HDR-BD-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#description",
+    "href": "datasets/bd-maternal-health-risk/index.html#description",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Description",
+    "text": "Description\nClinical records of 1,205 pregnant women seen at Kurigram General Hospital, a district hospital in rural northern Bangladesh: age, blood pressure, blood sugar, body temperature, body mass index, heart rate, medical history and a pregnancy risk level (low or high).\nA recent, openly licensed set of routine antenatal measurements from a rural district hospital, built for the prediction of high-risk pregnancy."
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#origin",
+    "href": "datasets/bd-maternal-health-risk/index.html#origin",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Daffodil International University and Kurigram General Hospital\nPublished in Mojumdar MU et al. (2025). Maternal health risk factors dataset: clinical parameters and insights from rural Bangladesh. Data in Brief 59: 111363\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset highriskpreg), which took them from the biostatlab package, which took them from the Mendeley Data file. Column names were turned into snake_case and blank risk levels coded as missing.\nPublished on HDR HDR-BD-0001, version 1.0.0\n\nOrigin address: https://doi.org/10.17632/p5w98dvbbk.1 (accessed 2026-11-11). Reuse terms: Published on Mendeley Data under CC BY 4.0 (doi 10.17632/p5w98dvbbk.1); the data article itself is CC BY-NC 4.0."
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#files",
+    "href": "datasets/bd-maternal-health-risk/index.html#files",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmaternal_health_risk.csv\nOne row per pregnant woman\n1,205\n13\n50 kB\ndaa02cb8e44c…\n\n\nbd-maternal-health-risk.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n69 kB\n7db574704656…\n\n\nbd-maternal-health-risk-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\nc588f3dc7d18…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#variables",
+    "href": "datasets/bd-maternal-health-risk/index.html#variables",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Variables",
+    "text": "Variables\n\nmaternal_health_risk.csv\nOne row per pregnant woman\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nstudy_id\ninteger\nRecord identifier\n\n\nage\ninteger\nAge (years)\n\n\nsystolic_bp\ninteger\nSystolic blood pressure (mmHg)\n\n\ndiastolic_bp\ninteger\nDiastolic blood pressure (mmHg)\n\n\nblood_sugar\nnumber\nBlood glucose (mmol/L)\n\n\nbody_temp\ninteger\nBody temperature (degrees Fahrenheit)\n\n\nbmi\nnumber\nBody mass index (kg/m2)\n\n\nprevious_complications\ninteger\nComplications in a previous pregnancy (1 yes, 0 no)\n\n\npreexisting_diabetes\ninteger\nDiabetes before pregnancy (1 yes, 0 no)\n\n\ngestational_diabetes\ninteger\nGestational diabetes (1 yes, 0 no)\n\n\nmental_health\ninteger\nCurrent mental health concern (1 yes, 0 no)\n\n\nheart_rate\ninteger\nHeart rate (beats per minute)\n\n\nrisk_level\nstring\nPregnancy risk level (Low, High)"
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#known-issues",
+    "href": "datasets/bd-maternal-health-risk/index.html#known-issues",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nNot the UCI Maternal Health Risk dataset. That older set (1,013 records, 7 columns) also comes from rural Bangladesh but is a different collection.\nRisk level is not defined. The authors say only that it was set from the clinical parameters; 18 records have no risk level.\nSome implausible values: one age of 325 years and one BMI of 0. 18 records duplicate another record apart from study_id.\nCollection dates are vague. The data article gives only 29 August 2023."
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#report",
+    "href": "datasets/bd-maternal-health-risk/index.html#report",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •maternal_health_risk.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#explore",
+    "href": "datasets/bd-maternal-health-risk/index.html#explore",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Explore",
+    "text": "Explore\nThe first table, maternal_health_risk.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#load-the-data",
+    "href": "datasets/bd-maternal-health-risk/index.html#load-the-data",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/bd-maternal-health-risk/files/\"\nx &lt;- read.csv(paste0(base, \"maternal_health_risk.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/bd-maternal-health-risk/files/\"\nx = pd.read_csv(base + \"maternal_health_risk.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/bd-maternal-health-risk/files/maternal_health_risk.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#cite",
+    "href": "datasets/bd-maternal-health-risk/index.html#cite",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Maternal health risk assessment, Kurigram (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/bd-maternal-health-risk/\n\nPlease also cite the origin: Daffodil International University and Kurigram General Hospital, Mojumdar MU et al. (2025). Maternal health risk factors dataset: clinical parameters and insights from rural Bangladesh. Data in Brief 59: 111363."
+  },
+  {
+    "objectID": "datasets/bd-maternal-health-risk/index.html#versions",
+    "href": "datasets/bd-maternal-health-risk/index.html#versions",
+    "title": "Maternal health risk assessment, Kurigram",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used.\nResearch teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. The next team starts again.\nGeneral repositories store whatever is deposited and leave quality to the depositor. International databases publish national averages and modelled estimates, not the subnational figures countries actually report. Between the two, the data that matter most for local health research have no home.\nHDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper."
+  },
+  {
+    "objectID": "about.html#why-hdr-exists",
+    "href": "about.html#why-hdr-exists",
+    "title": "About",
+    "section": "",
+    "text": "Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used.\nResearch teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. The next team starts again.\nGeneral repositories store whatever is deposited and leave quality to the depositor. International databases publish national averages and modelled estimates, not the subnational figures countries actually report. Between the two, the data that matter most for local health research have no home.\nHDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper."
+  },
+  {
+    "objectID": "about.html#what-makes-hdr-different",
+    "href": "about.html#what-makes-hdr-different",
+    "title": "About",
+    "section": "What makes HDR different",
+    "text": "What makes HDR different\n\n\n\n\nGeneral repositories\nHDR\n\n\n\n\nWhat is accepted\nAny research output\nHealth datasets only\n\n\nOrigin\nOptional\nRequired and checked (R1)\n\n\nDocumentation\nWhatever the depositor writes\nA standard dataset note for every dataset\n\n\nFormats\nWhatever is uploaded\nAlways CSV, Excel and a PDF note\n\n\nChecks against the source\nNone\nPublished on every dataset page\n\n\nPersistent identifier\nDOI\nDOI per version, plus a concept DOI"
+  },
+  {
+    "objectID": "about.html#principles",
+    "href": "about.html#principles",
+    "title": "About",
+    "section": "Principles",
+    "text": "Principles\n\nOrigin first. Every dataset names the organisation, publication and address it comes from. A number without a known source cannot be checked, so we do not publish it.\nDatasets only. One kind of object, described well. No papers, slides or code deposits.\nChecked, not just stored. Every dataset reports checks against its origin, including the ones that do not match exactly.\nHonest about limits. Each dataset says in plain words what it is good for and what it is not good for, and lists its known issues before the data.\nNo silent changes. Published files never change. Corrections create a new version; withdrawn data keep a page explaining why.\nOpen by default. No login, no fee, open licence, open formats, machine-readable metadata. Aggregated tables, or de-identified individual records that their producer has already released openly. We never hold restricted or identifiable records.\nRegional depth, open door. HDR started in Morocco and knows the sources of the Middle East and North Africa best. It accepts datasets from every country that meet the same rules."
+  },
+  {
+    "objectID": "about.html#what-hdr-is-not",
+    "href": "about.html#what-hdr-is-not",
+    "title": "About",
+    "section": "What HDR is not",
+    "text": "What HDR is not\n\nNot official statistics. HDR datasets reproduce their origin as faithfully as possible. When a value matters for a decision, check it against the origin named on the dataset page.\nNot a home for restricted records. We publish aggregated tables and openly released, de-identified study datasets only. Data under access agreements stay with their producer.\nNot a general repository. For code, papers or images, use Zenodo, OSF or your institution’s repository."
+  },
+  {
+    "objectID": "about.html#standards-we-follow",
+    "href": "about.html#standards-we-follow",
+    "title": "About",
+    "section": "Standards we follow",
+    "text": "Standards we follow\nFAIR principles; DataCite metadata schema 4; the Joint Declaration of Data Citation Principles; schema.org Dataset markup (for Google Dataset Search); Frictionless Data Package; Datasheets for Datasets and the GATHER statement for the content of the dataset note. We plan to apply for CoreTrustSeal certification after a year of operation."
+  },
+  {
+    "objectID": "about.html#supported-by",
+    "href": "about.html#supported-by",
+    "title": "About",
+    "section": "Supported by",
+    "text": "Supported by"
+  },
+  {
+    "objectID": "about.html#team",
+    "href": "about.html#team",
+    "title": "About",
+    "section": "Team",
+    "text": "Team\n\nPr Boutayeb, co-founder.\nImad El Badisy, co-founder and curator.\n\nWe are looking for curators with knowledge of health data sources in the Middle East, North Africa and beyond. Write to us."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nTo deposit a dataset, report an error, request a takedown or join as a curator: contact address to be added."
+  },
+  {
+    "objectID": "rules.html",
+    "href": "rules.html",
+    "title": "Rules",
+    "section": "",
+    "text": "In one line: no origin, no deposit. Every accepted dataset is published as CSV, Excel and a PDF note, under an open licence, with a DOI."
+  },
+  {
+    "objectID": "rules.html#acceptance-rules",
+    "href": "rules.html#acceptance-rules",
+    "title": "Rules",
+    "section": "Acceptance rules",
+    "text": "Acceptance rules\nA deposit is accepted only if it meets all ten rules. Rules marked checked by the build are tested automatically before a curator reads the deposit.\n\n\nR1\n\nOrigin stated and checkable\nName the organisation that produced the data, the publication, survey, registry or study it comes from, a URL or DOI where it can be checked, the country of origin and how the data were obtained or derived. A dataset without an origin is refused, whatever its quality. Checked by the build.\n\n\n\nR2\n\nHealth, and datasets only\nTabular data about health, health care, health systems or their determinants. We do not accept papers, slides, code deposits or images.\n\n\n\nR3\n\nRight to share\nYou must have the right to share the data, and the reuse terms of the origin must allow it. State those terms. Figures from public reports may be republished with attribution; the reports themselves are not re-hosted unless their licence allows it. Terms stated: checked by the build.\n\n\n\nR4\n\nOpen licence\nCC BY 4.0 (default), CC0 1.0, or ODbL 1.0 when the origin requires share-alike. We never publish data under a licence more open than its origin allows, and we do not accept non-commercial or no-derivatives licences. Checked by the build.\n\n\n\nR5\n\nComplete, open tables\nOne UTF-8 CSV file per table, with a header row, at least one row, and every file described. We produce the Excel workbook and the PDF note from your files. Checked by the build.\n\n\n\nR6\n\nEvery column described\nEach variable has a name, a type and a description, with units and missing-value codes where relevant. Labels in the language of the origin are welcome next to the English description. Checked by the build.\n\n\n\nR7\n\nNo data about identifiable people\nAggregated data, or de-identified individual-level records that their producer has already released openly (for example published trial and cohort datasets). Counts below 10 that come from non-public sources must be suppressed, with complementary suppression so they cannot be recovered from totals. Figures already published by an official body are accepted as published. Records that are identifiable, or held under an access or data use agreement, are not accepted.\n\n\n\nR8\n\nEthics where needed\nIf the data come from a research study, give the ethics approval reference, or explain why none was needed.\n\n\n\nR9\n\nHonest about limits\nList the known issues, say what the data are good for and not good for, and report at least one check of the data against the origin (a total, a subtotal, a published figure). If no check is possible, say why.\n\n\n\nR10\n\nNamed creators\nAt least one named creator, with an ORCID where possible, and a contact address for questions about the data. The address is never published."
+  },
+  {
+    "objectID": "rules.html#what-every-accepted-dataset-receives",
+    "href": "rules.html#what-every-accepted-dataset-receives",
+    "title": "Rules",
+    "section": "What every accepted dataset receives",
+    "text": "What every accepted dataset receives\n\nA DOI from DataCite for each version, plus a concept DOI that always points to the latest version. See Cite.\nThree formats: the CSV tables, an Excel workbook with About and Variables sheets, and a PDF dataset note.\nA landing page with the origin trail, variables, known issues, checks against the origin, a preview, loading code for R, Python and Stata, and the citation.\nMachine metadata: DataCite JSON, a Frictionless datapackage.json, and schema.org markup so the dataset appears in Google Dataset Search.\nSHA-256 checksums for every file."
+  },
+  {
+    "objectID": "rules.html#how-we-review",
+    "href": "rules.html#how-we-review",
+    "title": "Rules",
+    "section": "How we review",
+    "text": "How we review\n\nAutomatic checks. The build tests rules R1, R3 to R6: origin fields, licence, every file and column described, no empty table. A deposit that fails gets the list of failures back at once.\nOrigin check. A curator opens the origin and confirms that it exists and that the data come from it.\nSpot check. The curator compares at least three values, chosen at random, with the origin, and checks the totals you report.\nDecision within 15 working days: accepted, revisions requested (with the list of changes), or refused (with the reasons, quoted from these rules).\n\nTwo labels can appear on a dataset page:\n\n\n\n\n\n\n\nLabel\nMeaning\n\n\n\n\nOrigin verified\nA curator opened the origin and confirmed that the data come from it.\n\n\nChecked against the origin\nPublished checks compare figures in the dataset with figures printed in the origin, and every gap is explained."
+  },
+  {
+    "objectID": "rules.html#reasons-for-refusal",
+    "href": "rules.html#reasons-for-refusal",
+    "title": "Rules",
+    "section": "Reasons for refusal",
+    "text": "Reasons for refusal\n\nNo origin, or an origin that cannot be found or checked (R1).\nData the depositor has no right to share, or whose origin forbids redistribution (R3).\nIdentifiable or restricted records about individuals, or small counts from non-public sources that are not suppressed (R7).\nValues that do not match the origin, without explanation.\nNot health data, or not a dataset (R2)."
+  },
+  {
+    "objectID": "rules.html#after-publication",
+    "href": "rules.html#after-publication",
+    "title": "Rules",
+    "section": "After publication",
+    "text": "After publication\n\nNo silent changes. Published files never change. A correction creates a new version with its own DOI and a line in the version table.\nErrors. Anyone can report an error with the form on each dataset page. We answer within 10 working days. Confirmed errors are listed on the dataset page with the version that fixes them, and the reporter is credited if they wish.\nWithdrawal. A dataset may be withdrawn if a serious error, a rights problem or a privacy problem is found. Its page stays online as a tombstone that says why; the DOI keeps resolving to it.\nTakedown requests. A rights holder who objects to a dataset can write to us. We answer within 10 working days and hide the files while the request is reviewed.\nCourtesy to producers. When a dataset republishes figures from a public body, we tell that body and link to its publication."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "No dataset yet  Fewer  More  Most:"
+  },
+  {
+    "objectID": "map.html#by-country-of-origin",
+    "href": "map.html#by-country-of-origin",
+    "title": "Map",
+    "section": "By country of origin",
+    "text": "By country of origin\n\n\n\n\n\nCountry of origin\nDatasets\nRows\n\n\n\n\nMorocco\n4\n54,432\n\n\nUnited States of America\n2\n2,276\n\n\nAustralia\n1\n75\n\n\nBangladesh\n1\n1,205\n\n\nDenmark\n1\n518\n\n\nFrance\n1\n2,561\n\n\nGermany\n1\n686\n\n\nNetherlands, Kingdom of the\n1\n2,982\n\n\nPakistan\n1\n299\n\n\nUnited Kingdom of Great Britain and Northern Ireland\n1\n107\n\n\n\n\n\nThe map is centred on Morocco, where HDR started. Morocco is drawn with its southern provinces. Country of origin is the country of the organisation that produced the data; the countries a dataset covers are listed on its page.\nYour country is grey? Deposit a dataset from it."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Health data you can trace to its origin; health data for research",
+    "section": "",
+    "text": "Open repository for health data\n\n\nResearchers anywhere can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a dataset note, and give it a DOI. Every dataset comes as CSV and Excel files with a PDF note.\n\nBrowse datasets Deposit a dataset\n\n\n14 datasets 10 countries of origin 65,141 rows of data 0 DOIs minted\nSee the full catalogue →"
+  },
+  {
+    "objectID": "index.html#three-files-one-doi-a-known-origin",
+    "href": "index.html#three-files-one-doi-a-known-origin",
+    "title": "Health data you can trace to its origin; health data for research",
+    "section": "Three files, one DOI, a known origin",
+    "text": "Three files, one DOI, a known origin\nEvery dataset on HDR ships the same way, whoever deposits it."
+  },
+  {
+    "objectID": "index.html#where-the-data-come-from",
+    "href": "index.html#where-the-data-come-from",
+    "title": "Health data you can trace to its origin; health data for research",
+    "section": "Where the data come from",
+    "text": "Where the data come from\nCountries are shaded by the number of datasets whose origin is there. Click a country to see its datasets.\n\n  \n   No dataset yet  Fewer  More  Most:"
+  },
+  {
+    "objectID": "index.html#from-deposit-to-doi",
+    "href": "index.html#from-deposit-to-doi",
+    "title": "Health data you can trace to its origin; health data for research",
+    "section": "From deposit to DOI",
+    "text": "From deposit to DOI"
+  },
+  {
+    "objectID": "index.html#latest-datasets",
+    "href": "index.html#latest-datasets",
+    "title": "Health data you can trace to its origin; health data for research",
+    "section": "Latest datasets",
+    "text": "Latest datasets"
+  },
+  {
+    "objectID": "index.html#what-we-stand-for",
+    "href": "index.html#what-we-stand-for",
+    "title": "Health data you can trace to its origin; health data for research",
+    "section": "What we stand for",
+    "text": "What we stand for\n\n\nOpen by default. No login, no fee, open licence, open formats, machine-readable metadata."
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Datasets",
+    "section": "",
+    "text": "Download the catalogue as CSV · Machine metadata for each dataset: datacite.json and datapackage.json in its folder.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "deposit.html",
+    "href": "deposit.html",
+    "title": "Deposit a dataset",
+    "section": "",
+    "text": "You need three things:\n\nYour tables as CSV files, UTF-8, one table per file, with a header row.\nThe origin of the data: who produced it, where it was published, and an address where it can be checked. No origin, no deposit.\nA metadata file, dataset.yml, describing the dataset, its origin and every column. The builder below writes it for you. You can also start from the blank template or look at a complete example.\n\nRead the rules once: they are short, and they are the same for everyone."
+  },
+  {
+    "objectID": "deposit.html#before-you-start",
+    "href": "deposit.html#before-you-start",
+    "title": "Deposit a dataset",
+    "section": "",
+    "text": "You need three things:\n\nYour tables as CSV files, UTF-8, one table per file, with a header row.\nThe origin of the data: who produced it, where it was published, and an address where it can be checked. No origin, no deposit.\nA metadata file, dataset.yml, describing the dataset, its origin and every column. The builder below writes it for you. You can also start from the blank template or look at a complete example.\n\nRead the rules once: they are short, and they are the same for everyone."
+  },
+  {
+    "objectID": "deposit.html#how-it-works",
+    "href": "deposit.html#how-it-works",
+    "title": "Deposit a dataset",
+    "section": "How it works",
+    "text": "How it works\n\n\n1\nBuild your dataset.yml below.\n\n\n2\nSend it with your CSV files.\n\n\n3\nReview within 15 working days.\n\n\n4\nPublish: CSV, Excel, PDF note and DOI."
+  },
+  {
+    "objectID": "deposit.html#builder",
+    "href": "deposit.html#builder",
+    "title": "Deposit a dataset",
+    "section": "Metadata builder",
+    "text": "Metadata builder\nEverything stays in your browser: nothing is sent until you choose to send it. Select your CSV files and the builder lists their columns for you to describe. Fields marked • are required.\n\n\nAfghanistanÅland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntarcticaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBolivia, Plurinational State ofBonaire, Sint Eustatius and SabaBosnia and HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBrunei DarussalamBulgariaBurkina FasoBurundiCabo VerdeCambodiaCameroonCanadaCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongoCongo, Democratic Republic of theCook IslandsCosta RicaCôte d'IvoireCroatiaCubaCuraçaoCyprusCzechiaDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatiniEthiopiaFalkland Islands (Malvinas)Faroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHeard Island and McDonald IslandsHoly SeeHondurasHong KongHungaryIcelandIndiaIndonesiaIran, Islamic Republic ofIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKorea, Democratic People's Republic ofKorea, Republic ofKuwaitKyrgyzstanLao People's Democratic RepublicLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMicronesia, Federated States ofMoldova, Republic ofMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlands, Kingdom of theNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth MacedoniaNorthern Mariana IslandsNorwayOmanPakistanPalauPalestine, State ofPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarRéunionRomaniaRussian FederationRwandaSaint BarthélemySaint Helena, Ascension and Tristan da CunhaSaint Kitts and NevisSaint LuciaSaint Martin (French part)Saint Pierre and MiquelonSaint Vincent and the GrenadinesSamoaSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSint Maarten (Dutch part)SlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia and the South Sandwich IslandsSouth SudanSpainSri LankaSudanSurinameSvalbard and Jan MayenSwedenSwitzerlandSyrian Arab RepublicTaiwan, Province of ChinaTajikistanTanzania, United Republic ofThailandTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTürkiyeTurkmenistanTurks and Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited Kingdom of Great Britain and Northern IrelandUnited States of AmericaUnited States Minor Outlying IslandsUruguayUzbekistanVanuatuVenezuela, Bolivarian Republic ofViet NamVirgin Islands (British)Virgin Islands (U.S.)Wallis and FutunaWestern SaharaYemenZambiaZimbabwe\n\n\n\n  \n    The dataset\n    Title •\n    Abstract • 50 to 5000 characters: what the data are, where, when, at what level\n      \n    \n      Topics separated by commas\n      Licence •CC-BY-4.0CC0-1.0ODbL-1.0\n    \n    Creators • one per line: Name | ORCID | Affiliation\n      \n  \n\n  \n    Origin required for every deposit\n    \n      Type •\n        Official report or yearbook\n        Survey\n        Registry\n        Surveillance system\n        Research study\n        Other\n      Country of origin • ISO code, e.g. MAR\n    \n    Organisation that produced the data •\n    \n      Publication, survey, registry or study •\n      Editions, waves or years\n    \n    \n      URL or DOI where it can be checked •\n      Accessed on\n    \n    Tables or pages used\n    Reuse terms of the origin •\n    How the data were obtained or derived •\n  \n\n  \n    Coverage\n    \n      Countries covered ISO codes, commas\n      First year\n      Last year\n    \n    Unit of observation\n  \n\n  \n    Files and variables\n    Select your CSV files • read in your browser only\n    \n  \n\n  \n    Limits and checks\n    Known issues one per line\n    Checks against the origin one per line: what | this dataset | origin | gap\n      \n  \n\n\n\n  \n  \n  Download dataset.yml\n  Copy"
+  },
+  {
+    "objectID": "deposit.html#send-your-deposit",
+    "href": "deposit.html#send-your-deposit",
+    "title": "Deposit a dataset",
+    "section": "Send your deposit",
+    "text": "Send your deposit\nSend dataset.yml and your CSV files, zipped, to contact address to be added, with the subject “HDR deposit: your title”. We confirm receipt within two working days.\nA web upload with automatic checks will replace e-mail once the first deposits from outside the team have gone through."
+  },
+  {
+    "objectID": "deposit.html#what-happens-next",
+    "href": "deposit.html#what-happens-next",
+    "title": "Deposit a dataset",
+    "section": "What happens next",
+    "text": "What happens next\n\nThe automatic checks run first. If something is missing, you get the list at once.\nA curator checks the origin and three values chosen at random.\nYou see the dataset page and the PDF note before the DOI is minted, and you approve them.\nAfter publication, you can deposit a new version at any time. Earlier versions and their DOIs remain."
+  },
+  {
+    "objectID": "cite.html",
+    "href": "cite.html",
+    "title": "Cite",
+    "section": "",
+    "text": "Each dataset page and each PDF note give a ready-made citation. The pattern is:\n\nCreators (Year). Title (version X.Y.Z) [Data set]. HDR: Health Data for Research. https://doi.org/10.XXXXX/hdr-ma-0001.v1.0.0\n\nCite the version DOI, so that readers can find the exact files you analysed. A BibTeX entry is at the bottom of every dataset page."
+  },
+  {
+    "objectID": "cite.html#cite-the-version-you-used",
+    "href": "cite.html#cite-the-version-you-used",
+    "title": "Cite",
+    "section": "",
+    "text": "Each dataset page and each PDF note give a ready-made citation. The pattern is:\n\nCreators (Year). Title (version X.Y.Z) [Data set]. HDR: Health Data for Research. https://doi.org/10.XXXXX/hdr-ma-0001.v1.0.0\n\nCite the version DOI, so that readers can find the exact files you analysed. A BibTeX entry is at the bottom of every dataset page."
+  },
+  {
+    "objectID": "cite.html#cite-the-origin-too",
+    "href": "cite.html#cite-the-origin-too",
+    "title": "Cite",
+    "section": "Cite the origin too",
+    "text": "Cite the origin too\nHDR datasets come from an origin: a report, a survey, a registry or a study. Cite it as well. The dataset page and the note give the origin in full."
+  },
+  {
+    "objectID": "cite.html#how-dois-work-on-hdr",
+    "href": "cite.html#how-dois-work-on-hdr",
+    "title": "Cite",
+    "section": "How DOIs work on HDR",
+    "text": "How DOIs work on HDR\n\nEvery version gets its own DOI, minted through DataCite, for example 10.XXXXX/hdr-ma-0001.v1.0.0.\nA concept DOI (10.XXXXX/hdr-ma-0001) always resolves to the latest version.\nA DOI always resolves, even if a dataset is withdrawn: it then leads to a page explaining why.\nVersion numbers follow the rule major.minor.patch: a new table or a change of meaning raises the major number, added rows the minor number, corrected values the patch number."
+  },
+  {
+    "objectID": "cite.html#data-availability-statement",
+    "href": "cite.html#data-availability-statement",
+    "title": "Cite",
+    "section": "Data availability statement",
+    "text": "Data availability statement\nYou can adapt this text for your paper:\n\nThe data analysed in this study are openly available from HDR: Health Data for Research at https://doi.org/10.XXXXX/hdr-ma-0001.v1.0.0 (version 1.0.0, CC BY 4.0). They were derived from [origin], published by [organisation]."
+  },
+  {
+    "objectID": "cite.html#cite-hdr-itself",
+    "href": "cite.html#cite-hdr-itself",
+    "title": "Cite",
+    "section": "Cite HDR itself",
+    "text": "Cite HDR itself\nTo cite the platform rather than a dataset, cite this page until a platform paper is published."
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "",
+    "text": "HDR-AU-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#description",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#description",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Description",
+    "text": "Description\nPatients with stage IV melanoma treated with anti-PD-1 alone (pembrolizumab or nivolumab) or combined with ipilimumab, at Melanoma Institute Australia and other centres: 75 patients with treatment, best response, tumour neoantigen counts and overall survival.\nA small immunotherapy cohort that links tumour features to survival, useful for teaching survival analysis in oncology."
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#origin",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#origin",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Melanoma Institute Australia and The University of Sydney\nPublished in Gide TN et al. (2019). Distinct immune cell populations define response to anti-PD-1 monotherapy and anti-PD-1/anti-CTLA-4 combined therapy. Cancer Cell 35(2): 238-255\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset melgide), which took them from the cBioPortal study mel_iatlas_gide_2019 (iAtlas harmonised).\nPublished on HDR HDR-AU-0001, version 1.0.0\n\nOrigin address: https://www.cbioportal.org/study/summary?id=mel_iatlas_gide_2019 (accessed 2026-11-11). Reuse terms: Released on cBioPortal (study mel_iatlas_gide_2019) under the ODC Open Database License (ODbL) 1.0, which requires attribution and share-alike."
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#files",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#files",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmelanoma_gide.csv\nOne row per patient\n75\n11\n7 kB\n887a496bd5a7…\n\n\nau-melanoma-checkpoint-gide.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n15 kB\n1b2d74897cd3…\n\n\nau-melanoma-checkpoint-gide-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n63c730068e1d…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#variables",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#variables",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Variables",
+    "text": "Variables\n\nmelanoma_gide.csv\nOne row per patient\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\ntime\nnumber\nMonths from start of treatment to death or end of follow-up\n\n\nstatus\ninteger\nStatus at end of follow-up (1 dead, 0 censored)\n\n\nage\nnumber\nAge (years)\n\n\nsex\nstring\nSex (Female, Male)\n\n\ntreatment\nstring\nRegimen (anti-PD-1, ipilimumab + anti-PD-1)\n\n\ndrug\nstring\nDrugs received (Pembrolizumab, Nivolumab, Ipilimumab Pembrolizumab, Ipilimumab Nivolumab)\n\n\nresponse\nstring\nBest response by RECIST (Complete Response, Partial Response, Stable Disease, Progressive Disease)\n\n\ncta_self_neoantigen\ninteger\nNumber of cancer-testis antigen and self neoantigens in pre-treatment tumour RNA\n\n\nsplice_neoantigen\ninteger\nNumber of splice-variant neoantigens in pre-treatment tumour RNA\n\n\nfusion_neoantigen\ninteger\nNumber of gene-fusion neoantigens in pre-treatment tumour RNA\n\n\nerv_neoantigen\ninteger\nNumber of endogenous retrovirus neoantigens in pre-treatment tumour RNA"
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#known-issues",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#known-issues",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nresponse is measured after treatment starts. Using it to predict survival introduces immortal time bias.\nSmall sample (75 patients, 30 deaths).\nNeoantigen counts are missing for one patient."
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#report",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#report",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •melanoma_gide.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#explore",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#explore",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Explore",
+    "text": "Explore\nThe first table, melanoma_gide.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#load-the-data",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#load-the-data",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/au-melanoma-checkpoint-gide/files/\"\nx &lt;- read.csv(paste0(base, \"melanoma_gide.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/au-melanoma-checkpoint-gide/files/\"\nx = pd.read_csv(base + \"melanoma_gide.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/au-melanoma-checkpoint-gide/files/melanoma_gide.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#cite",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#cite",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Metastatic melanoma on immune checkpoint blockade (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/au-melanoma-checkpoint-gide/\n\nPlease also cite the origin: Melanoma Institute Australia and The University of Sydney, Gide TN et al. (2019). Distinct immune cell populations define response to anti-PD-1 monotherapy and anti-PD-1/anti-CTLA-4 combined therapy. Cancer Cell 35(2): 238-255."
+  },
+  {
+    "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#versions",
+    "href": "datasets/au-melanoma-checkpoint-gide/index.html#versions",
+    "title": "Metastatic melanoma on immune checkpoint blockade",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "",
+    "text": "HDR-DE-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#description",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#description",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Description",
+    "text": "Description\nPatient records from the GBSG-2 randomised 2x2 trial of hormonal treatment and chemotherapy duration in node-positive breast cancer in Germany: tumour and patient characteristics with recurrence-free survival time.\nA classic trial dataset for prognostic modelling in breast cancer."
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#origin",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#origin",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by German Breast Cancer Study Group\nPublished in Schumacher M et al. (1994). Randomized 2x2 trial evaluating hormonal treatment and the duration of chemotherapy in node-positive breast cancer patients. J Clin Oncol 12: 2086-2093\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset gbsg2), which took them from TH.data::GBSG2. Complete cases only (686 of 720 patients).\nPublished on HDR HDR-DE-0001, version 1.0.0\n\nOrigin address: https://doi.org/10.1200/JCO.1994.12.10.2086 (accessed 2026-11-02). Reuse terms: Distributed openly for research in the TH.data R package (GPL-3)."
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#files",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#files",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngbsg2.csv\nOne row per patient\n686\n10\n26 kB\n55339518aaf7…\n\n\nde-gbsg2-breast-cancer-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\n76c283389074…\n\n\nde-gbsg2-breast-cancer-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\ne462312ca123…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#variables",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#variables",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Variables",
+    "text": "Variables\n\ngbsg2.csv\nOne row per patient\n\n\n\nVariable\nType\nDescription\n\n\n\n\nhorTh\nstring\nHormonal therapy (yes, no)\n\n\nage\ninteger\nAge (years)\n\n\nmenostat\nstring\nMenopausal status (Pre, Post)\n\n\ntsize\ninteger\nTumour size (mm)\n\n\ntgrade\nstring\nTumour grade (I, II, III)\n\n\npnodes\ninteger\nNumber of positive lymph nodes\n\n\nprogrec\ninteger\nProgesterone receptor (fmol)\n\n\nestrec\ninteger\nOestrogen receptor (fmol)\n\n\ntime\ninteger\nRecurrence-free survival time (days)\n\n\ncens\ninteger\nEvent (1 recurrence or death, 0 censored)"
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#known-issues",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#known-issues",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nComplete cases only. 34 patients with missing values were dropped by the source."
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#report",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#report",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •gbsg2.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#explore",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#explore",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Explore",
+    "text": "Explore\nThe first table, gbsg2.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#load-the-data",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#load-the-data",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/de-gbsg2-breast-cancer-trial/files/\"\nx &lt;- read.csv(paste0(base, \"gbsg2.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/de-gbsg2-breast-cancer-trial/files/\"\nx = pd.read_csv(base + \"gbsg2.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/de-gbsg2-breast-cancer-trial/files/gbsg2.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#cite",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#cite",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). German Breast Cancer Study Group trial 2 (GBSG-2) (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/de-gbsg2-breast-cancer-trial/\n\nPlease also cite the origin: German Breast Cancer Study Group, Schumacher M et al. (1994). Randomized 2x2 trial evaluating hormonal treatment and the duration of chemotherapy in node-positive breast cancer patients. J Clin Oncol 12: 2086-2093."
+  },
+  {
+    "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#versions",
+    "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#versions",
+    "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-02\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "",
+    "text": "HDR-FR-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#description",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#description",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Description",
+    "text": "Description\nA sample of 2,561 people aged 65 and over from PAQUID, a prospective cohort on functional and cerebral ageing started in 1988 in Gironde and Dordogne, south-western France: two cognitive test scores at baseline and time to dementia or to death without dementia over up to 12 years.\nA small extract of a landmark French ageing cohort, made public to show how baseline cognitive scores predict dementia when death competes with it."
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#origin",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#origin",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by PAQUID study group, Inserm and University of Bordeaux\nPublished in Dartigues JF et al. (1992). The Paquid epidemiological program on brain ageing. Neuroepidemiology 11 (Suppl 1): 14-18\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset paquid), which took them from riskRegression::Paquid, first released in the timeROC package.\nPublished on HDR HDR-FR-0001, version 1.0.0\n\nOrigin address: https://doi.org/10.1159/000110955 (accessed 2026-11-11). Reuse terms: Distributed openly for research in the timeROC and riskRegression R packages (GPL-2 or later)."
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#files",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#files",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npaquid.csv\nOne row per participant\n2,561\n4\n46 kB\nc4469e73415c…\n\n\nfr-paquid-dementia-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n65 kB\nca96bccfc9d6…\n\n\nfr-paquid-dementia-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n3e5107d6cf03…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#variables",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#variables",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Variables",
+    "text": "Variables\n\npaquid.csv\nOne row per participant\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\ntime\nnumber\nYears from baseline to dementia, death or censoring\n\n\nstatus\ninteger\nEvent (0 censored, 1 dementia onset, 2 death without dementia)\n\n\nDSST\ninteger\nDigit Symbol Substitution Test score at baseline (attention and psychomotor speed)\n\n\nMMSE\ninteger\nMini Mental State Examination score at baseline (0 to 30)"
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#known-issues",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#known-issues",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nOnly four columns. The sample has no age, sex or other covariates.\nFollow-up is censored at 12 years.\nCalendar dates are approximate. Coverage end is inferred from the 1988 start and 12 years of follow-up."
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#report",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#report",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •paquid.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#explore",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#explore",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Explore",
+    "text": "Explore\nThe first table, paquid.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#load-the-data",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#load-the-data",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/fr-paquid-dementia-cohort/files/\"\nx &lt;- read.csv(paste0(base, \"paquid.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/fr-paquid-dementia-cohort/files/\"\nx = pd.read_csv(base + \"paquid.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/fr-paquid-dementia-cohort/files/paquid.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#cite",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#cite",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). PAQUID cohort on brain ageing, sample of 2,561 (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/fr-paquid-dementia-cohort/\n\nPlease also cite the origin: PAQUID study group, Inserm and University of Bordeaux, Dartigues JF et al. (1992). The Paquid epidemiological program on brain ageing. Neuroepidemiology 11 (Suppl 1): 14-18."
+  },
+  {
+    "objectID": "datasets/fr-paquid-dementia-cohort/index.html#versions",
+    "href": "datasets/fr-paquid-dementia-cohort/index.html#versions",
+    "title": "PAQUID cohort on brain ageing, sample of 2,561",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "",
+    "text": "HDR-MA-0004 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#description",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#description",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Description",
+    "text": "Description\nRetrospective cohort of 346 patients with colorectal cancer diagnosed and followed at Hassan II University Hospital, Fez, Morocco, between 2009 and 2015: sociodemographic, tumour, molecular and treatment characteristics, delay to start of treatment, and overall survival over 36 months from diagnosis.\nOne of the few openly available hospital cohorts of colorectal cancer in North Africa. It is suited to survival modelling at 36 months and to the study of delay to start of treatment."
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#origin",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#origin",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Hassan II University Hospital and Sidi Mohamed Ben Abdellah University, Fez\nPublished in El Badisy I et al. (2024). Risk factors affecting patients survival with colorectal cancer in Morocco: survival analysis using an interpretable machine learning approach. Scientific Reports 14: 3556\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset crcfes), which took them from the biostatlab package, which took them from the authors’ figshare file dataset_CRC_Fes.csv.\nPublished on HDR HDR-MA-0004, version 1.0.0\n\nOrigin address: https://doi.org/10.1038/s41598-024-51304-3 (accessed 2026-11-11). Reuse terms: Deposited by the authors on figshare under CC BY 4.0 (doi 10.6084/m9.figshare.21821439); the article is also CC BY 4.0."
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#files",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#files",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolorectal_cancer.csv\nOne row per patient\n346\n19\n55 kB\nc0469de9818f…\n\n\nma-fez-colorectal-cancer-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n34 kB\na53852950815…\n\n\nma-fez-colorectal-cancer-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n61 kB\n4116db22a2f5…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#variables",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#variables",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Variables",
+    "text": "Variables\n\ncolorectal_cancer.csv\nOne row per patient\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nAge\ninteger\nAge at diagnosis (years)\n\n\nMarital.status\nstring\nMarital status (Single, Married, Divorced, Widowed)\n\n\nSex\nstring\nSex (Female, Male)\n\n\nInsurance\nstring\nHealth insurance cover (No, Yes)\n\n\nResidency\nstring\nArea of residence (Rural, Urban)\n\n\nPersonal.history\nstring\nPersonal history of cancer or colorectal disease (No, Yes)\n\n\nFamily.history\nstring\nFamily history of cancer (No, Yes)\n\n\nSite\nstring\nTumour site (Colon, Rectum)\n\n\nSubsite\nstring\nTumour subsite (Right colon, Transverse colon, Left colon, Superior rectal, Middle rectum, Inferior rectum)\n\n\nSurgery\nstring\nSurgery performed (No, Yes)\n\n\nStage\nstring\nStage at diagnosis (Local, Regional, Distant)\n\n\nHistological.type\nstring\nHistological type (Adenocarcinoma lieberkinien, Mucinous adenocarcinoma, Signet ring cell adenocarcinoma)\n\n\nTumor.differentiation\nstring\nTumour differentiation (Well, Moderately, Undifferentiated)\n\n\nBraf.mutated\nstring\nBRAF mutation (No, Yes)\n\n\nRas.mutated\nstring\nRAS mutation (No, Yes)\n\n\nMSI.MSS.status\nstring\nMicrosatellite instability (No, Yes)\n\n\ntime\ninteger\nMonths from diagnosis to death or censoring (at most 36)\n\n\nevent\ninteger\nDeath (1 dead, 0 censored)\n\n\nDelay\ninteger\nDelay to start of treatment (days)"
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#known-issues",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#known-issues",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nPatient count differs in the article. The abstract reports 343 patients; the results section and this file have 346.\nFollow-up is capped at 36 months from diagnosis.\nSome values are missing: Delay (10), MSI.MSS.status (16), Braf.mutated and Ras.mutated (12 each), Histological.type (1).\nBraf.mutated has no positive case."
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#report",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#report",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •colorectal_cancer.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#explore",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#explore",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Explore",
+    "text": "Explore\nThe first table, colorectal_cancer.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#load-the-data",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#load-the-data",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/ma-fez-colorectal-cancer-cohort/files/\"\nx &lt;- read.csv(paste0(base, \"colorectal_cancer.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/ma-fez-colorectal-cancer-cohort/files/\"\nx = pd.read_csv(base + \"colorectal_cancer.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/ma-fez-colorectal-cancer-cohort/files/colorectal_cancer.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#cite",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#cite",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Colorectal cancer cohort, Hassan II University Hospital, Fez (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/ma-fez-colorectal-cancer-cohort/\n\nPlease also cite the origin: Hassan II University Hospital and Sidi Mohamed Ben Abdellah University, Fez, El Badisy I et al. (2024). Risk factors affecting patients survival with colorectal cancer in Morocco: survival analysis using an interpretable machine learning approach. Scientific Reports 14: 3556."
+  },
+  {
+    "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#versions",
+    "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#versions",
+    "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html",
+    "href": "datasets/ma-health-system-resources/index.html",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "",
+    "text": "HDR-MA-0002 version 1.0.0 Draft Origin verified Checked against the origin Report an error"
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#description",
+    "href": "datasets/ma-health-system-resources/index.html#description",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Description",
+    "text": "Description\nPrimary care facilities, public hospital beds and hospital activity for every Moroccan province and prefecture from 2003 to 2024, extracted from all 22 editions of the Ministry of Health yearly report Santé en Chiffres, harmonised to current province codes and checked against every national total printed in the reports.\nMorocco’s Ministry of Health has published a yearly statistical report, Santé en Chiffres, since the early 2000s. Its province tables are the only public source on where health facilities and hospital beds are and how they are used, but they are scattered over 22 PDF files whose layout, table numbers and place-name spellings change from one edition to the next. Morocco also created new provinces in 2009 and redrew its regions in 2015.\nThis dataset puts two decades of those tables into three clean long tables with one code system. Each row names its province, its current region, a comparable unit that stays stable over the whole period, the value, the report page it comes from, and a note when anything was done to it.\nUse unit_2004 to build series that span the 2009 province splits: it groups a province with the provinces later carved out of it, so sums by unit_2004 are comparable from 2003 to 2024."
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#origin",
+    "href": "datasets/ma-health-system-resources/index.html#origin",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco\nPublished in Santé en Chiffres, editions 2003 to 2024 (22 editions, one per data year)\nTables used Primary care facilities (ESSP) by province and setting, and support facilities (public health laboratories, TB centres, reproductive health centres), in every edition. Public hospital beds and activity: one table by province in the 2003-2012 editions, the list of hospitals with province totals in the 2013-2024 editions.\nHow obtained Tables were read from the PDF reports with scripted parsers that use the position of each number on the page. Province and region names, spelled in many ways across editions, were matched to ISO 3166-2:MA codes with a gazetteer. Every edition was checked against the totals the report itself prints (rows, regions, nation). A printed figure was corrected only when the report’s own sums prove the error; otherwise it is kept as printed and flagged in the note column.\nPublished on HDR HDR-MA-0002, version 1.0.0\n\nOrigin address: https://www.sante.gov.ma (accessed 2026-11-02). Reuse terms: Publicly released reports. No reuse licence is stated in the reports; HDR publishes the extracted figures with attribution and does not re-host the reports."
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#files",
+    "href": "datasets/ma-health-system-resources/index.html#files",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nfacilities.csv\nOne row per reference date, province, indicator, setting and facility type\n11,778\n13\n1.9 MB\n2789719e0b9f…\n\n\nhospitals.csv\nOne row per year, province and indicator\n7,854\n10\n1.1 MB\nffd8ffa3e84e…\n\n\nprovinces.csv\nOne row per province or prefecture code used in the data files\n83\n7\n6 kB\n6ef10dd8cacd…\n\n\nma-health-system-resources.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n754 kB\nf2ee27365bd8…\n\n\nma-health-system-resources-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n67 kB\n149ed7f679cb…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#variables",
+    "href": "datasets/ma-health-system-resources/index.html#variables",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Variables",
+    "text": "Variables\n\nfacilities.csv\nOne row per reference date, province, indicator, setting and facility type\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\ncode\nstring\nProvince or prefecture code (ISO 3166-2:MA; MA-CAS-xxx for the Casablanca prefectures)\n\n\nprovince\nstring\nProvince or prefecture name\n\n\nregion_code\nstring\nRegion code, 2015 regional division (12 regions)\n\n\nregion\nstring\nRegion name, 2015 regional division\n\n\nunit_2004\nstring\nComparable unit over the whole period: the province plus the provinces carved out of it after 2004 (‘+’ joined codes); MA-CAS for all Casablanca prefectures\n\n\nref_date\nstring\nReference date of the count as printed in the table title (year, or year-month)\n\n\nyear\ninteger\nData year of the report edition the value comes from\n\n\nindicator\nstring\nprimary_care_facilities (ESSP network) or support_facilities\n\n\nsetting\nstring\nurban, rural or total\n\n\ncategory\nstring\nFacility type (for example urban health centre level 1, CSU-1), or ‘all’ for the total of the setting\n\n\nvalue\ninteger\nNumber of facilities\n\n\nsource\nstring\nReport edition and page\n\n\nnote\nstring\nWhat was done to the value, if anything (empty when reproduced as printed)\n\n\n\n\n\nhospitals.csv\nOne row per year, province and indicator\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\ncode\nstring\nProvince or prefecture code (ISO 3166-2:MA)\n\n\nprovince\nstring\nProvince or prefecture name\n\n\nregion_code\nstring\nRegion code, 2015 regional division\n\n\nregion\nstring\nRegion name, 2015 regional division\n\n\nunit_2004\nstring\nComparable unit over the whole period (see facilities.csv)\n\n\nyear\ninteger\nYear of activity\n\n\nindicator\nstring\nbeds (functional beds), patient_days, admissions, occupancy_rate (%), average_length_of_stay (days)\n\n\nvalue\nnumber\nValue of the indicator; occupancy rate and length of stay are recomputed from the counts\n\n\nsource\nstring\nReport edition and page(s)\n\n\nnote\nstring\nHow the value was chosen when the report disagrees with itself, flags, and formulas for computed indicators\n\n\n\n\n\nprovinces.csv\nOne row per province or prefecture code used in the data files\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\ncode\nstring\nProvince or prefecture code\n\n\nname\nstring\nName\n\n\ntype\nstring\nprovince, prefecture or prefecture-arrondissements\n\n\nregion_code\nstring\nRegion code, 2015 regional division\n\n\nregion\nstring\nRegion name, 2015 regional division\n\n\nunit_2004\nstring\nComparable unit over the whole period\n\n\nunit_2004_members\nstring\nAll codes grouped in the comparable unit (‘;’ separated)"
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#known-issues",
+    "href": "datasets/ma-health-system-resources/index.html#known-issues",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nFacility counts are not yearly before 2019. Editions between 2007 and 2017 repeat the table of the previous edition every other year; each count is kept once, under its own reference date (15 dates from 2003 to 2024).\nProvinces created in 2009 appear from 2009 or 2011. Before that, their facilities and beds are counted in the parent province. Use unit_2004 for series over the whole period.\nProvinces without a hospital have no hospital rows (for example Médiouna and Al Haouz in 2003-2004). Absence means none listed, not missing data: province sums equal the national totals in every year.\nHospital values in 2013-2024 come from hospital lists. When the list and the printed province total disagree, the value that makes the printed region total add up is kept, and the note says so (9 province-years).\nA few printed values look implausible but are consistent with the report’s totals, for example Taroudant 2015 (679 beds, against about 300 in 2014 and 2016). They are kept as printed and flagged as ‘isolated spike’ in the note (19 province-years).\nPatient days or admissions printed as 0 for a hospital with open beds are set to missing (4 values).\nUniversity hospitals (CHU) are included in the hospital figures of their host prefecture (for example Casablanca-Anfa, Rabat, Fès, Marrakech, Oujda, Tanger), which explains jumps when a CHU opens (Oujda 2015, Tanger 2023)."
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#checks",
+    "href": "datasets/ma-health-system-resources/index.html#checks",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Checks against the origin",
+    "text": "Checks against the origin\nEach check compares a figure in this dataset with the same figure printed in the origin.\n\n\n\n\n\n\n\n\n\n\nCheck\nThis dataset\nOrigin\nGap\nResult\n\n\n\n\nPrimary care facilities, province sums vs printed national total, all 15 reference dates\nEqual\nNational row\n0\nmatch\n\n\nPrimary care facilities, urban + rural parts vs printed province totals\nEqual after 1 proven correction\nProvince rows\n2 rows off by 1 (2004, printed)\nsmall gap, explained\n\n\nHospital beds, province sums vs printed national total, 2004-2024 except 2006 and 2009\nEqual\nNational row\n0\nmatch\n\n\nHospital beds 2003, 2006 and 2009, province sums vs printed national total\n23,181; 22,736; 22,278\n23,180; 22,735; 22,276\n1 to 2 beds\nsmall gap, explained\n\n\nPatient days and admissions, province sums vs printed national total, all 22 years\nEqual\nNational row\n0\nmatch\n\n\nHospital beds 2024, national total\n22,873\n22,873\n0\nmatch\n\n\nPrimary care facilities 2024, national total\n3,065\n3,065\n0\nmatch"
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#report",
+    "href": "datasets/ma-health-system-resources/index.html#report",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •facilities.csvhospitals.csvprovinces.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#explore",
+    "href": "datasets/ma-health-system-resources/index.html#explore",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Explore",
+    "text": "Explore\nThe first table, facilities.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#load-the-data",
+    "href": "datasets/ma-health-system-resources/index.html#load-the-data",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/ma-health-system-resources/files/\"\nx &lt;- read.csv(paste0(base, \"facilities.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/ma-health-system-resources/files/\"\nx = pd.read_csv(base + \"facilities.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/ma-health-system-resources/files/facilities.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#cite",
+    "href": "datasets/ma-health-system-resources/index.html#cite",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Morocco health system resources by province, 2003-2024 (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/ma-health-system-resources/\n\nPlease also cite the origin: Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco, Santé en Chiffres (editions 2003 to 2024 (22 editions, one per data year))."
+  },
+  {
+    "objectID": "datasets/ma-health-system-resources/index.html#versions",
+    "href": "datasets/ma-health-system-resources/index.html#versions",
+    "title": "Morocco health system resources by province, 2003-2024",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-02\nFirst release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "",
+    "text": "HDR-NL-0001 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#description",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#description",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Description",
+    "text": "Description\nRecords of 2,982 women with primary breast cancer operated on between 1978 and 1993 whose tumour tissue was stored in the Rotterdam tumour bank, the Netherlands: age, menopausal status, tumour size, grade, nodes, hormone receptors, adjuvant treatment, and time to relapse and to death.\nA large cohort used to build breast cancer prognostic models. It is usually paired with the GBSG-2 trial for external validation."
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#origin",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#origin",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by Erasmus MC Cancer Institute (Daniel den Hoed Cancer Center), Rotterdam\nPublished in Royston P, Altman DG (2013). External validation of a Cox prognostic model: principles and methods. BMC Medical Research Methodology 13: 33\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset rotterdam), which took them from survival::rotterdam.\nPublished on HDR HDR-NL-0001, version 1.0.0\n\nOrigin address: https://doi.org/10.1186/1471-2288-13-33 (accessed 2026-11-11). Reuse terms: Distributed openly for research in the survival R package (LGPL)."
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#files",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#files",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nrotterdam.csv\nOne row per patient\n2,982\n15\n149 kB\n59598780fb4c…\n\n\nnl-rotterdam-breast-cancer.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n185 kB\n8a1bcf364894…\n\n\nnl-rotterdam-breast-cancer-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n5a940a9200d2…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#variables",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#variables",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Variables",
+    "text": "Variables\n\nrotterdam.csv\nOne row per patient\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\npid\ninteger\nPatient identifier\n\n\nyear\ninteger\nYear of surgery\n\n\nage\ninteger\nAge at surgery (years)\n\n\nmeno\ninteger\nMenopausal status (0 premenopausal, 1 postmenopausal)\n\n\nsize\nstring\nTumour size in mm (&lt;=20, 20-50, &gt;50)\n\n\ngrade\ninteger\nDifferentiation grade (2 or 3)\n\n\nnodes\ninteger\nNumber of positive lymph nodes\n\n\npgr\ninteger\nProgesterone receptors (fmol/L)\n\n\ner\ninteger\nOestrogen receptors (fmol/L)\n\n\nhormon\ninteger\nHormonal treatment (1 yes, 0 no)\n\n\nchemo\ninteger\nChemotherapy (1 yes, 0 no)\n\n\nrtime\nnumber\nDays to relapse or last follow-up\n\n\nrecur\ninteger\nRelapse (1 yes, 0 no)\n\n\ndtime\nnumber\nDays to death or last follow-up\n\n\ndeath\ninteger\nDeath (1 dead, 0 alive)"
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#known-issues",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#known-issues",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nDeaths after the end of recurrence follow-up. 43 women died without recurrence after their recurrence censoring time, which affects how recurrence-free survival is built.\nTreatment was not randomised, so hormon and chemo cannot be read as treatment effects.\nGrade has only two values (2 and 3)."
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#report",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#report",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •rotterdam.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#explore",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#explore",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Explore",
+    "text": "Explore\nThe first table, rotterdam.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#load-the-data",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#load-the-data",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/nl-rotterdam-breast-cancer/files/\"\nx &lt;- read.csv(paste0(base, \"rotterdam.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/nl-rotterdam-breast-cancer/files/\"\nx = pd.read_csv(base + \"rotterdam.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/nl-rotterdam-breast-cancer/files/rotterdam.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#cite",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#cite",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Rotterdam tumour bank breast cancer cohort (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/nl-rotterdam-breast-cancer/\n\nPlease also cite the origin: Erasmus MC Cancer Institute (Daniel den Hoed Cancer Center), Rotterdam, Royston P, Altman DG (2013). External validation of a Cox prognostic model: principles and methods. BMC Medical Research Methodology 13: 33."
+  },
+  {
+    "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#versions",
+    "href": "datasets/nl-rotterdam-breast-cancer/index.html#versions",
+    "title": "Rotterdam tumour bank breast cancer cohort",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "",
+    "text": "HDR-US-0002 version 1.0.0 Draft Report an error"
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#description",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#description",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Description",
+    "text": "Description\nThe Intergroup randomised trial led by the North Central Cancer Treatment Group and the Mayo Clinic: 929 patients with resected stage C colon cancer randomised to observation, levamisole, or levamisole plus fluorouracil, with tumour features and time to recurrence and to death.\nA landmark adjuvant chemotherapy trial and a standard example for Cox models with recurrence and death as two outcomes per patient."
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#origin",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#origin",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Origin",
+    "text": "Origin\n\nProduced by North Central Cancer Treatment Group and Mayo Clinic\nPublished in Moertel CG et al. (1990). Levamisole and fluorouracil for adjuvant therapy of resected colon carcinoma. New England Journal of Medicine 322(6): 352-358\nTables used Not stated\nHow obtained Taken from the BioBench R package (dataset colon), which took them from survival::colon.\nPublished on HDR HDR-US-0002, version 1.0.0\n\nOrigin address: https://CRAN.R-project.org/package=survival (accessed 2026-11-11). Reuse terms: Distributed openly for research in the survival R package (LGPL)."
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#files",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#files",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolon.csv\nTwo rows per patient, one for recurrence and one for death\n1,858\n16\n80 kB\n2b00b5369a86…\n\n\nus-colon-cancer-adjuvant-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n109 kB\n5b9d2d6b7bb3…\n\n\nus-colon-cancer-adjuvant-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n926085910888…\n\n\n\nFull checksums: manifest.csv."
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#variables",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#variables",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Variables",
+    "text": "Variables\n\ncolon.csv\nTwo rows per patient, one for recurrence and one for death\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\n\n\n\n\nid\ninteger\nPatient identifier\n\n\nstudy\ninteger\nStudy (1 for all patients)\n\n\nrx\nstring\nTreatment arm (Obs observation, Lev levamisole, Lev+5FU levamisole plus fluorouracil)\n\n\nsex\ninteger\nSex (1 male, 0 female)\n\n\nage\ninteger\nAge (years)\n\n\nobstruct\ninteger\nObstruction of the colon by tumour (1 yes, 0 no)\n\n\nperfor\ninteger\nPerforation of the colon (1 yes, 0 no)\n\n\nadhere\ninteger\nAdherence to nearby organs (1 yes, 0 no)\n\n\nnodes\ninteger\nNumber of lymph nodes with detectable cancer\n\n\nstatus\ninteger\nStatus for this event type (1 event, 0 censored)\n\n\ndiffer\ninteger\nTumour differentiation (1 well, 2 moderate, 3 poor)\n\n\nextent\ninteger\nExtent of local spread (1 submucosa, 2 muscle, 3 serosa, 4 contiguous structures)\n\n\nsurg\ninteger\nTime from surgery to registration (0 short, 1 long)\n\n\nnode4\ninteger\nMore than 4 positive lymph nodes (1 yes, 0 no)\n\n\ntime\ninteger\nDays from registration to the event or censoring\n\n\netype\ninteger\nEvent type (1 recurrence, 2 death)"
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#known-issues",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#known-issues",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Known issues",
+    "text": "Known issues\nRead these before analysis.\n\nDemonstration entry. Taken from the BioBench R package to show how HDR presents a dataset. It has not gone through HDR review and will be removed before launch.\nTwo rows per patient, one for recurrence (etype 1) and one for death (etype 2). Count patients with id, not rows.\nnodes and node4 disagree for some patients. The survival package keeps both as received because the correct value is unknown.\nMissing values in nodes (36 rows) and differ (46 rows)."
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#report",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#report",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Found an error?",
+    "text": "Found an error?\nTell us what you found. A curator compares it with the origin; confirmed errors are listed on this page and fixed in a new version, with credit to you if you wish.\n\n\n\nFile •colon.csvExcel workbookDataset note (PDF)This page\nVariable or column\nRow year, place...\n\n\nValue in this dataset\nValue in the origin\n\nWhere in the origin edition, table, page\nWhat is wrong •\n\nYour name optional, for credit\nAffiliation"
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#explore",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#explore",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Explore",
+    "text": "Explore\nThe first table, colon.csv, filterable and sortable in the browser."
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#load-the-data",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#load-the-data",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Load the data",
+    "text": "Load the data\n\nRPythonStata\n\n\nbase &lt;- \"https://elbadisyimad.com/hdr/datasets/us-colon-cancer-adjuvant-trial/files/\"\nx &lt;- read.csv(paste0(base, \"colon.csv\"), encoding = \"UTF-8\")\n\n\nimport pandas as pd\nbase = \"https://elbadisyimad.com/hdr/datasets/us-colon-cancer-adjuvant-trial/files/\"\nx = pd.read_csv(base + \"colon.csv\")\n\n\nimport delimited \"https://elbadisyimad.com/hdr/datasets/us-colon-cancer-adjuvant-trial/files/colon.csv\", encoding(utf-8) clear"
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#cite",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#cite",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "How to cite",
+    "text": "How to cite\n\nImad El Badisy (2026). Colon cancer adjuvant chemotherapy trial (version 1.0.0) [Data set]. HDR: Health Data for Research. https://elbadisyimad.com/hdr/datasets/us-colon-cancer-adjuvant-trial/\n\nPlease also cite the origin: North Central Cancer Treatment Group and Mayo Clinic, Moertel CG et al. (1990). Levamisole and fluorouracil for adjuvant therapy of resected colon carcinoma. New England Journal of Medicine 322(6): 352-358."
+  },
+  {
+    "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#versions",
+    "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#versions",
+    "title": "Colon cancer adjuvant chemotherapy trial",
+    "section": "Versions",
+    "text": "Versions\n\n\n\nVersion\nDate\nChanges\n\n\n\n\n1.0.0\n2026-11-11\nDemonstration release\n\n\n\nPublished files never change. A correction creates a new version with its own DOI."
+  }
+]

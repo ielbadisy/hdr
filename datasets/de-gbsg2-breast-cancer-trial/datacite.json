@@ -1,0 +1,96 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-de-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "German Breast Cancer Study Group trial 2 (GBSG-2)"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/de-gbsg2-breast-cancer-trial/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Cancer"
+        },
+        {
+          "subject": "Breast cancer"
+        },
+        {
+          "subject": "Randomised trial"
+        },
+        {
+          "subject": "Survival analysis"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-02",
+          "dateType": "Issued"
+        },
+        {
+          "date": "1984/1989",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Germany"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Patient records from the GBSG-2 randomised 2x2 trial of hormonal treatment and chemotherapy duration in node-positive breast cancer in Germany: tumour and patient characteristics with recurrence-free survival time.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: German Breast Cancer Study Group, Schumacher M et al. (1994). Randomized 2x2 trial evaluating hormonal treatment and the duration of chemotherapy in node-positive breast cancer patients. J Clin Oncol 12: 2086-2093. Taken from the BioBench R package (dataset gbsg2), which took them from TH.data::GBSG2. Complete cases only (686 of 720 patients).",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1200/JCO.1994.12.10.2086",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

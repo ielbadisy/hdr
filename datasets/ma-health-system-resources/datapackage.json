@@ -1,0 +1,227 @@
+{
+  "profile": "data-package",
+  "name": "ma-health-system-resources",
+  "id": "https://doi.org/10.XXXXX/hdr-ma-0002.v1.0.0",
+  "title": "Morocco health system resources by province, 2003-2024",
+  "description": "Primary care facilities, public hospital beds and hospital activity for every Moroccan province and prefecture from 2003 to 2024, extracted from all 22 editions of the Ministry of Health yearly report Santé en Chiffres, harmonised to current province codes and checked against every national total printed in the reports.",
+  "version": "1.0.0",
+  "created": "2026-11-02",
+  "keywords": ["Health systems", "Health facilities", "Hospitals", "Primary health care", "Hospital beds", "Bed occupancy", "Length of stay", "Subnational", "Panel data", "Morocco"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/ma-health-system-resources/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco, Santé en Chiffres (editions 2003 to 2024 (22 editions, one per data year))",
+      "path": "https://www.sante.gov.ma"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "facilities",
+      "path": "files/facilities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Primary care and support facilities",
+      "description": "One row per reference date, province, indicator, setting and facility type",
+      "bytes": 1901818,
+      "hash": "sha256:2789719e0b9f63e65068659e6ffebb0db28f74553845a36c541e5c9ee9b828d7",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Province or prefecture code (ISO 3166-2:MA; MA-CAS-xxx for the Casablanca prefectures)"
+          },
+          {
+            "name": "province",
+            "type": "string",
+            "description": "Province or prefecture name"
+          },
+          {
+            "name": "region_code",
+            "type": "string",
+            "description": "Region code, 2015 regional division (12 regions)"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Region name, 2015 regional division"
+          },
+          {
+            "name": "unit_2004",
+            "type": "string",
+            "description": "Comparable unit over the whole period: the province plus the provinces carved out of it after 2004 ('+' joined codes); MA-CAS for all Casablanca prefectures"
+          },
+          {
+            "name": "ref_date",
+            "type": "string",
+            "description": "Reference date of the count as printed in the table title (year, or year-month)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Data year of the report edition the value comes from"
+          },
+          {
+            "name": "indicator",
+            "type": "string",
+            "description": "primary_care_facilities (ESSP network) or support_facilities"
+          },
+          {
+            "name": "setting",
+            "type": "string",
+            "description": "urban, rural or total"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Facility type (for example urban health centre level 1, CSU-1), or 'all' for the total of the setting"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "description": "Number of facilities"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Report edition and page"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "What was done to the value, if anything (empty when reproduced as printed)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "hospitals",
+      "path": "files/hospitals.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Public hospital beds and activity",
+      "description": "One row per year, province and indicator",
+      "bytes": 1085491,
+      "hash": "sha256:ffd8ffa3e84ee2e6cbf80f8f5fbe35ebc3d8204538433afc72abeab2768468f1",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Province or prefecture code (ISO 3166-2:MA)"
+          },
+          {
+            "name": "province",
+            "type": "string",
+            "description": "Province or prefecture name"
+          },
+          {
+            "name": "region_code",
+            "type": "string",
+            "description": "Region code, 2015 regional division"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Region name, 2015 regional division"
+          },
+          {
+            "name": "unit_2004",
+            "type": "string",
+            "description": "Comparable unit over the whole period (see facilities.csv)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year of activity"
+          },
+          {
+            "name": "indicator",
+            "type": "string",
+            "description": "beds (functional beds), patient_days, admissions, occupancy_rate (%), average_length_of_stay (days)"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Value of the indicator; occupancy rate and length of stay are recomputed from the counts"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Report edition and page(s)"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "How the value was chosen when the report disagrees with itself, flags, and formulas for computed indicators"
+          }
+        ]
+      }
+    },
+    {
+      "name": "provinces",
+      "path": "files/provinces.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Provinces and comparable units",
+      "description": "One row per province or prefecture code used in the data files",
+      "bytes": 6245,
+      "hash": "sha256:6ef10dd8cacd256938648162bc56330b006a441d7e1603d2c6cefa00ac478e0d",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Province or prefecture code"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "province, prefecture or prefecture-arrondissements"
+          },
+          {
+            "name": "region_code",
+            "type": "string",
+            "description": "Region code, 2015 regional division"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Region name, 2015 regional division"
+          },
+          {
+            "name": "unit_2004",
+            "type": "string",
+            "description": "Comparable unit over the whole period"
+          },
+          {
+            "name": "unit_2004_members",
+            "type": "string",
+            "description": "All codes grouped in the comparable unit (';' separated)"
+          }
+        ]
+      }
+    }
+  ]
+}

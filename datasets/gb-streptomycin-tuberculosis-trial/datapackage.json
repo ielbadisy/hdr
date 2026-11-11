@@ -1,0 +1,112 @@
+{
+  "profile": "data-package",
+  "name": "gb-streptomycin-tuberculosis-trial",
+  "id": "https://doi.org/10.XXXXX/hdr-gb-0001.v1.0.0",
+  "title": "MRC streptomycin trial for pulmonary tuberculosis",
+  "description": "The Medical Research Council trial of streptomycin plus bed rest versus bed rest alone in 107 young adults with acute progressive pulmonary tuberculosis, published in 1948 and widely seen as the first modern randomised controlled trial. Patient-level records reconstructed from the published report.",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Communicable diseases", "Randomised trial", "Tuberculosis", "History of medicine"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/gb-streptomycin-tuberculosis-trial/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Medical Research Council, Streptomycin in Tuberculosis Trials Committee, Streptomycin in Tuberculosis Trials Committee (1948). Streptomycin treatment of pulmonary tuberculosis. British Medical Journal 2(4582): 769-782",
+      "path": "https://CRAN.R-project.org/package=medicaldata"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "streptomycin_tb",
+      "path": "files/streptomycin_tb.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 11831,
+      "hash": "sha256:e89576ee6baff6b31fa437175af61551eb184d4f4ab58c66e57a814bd16e8030",
+      "schema": {
+        "fields": [
+          {
+            "name": "patient_id",
+            "type": "string",
+            "description": "Invented patient identifier"
+          },
+          {
+            "name": "arm",
+            "type": "string",
+            "description": "Treatment arm (Streptomycin, Control)"
+          },
+          {
+            "name": "dose_strep_g",
+            "type": "number",
+            "description": "Daily dose of streptomycin (g)"
+          },
+          {
+            "name": "dose_PAS_g",
+            "type": "number",
+            "description": "Daily dose of para-aminosalicylic acid (g); 0 for everyone in this trial"
+          },
+          {
+            "name": "gender",
+            "type": "string",
+            "description": "Sex (M, F)"
+          },
+          {
+            "name": "baseline_condition",
+            "type": "string",
+            "description": "General condition at baseline (1_Good, 2_Fair, 3_Poor)"
+          },
+          {
+            "name": "baseline_temp",
+            "type": "string",
+            "description": "Maximum evening temperature at baseline, in four bands (degrees F)"
+          },
+          {
+            "name": "baseline_esr",
+            "type": "string",
+            "description": "Erythrocyte sedimentation rate at baseline, in four bands (mm per hour)"
+          },
+          {
+            "name": "baseline_cavitation",
+            "type": "string",
+            "description": "Cavitation on the baseline chest X-ray (yes, no)"
+          },
+          {
+            "name": "strep_resistance",
+            "type": "string",
+            "description": "Streptomycin resistance at 6 months (1_sens_0-8 sensitive, 2_mod_8-99 moderate, 3_resist_100+ resistant)"
+          },
+          {
+            "name": "radiologic_6m",
+            "type": "string",
+            "description": "Radiological response on chest X-ray at 6 months, from 1_Death to 6_Considerable_improvement"
+          },
+          {
+            "name": "rad_num",
+            "type": "number",
+            "description": "Radiological response at 6 months as a number (1 death to 6 considerable improvement)"
+          },
+          {
+            "name": "improved",
+            "type": "boolean",
+            "description": "Improved at 6 months (TRUE if rad_num is 5 or 6)"
+          }
+        ]
+      }
+    }
+  ]
+}

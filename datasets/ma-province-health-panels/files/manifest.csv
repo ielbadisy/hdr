@@ -1,0 +1,7 @@
+"file","description","rows","cols","format","bytes","sha256"
+"merged_panel_wide.csv","One row per province and year: five diseases reported in all years, denominators, workforce totals and rates",450,24,"text/csv",74200,"8ff2e23bfbab6116dd6eeba13fb1248ff0c1a60cea1675ffedf7a0b57d991ce8"
+"pathology_panel_long.csv","One row per year, province and disease (35 disease labels over the period)",8400,5,"text/csv",459126,"4b59f2d516369d3541461166671a4101dc37ec38a47be63ab49dc2ecbc8fb2f3"
+"hr_panel_long.csv","One row per year, province, table and indicator; Casablanca split into 8 prefectures",13776,6,"text/csv",1040074,"51a5e6be66dde9ccd20db3aab92ba62bbf3bc3e8796aa04cdd36bb55bf74090a"
+"population_panel_long.csv","One row per year, province and indicator, urban, rural and total",7830,5,"text/csv",535281,"ce1ad970c1800c7497634554243016a575fa4bb2c47fc41360a0583d96c728b0"
+"ma-province-health-panels.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",697097,"3a4645d3861cc23a02a1d97ec8a8b7bec3641e1e5be6367d1c43a448d90b5c5d"
+"ma-province-health-panels-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",64834,"bdad05b5fc2642970bef664be900818e144db611a7169264104d643c86896dd1"

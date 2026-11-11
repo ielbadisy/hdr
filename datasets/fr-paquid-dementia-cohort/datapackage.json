@@ -1,0 +1,67 @@
+{
+  "profile": "data-package",
+  "name": "fr-paquid-dementia-cohort",
+  "id": "https://doi.org/10.XXXXX/hdr-fr-0001.v1.0.0",
+  "title": "PAQUID cohort on brain ageing, sample of 2,561",
+  "description": "A sample of 2,561 people aged 65 and over from PAQUID, a prospective cohort on functional and cerebral ageing started in 1988 in Gironde and Dordogne, south-western France: two cognitive test scores at baseline and time to dementia or to death without dementia over up to 12 years.",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Dementia", "Ageing", "Cohort study", "Competing risks", "Cognitive tests", "Time-dependent ROC"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/fr-paquid-dementia-cohort/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PAQUID study group, Inserm and University of Bordeaux, Dartigues JF et al. (1992). The Paquid epidemiological program on brain ageing. Neuroepidemiology 11 (Suppl 1): 14-18",
+      "path": "https://doi.org/10.1159/000110955"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "paquid",
+      "path": "files/paquid.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Participant records",
+      "description": "One row per participant",
+      "bytes": 45678,
+      "hash": "sha256:c4469e73415cf0356697c0c6095e71abeafaf4e5ffaabc64761269042cbd8c2e",
+      "schema": {
+        "fields": [
+          {
+            "name": "time",
+            "type": "number",
+            "description": "Years from baseline to dementia, death or censoring"
+          },
+          {
+            "name": "status",
+            "type": "integer",
+            "description": "Event (0 censored, 1 dementia onset, 2 death without dementia)"
+          },
+          {
+            "name": "DSST",
+            "type": "integer",
+            "description": "Digit Symbol Substitution Test score at baseline (attention and psychomotor speed)"
+          },
+          {
+            "name": "MMSE",
+            "type": "integer",
+            "description": "Mini Mental State Examination score at baseline (0 to 30)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "profile": "data-package",
+  "name": "us-mayo-pbc-trial",
+  "id": "https://doi.org/10.XXXXX/hdr-us-0001.v1.0.0",
+  "title": "Mayo Clinic primary biliary cholangitis trial",
+  "description": "Patients with primary biliary cholangitis seen at the Mayo Clinic, 1974 to 1984: the 312 participants of the randomised trial of D-penicillamine versus placebo and 106 eligible patients who were followed but not randomised, with laboratory values and survival.",
+  "version": "1.0.0",
+  "created": "2026-11-02",
+  "keywords": ["Liver disease", "Randomised trial", "Survival analysis", "Competing risks"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/us-mayo-pbc-trial/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mayo Clinic, Fleming TR, Harrington DP (1991). Counting Processes and Survival Analysis. Wiley; Therneau TM, Grambsch PM (2000). Modeling Survival Data. Springer",
+      "path": "https://CRAN.R-project.org/package=survival"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "pbc",
+      "path": "files/pbc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 31698,
+      "hash": "sha256:1dbab06d2db283e0e6b6b0fef1d0d5eab8cac227286eef9f2e9419e8f9994c8f",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "description": "Patient identifier"
+          },
+          {
+            "name": "time",
+            "type": "integer",
+            "description": "Days from registration to death, transplant or end of follow-up"
+          },
+          {
+            "name": "status",
+            "type": "integer",
+            "description": "Status at end of follow-up (0 censored, 1 transplant, 2 dead)"
+          },
+          {
+            "name": "trt",
+            "type": "integer",
+            "description": "Treatment (1 D-penicillamine, 2 placebo, missing not randomised)"
+          },
+          {
+            "name": "age",
+            "type": "number",
+            "description": "Age (years)"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "description": "Sex (m, f)"
+          },
+          {
+            "name": "ascites",
+            "type": "integer",
+            "description": "Ascites (1 yes, 0 no)"
+          },
+          {
+            "name": "hepato",
+            "type": "integer",
+            "description": "Hepatomegaly (1 yes, 0 no)"
+          },
+          {
+            "name": "spiders",
+            "type": "integer",
+            "description": "Spider angiomas (1 yes, 0 no)"
+          },
+          {
+            "name": "edema",
+            "type": "number",
+            "description": "Oedema (0 none, 0.5 untreated or controlled by diuretics, 1 despite diuretics)"
+          },
+          {
+            "name": "bili",
+            "type": "number",
+            "description": "Serum bilirubin (mg/dL)"
+          },
+          {
+            "name": "chol",
+            "type": "integer",
+            "description": "Serum cholesterol (mg/dL)"
+          },
+          {
+            "name": "albumin",
+            "type": "number",
+            "description": "Serum albumin (g/dL)"
+          },
+          {
+            "name": "copper",
+            "type": "integer",
+            "description": "Urine copper (ug/day)"
+          },
+          {
+            "name": "alk.phos",
+            "type": "number",
+            "description": "Alkaline phosphatase (U/L)"
+          },
+          {
+            "name": "ast",
+            "type": "number",
+            "description": "Aspartate aminotransferase (U/mL)"
+          },
+          {
+            "name": "trig",
+            "type": "integer",
+            "description": "Triglycerides (mg/dL)"
+          },
+          {
+            "name": "platelet",
+            "type": "integer",
+            "description": "Platelet count"
+          },
+          {
+            "name": "protime",
+            "type": "number",
+            "description": "Standardised blood clotting time (s)"
+          },
+          {
+            "name": "stage",
+            "type": "integer",
+            "description": "Histologic stage (1 to 4)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/datasets/au-melanoma-checkpoint-gide/index.html",
+      "/datasets/bd-maternal-health-risk/index.html",
+      "/datasets/dk-copenhagen-stroke-study/index.html",
+      "/datasets/fr-paquid-dementia-cohort/index.html",
+      "/datasets/gb-streptomycin-tuberculosis-trial/index.html",
+      "/datasets/ma-fez-colorectal-cancer-cohort/index.html",
+      "/datasets/nl-rotterdam-breast-cancer/index.html",
+      "/datasets/us-colon-cancer-adjuvant-trial/index.html",
+      "/datasets/de-gbsg2-breast-cancer-trial/index.html",
+      "/datasets/ma-gyts-youth-tobacco/index.html",
+      "/datasets/ma-health-system-resources/index.html",
+      "/datasets/pk-heart-failure-faisalabad/index.html",
+      "/datasets/us-mayo-pbc-trial/index.html",
+      "/datasets/ma-province-health-panels/index.html"
+    ]
+  }
+]

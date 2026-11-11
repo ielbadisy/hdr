@@ -1,0 +1,112 @@
+{
+  "profile": "data-package",
+  "name": "pk-heart-failure-faisalabad",
+  "id": "https://doi.org/10.XXXXX/hdr-pk-0001.v1.0.0",
+  "title": "Heart failure clinical records, Faisalabad",
+  "description": "Clinical records and follow-up of 299 patients with left ventricular systolic dysfunction admitted to the Faisalabad Institute of Cardiology and the Allied Hospital, Faisalabad, Pakistan, in 2015, with time to death or censoring.",
+  "version": "1.0.0",
+  "created": "2026-11-02",
+  "keywords": ["Cardiovascular disease", "Heart failure", "Survival analysis", "Clinical records"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/pk-heart-failure-faisalabad/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Government College University and Faisalabad Institute of Cardiology, Ahmad T et al. (2017). Survival analysis of heart failure patients: a case study. PLOS ONE 12(7): e0181001",
+      "path": "https://doi.org/10.1371/journal.pone.0181001"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "heart_failure",
+      "path": "files/heart_failure.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 12263,
+      "hash": "sha256:23833b0c0653e8f326e3f076f6e7b1f9ac6f834550b79391eb55b02253ae709a",
+      "schema": {
+        "fields": [
+          {
+            "name": "age",
+            "type": "number",
+            "description": "Age (years)"
+          },
+          {
+            "name": "anaemia",
+            "type": "integer",
+            "description": "Anaemia (1 yes, 0 no)"
+          },
+          {
+            "name": "creatinine_phosphokinase",
+            "type": "integer",
+            "description": "CPK enzyme in blood (mcg/L)"
+          },
+          {
+            "name": "diabetes",
+            "type": "integer",
+            "description": "Diabetes (1 yes, 0 no)"
+          },
+          {
+            "name": "ejection_fraction",
+            "type": "integer",
+            "description": "Left ventricular ejection fraction (%)"
+          },
+          {
+            "name": "high_blood_pressure",
+            "type": "integer",
+            "description": "Hypertension (1 yes, 0 no)"
+          },
+          {
+            "name": "platelets",
+            "type": "number",
+            "description": "Platelets (kiloplatelets/mL)"
+          },
+          {
+            "name": "serum_creatinine",
+            "type": "number",
+            "description": "Serum creatinine (mg/dL)"
+          },
+          {
+            "name": "serum_sodium",
+            "type": "integer",
+            "description": "Serum sodium (mEq/L)"
+          },
+          {
+            "name": "sex",
+            "type": "integer",
+            "description": "Sex (1 man, 0 woman)"
+          },
+          {
+            "name": "smoking",
+            "type": "integer",
+            "description": "Smoker (1 yes, 0 no)"
+          },
+          {
+            "name": "time",
+            "type": "integer",
+            "description": "Follow-up time (days)"
+          },
+          {
+            "name": "DEATH_EVENT",
+            "type": "integer",
+            "description": "Died during follow-up (1 yes, 0 censored)"
+          }
+        ]
+      }
+    }
+  ]
+}

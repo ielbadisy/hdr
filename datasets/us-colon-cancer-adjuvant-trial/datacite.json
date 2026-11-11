@@ -1,0 +1,96 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-us-0002.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Colon cancer adjuvant chemotherapy trial"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/us-colon-cancer-adjuvant-trial/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Cancer"
+        },
+        {
+          "subject": "Randomised trial"
+        },
+        {
+          "subject": "Survival analysis"
+        },
+        {
+          "subject": "Multiple events"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "dateType": "Issued"
+        },
+        {
+          "date": "1984/1987",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "United States of America"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "The Intergroup randomised trial led by the North Central Cancer Treatment Group and the Mayo Clinic: 929 patients with resected stage C colon cancer randomised to observation, levamisole, or levamisole plus fluorouracil, with tumour features and time to recurrence and to death.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: North Central Cancer Treatment Group and Mayo Clinic, Moertel CG et al. (1990). Levamisole and fluorouracil for adjuvant therapy of resected colon carcinoma. New England Journal of Medicine 322(6): 352-358. Taken from the BioBench R package (dataset colon), which took them from survival::colon.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1056/NEJM199002083220602",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

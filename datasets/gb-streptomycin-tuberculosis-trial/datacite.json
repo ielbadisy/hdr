@@ -1,0 +1,96 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-gb-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "MRC streptomycin trial for pulmonary tuberculosis"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/gb-streptomycin-tuberculosis-trial/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Communicable diseases"
+        },
+        {
+          "subject": "Randomised trial"
+        },
+        {
+          "subject": "Tuberculosis"
+        },
+        {
+          "subject": "History of medicine"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "dateType": "Issued"
+        },
+        {
+          "date": "1947/1948",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "United Kingdom of Great Britain and Northern Ireland"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "The Medical Research Council trial of streptomycin plus bed rest versus bed rest alone in 107 young adults with acute progressive pulmonary tuberculosis, published in 1948 and widely seen as the first modern randomised controlled trial. Patient-level records reconstructed from the published report.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Medical Research Council, Streptomycin in Tuberculosis Trials Committee, Streptomycin in Tuberculosis Trials Committee (1948). Streptomycin treatment of pulmonary tuberculosis. British Medical Journal 2(4582): 769-782. Taken from the BioBench R package (dataset streptb), which took them from medicaldata::strep_tb.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1136/bmj.2.4582.769",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

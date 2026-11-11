@@ -1,0 +1,127 @@
+{
+  "profile": "data-package",
+  "name": "us-colon-cancer-adjuvant-trial",
+  "id": "https://doi.org/10.XXXXX/hdr-us-0002.v1.0.0",
+  "title": "Colon cancer adjuvant chemotherapy trial",
+  "description": "The Intergroup randomised trial led by the North Central Cancer Treatment Group and the Mayo Clinic: 929 patients with resected stage C colon cancer randomised to observation, levamisole, or levamisole plus fluorouracil, with tumour features and time to recurrence and to death.",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Cancer", "Randomised trial", "Survival analysis", "Multiple events"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/us-colon-cancer-adjuvant-trial/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "North Central Cancer Treatment Group and Mayo Clinic, Moertel CG et al. (1990). Levamisole and fluorouracil for adjuvant therapy of resected colon carcinoma. New England Journal of Medicine 322(6): 352-358",
+      "path": "https://CRAN.R-project.org/package=survival"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "colon",
+      "path": "files/colon.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient event records",
+      "description": "Two rows per patient, one for recurrence and one for death",
+      "bytes": 79664,
+      "hash": "sha256:2b00b5369a8617989f2df739cf1b254f6b5d7be6a4f5d00db9aa542918f1135d",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "description": "Patient identifier"
+          },
+          {
+            "name": "study",
+            "type": "integer",
+            "description": "Study (1 for all patients)"
+          },
+          {
+            "name": "rx",
+            "type": "string",
+            "description": "Treatment arm (Obs observation, Lev levamisole, Lev+5FU levamisole plus fluorouracil)"
+          },
+          {
+            "name": "sex",
+            "type": "integer",
+            "description": "Sex (1 male, 0 female)"
+          },
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "Age (years)"
+          },
+          {
+            "name": "obstruct",
+            "type": "integer",
+            "description": "Obstruction of the colon by tumour (1 yes, 0 no)"
+          },
+          {
+            "name": "perfor",
+            "type": "integer",
+            "description": "Perforation of the colon (1 yes, 0 no)"
+          },
+          {
+            "name": "adhere",
+            "type": "integer",
+            "description": "Adherence to nearby organs (1 yes, 0 no)"
+          },
+          {
+            "name": "nodes",
+            "type": "integer",
+            "description": "Number of lymph nodes with detectable cancer"
+          },
+          {
+            "name": "status",
+            "type": "integer",
+            "description": "Status for this event type (1 event, 0 censored)"
+          },
+          {
+            "name": "differ",
+            "type": "integer",
+            "description": "Tumour differentiation (1 well, 2 moderate, 3 poor)"
+          },
+          {
+            "name": "extent",
+            "type": "integer",
+            "description": "Extent of local spread (1 submucosa, 2 muscle, 3 serosa, 4 contiguous structures)"
+          },
+          {
+            "name": "surg",
+            "type": "integer",
+            "description": "Time from surgery to registration (0 short, 1 long)"
+          },
+          {
+            "name": "node4",
+            "type": "integer",
+            "description": "More than 4 positive lymph nodes (1 yes, 0 no)"
+          },
+          {
+            "name": "time",
+            "type": "integer",
+            "description": "Days from registration to the event or censoring"
+          },
+          {
+            "name": "etype",
+            "type": "integer",
+            "description": "Event type (1 recurrence, 2 death)"
+          }
+        ]
+      }
+    }
+  ]
+}

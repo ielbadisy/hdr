@@ -1,0 +1,122 @@
+{
+  "profile": "data-package",
+  "name": "dk-copenhagen-stroke-study",
+  "id": "https://doi.org/10.XXXXX/hdr-dk-0001.v1.0.0",
+  "title": "Copenhagen Stroke Study",
+  "description": "Patients admitted with acute stroke to Bispebjerg Hospital, Copenhagen, in the Copenhagen Stroke Study: 518 patients with cardiovascular risk factors, stroke subtype, Scandinavian Stroke Scale score at admission and long-term survival.",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Cardiovascular disease", "Stroke", "Survival analysis", "Prognostic models"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/dk-copenhagen-stroke-study/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Copenhagen Stroke Study, Bispebjerg Hospital, Jorgensen HS, Nakayama H, Reith J, Raaschou HO, Olsen TS (1996). Acute stroke with atrial fibrillation. The Copenhagen Stroke Study. Stroke 27(10): 1765-1769",
+      "path": "https://CRAN.R-project.org/package=pec"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "copenhagen_stroke",
+      "path": "files/copenhagen_stroke.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Patient records",
+      "description": "One row per patient",
+      "bytes": 37102,
+      "hash": "sha256:b725a2cb72be9966ac63544fd3c02db2e034691431060df538b2d58297c10f95",
+      "schema": {
+        "fields": [
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "Age (years)"
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "description": "Sex (female, male)"
+          },
+          {
+            "name": "hypTen",
+            "type": "string",
+            "description": "Hypertension (yes, no)"
+          },
+          {
+            "name": "ihd",
+            "type": "string",
+            "description": "History of ischaemic heart disease at admission (yes, no)"
+          },
+          {
+            "name": "prevStroke",
+            "type": "string",
+            "description": "Previous stroke before admission (yes, no)"
+          },
+          {
+            "name": "othDisease",
+            "type": "string",
+            "description": "Other disabling disease, such as severe dementia (yes, no)"
+          },
+          {
+            "name": "alcohol",
+            "type": "string",
+            "description": "Daily alcohol consumption (yes, no)"
+          },
+          {
+            "name": "diabetes",
+            "type": "string",
+            "description": "Diabetes, blood glucose above 11 mmol/L (yes, no)"
+          },
+          {
+            "name": "smoke",
+            "type": "string",
+            "description": "Daily smoking (yes, no)"
+          },
+          {
+            "name": "atrialFib",
+            "type": "string",
+            "description": "Atrial fibrillation (yes, no)"
+          },
+          {
+            "name": "hemor",
+            "type": "string",
+            "description": "Stroke subtype (yes haemorrhage, no infarction)"
+          },
+          {
+            "name": "strokeScore",
+            "type": "integer",
+            "description": "Scandinavian Stroke Scale score at admission (0 worst to 58 best)"
+          },
+          {
+            "name": "cholest",
+            "type": "number",
+            "description": "Serum cholesterol"
+          },
+          {
+            "name": "time",
+            "type": "integer",
+            "description": "Days from admission to death or end of follow-up"
+          },
+          {
+            "name": "status",
+            "type": "integer",
+            "description": "Status at end of follow-up (1 dead, 0 censored)"
+          }
+        ]
+      }
+    }
+  ]
+}

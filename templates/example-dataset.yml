@@ -1,0 +1,168 @@
+# HDR deposit metadata. One file per dataset; everything the platform
+# publishes (page, PDF note, Excel workbook, DOI record, catalogue entry)
+# is generated from it. Template and field guide: hdr.com/deposit.qmd
+
+id: HDR-MA-0002
+slug: ma-health-system-resources
+title: "Morocco health system resources by province, 2003-2024"
+version: "1.0.0"
+date: 2026-11-02
+status: draft            # draft | published | retired
+doi: ""                  # filled by HDR when the DOI is minted
+
+abstract: >-
+  Primary care facilities, public hospital beds and hospital activity for
+  every Moroccan province and prefecture from 2003 to 2024, extracted from
+  all 22 editions of the Ministry of Health yearly report Santé en Chiffres,
+  harmonised to current province codes and checked against every national
+  total printed in the reports.
+
+topics: [Health systems, Health facilities, Hospitals]
+keywords: [Primary health care, Hospital beds, Bed occupancy, Length of stay, Subnational, Panel data, Morocco]
+language: en
+
+creators:
+  - name: "Imad El Badisy"
+    affiliation: ""
+    orcid: ""
+
+depositor:
+  name: "Imad El Badisy"
+  email: ""              # never published
+
+# Origin is mandatory: no origin, no deposit (rule R1).
+origin:
+  type: official-report
+  organisation: "Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco"
+  country: MAR
+  title: "Santé en Chiffres"
+  title_original: "Santé en Chiffres"
+  editions: "2003 to 2024 (22 editions, one per data year)"
+  url: "https://www.sante.gov.ma"
+  accessed: 2026-11-02
+  tables: >-
+    Primary care facilities (ESSP) by province and setting, and support
+    facilities (public health laboratories, TB centres, reproductive health
+    centres), in every edition. Public hospital beds and activity: one table
+    by province in the 2003-2012 editions, the list of hospitals with
+    province totals in the 2013-2024 editions.
+  terms: >-
+    Publicly released reports. No reuse licence is stated in the reports;
+    HDR publishes the extracted figures with attribution and does not
+    re-host the reports.
+  how: >-
+    Tables were read from the PDF reports with scripted parsers that use the
+    position of each number on the page. Province and region names, spelled
+    in many ways across editions, were matched to ISO 3166-2:MA codes with a
+    gazetteer. Every edition was checked against the totals the report
+    itself prints (rows, regions, nation). A printed figure was corrected
+    only when the report's own sums prove the error; otherwise it is kept as
+    printed and flagged in the note column.
+
+coverage:
+  countries: [MAR]
+  geography: "Province or prefecture (75 current units, Casablanca split into its prefectures of arrondissements)"
+  start: 2003
+  end: 2024
+  unit: "Province or prefecture, per year"
+
+licence: CC-BY-4.0
+
+review:
+  origin_verified: true
+  curator: "Imad El Badisy"
+  date: 2026-11-02
+
+overview: |
+  Morocco's Ministry of Health has published a yearly statistical report,
+  *Santé en Chiffres*, since the early 2000s. Its province tables are the
+  only public source on where health facilities and hospital beds are and
+  how they are used, but they are scattered over 22 PDF files whose layout,
+  table numbers and place-name spellings change from one edition to the
+  next. Morocco also created new provinces in 2009 and redrew its regions
+  in 2015.
+
+  This dataset puts two decades of those tables into three clean long
+  tables with one code system. Each row names its province, its current
+  region, a comparable unit that stays stable over the whole period, the
+  value, the report page it comes from, and a note when anything was done
+  to it.
+
+  Use `unit_2004` to build series that span the 2009 province splits: it
+  groups a province with the provinces later carved out of it, so sums by
+  `unit_2004` are comparable from 2003 to 2024.
+
+good_for:
+  - "Trends in primary care supply and hospital capacity by province over 20 years"
+  - "Inequality in health facility and bed density between provinces"
+  - "Covariates for ecological studies of health outcomes"
+  - "Evaluating health system reforms (2009 provinces, 2015 regions, university hospitals opened since 2014)"
+not_good_for:
+  - "Private sector facilities and clinics (not covered by these tables)"
+  - "Hospital-level analysis (values are province totals)"
+  - "Year-by-year facility counts before 2019 (facilities are reported every two years between 2007 and 2017)"
+
+files:
+  - name: facilities.csv
+    title: "Primary care and support facilities"
+    description: "One row per reference date, province, indicator, setting and facility type"
+    variables:
+      - {name: code, type: string, description: "Province or prefecture code (ISO 3166-2:MA; MA-CAS-xxx for the Casablanca prefectures)"}
+      - {name: province, type: string, description: "Province or prefecture name"}
+      - {name: region_code, type: string, description: "Region code, 2015 regional division (12 regions)"}
+      - {name: region, type: string, description: "Region name, 2015 regional division"}
+      - {name: unit_2004, type: string, description: "Comparable unit over the whole period: the province plus the provinces carved out of it after 2004 ('+' joined codes); MA-CAS for all Casablanca prefectures"}
+      - {name: ref_date, type: string, description: "Reference date of the count as printed in the table title (year, or year-month)"}
+      - {name: year, type: integer, description: "Data year of the report edition the value comes from"}
+      - {name: indicator, type: string, description: "primary_care_facilities (ESSP network) or support_facilities"}
+      - {name: setting, type: string, description: "urban, rural or total"}
+      - {name: category, type: string, description: "Facility type (for example urban health centre level 1, CSU-1), or 'all' for the total of the setting"}
+      - {name: value, type: integer, description: "Number of facilities"}
+      - {name: source, type: string, description: "Report edition and page"}
+      - {name: note, type: string, description: "What was done to the value, if anything (empty when reproduced as printed)"}
+  - name: hospitals.csv
+    title: "Public hospital beds and activity"
+    description: "One row per year, province and indicator"
+    variables:
+      - {name: code, type: string, description: "Province or prefecture code (ISO 3166-2:MA)"}
+      - {name: province, type: string, description: "Province or prefecture name"}
+      - {name: region_code, type: string, description: "Region code, 2015 regional division"}
+      - {name: region, type: string, description: "Region name, 2015 regional division"}
+      - {name: unit_2004, type: string, description: "Comparable unit over the whole period (see facilities.csv)"}
+      - {name: year, type: integer, description: "Year of activity"}
+      - {name: indicator, type: string, description: "beds (functional beds), patient_days, admissions, occupancy_rate (%), average_length_of_stay (days)"}
+      - {name: value, type: number, description: "Value of the indicator; occupancy rate and length of stay are recomputed from the counts"}
+      - {name: source, type: string, description: "Report edition and page(s)"}
+      - {name: note, type: string, description: "How the value was chosen when the report disagrees with itself, flags, and formulas for computed indicators"}
+  - name: provinces.csv
+    title: "Provinces and comparable units"
+    description: "One row per province or prefecture code used in the data files"
+    variables:
+      - {name: code, type: string, description: "Province or prefecture code"}
+      - {name: name, type: string, description: "Name"}
+      - {name: type, type: string, description: "province, prefecture or prefecture-arrondissements"}
+      - {name: region_code, type: string, description: "Region code, 2015 regional division"}
+      - {name: region, type: string, description: "Region name, 2015 regional division"}
+      - {name: unit_2004, type: string, description: "Comparable unit over the whole period"}
+      - {name: unit_2004_members, type: string, description: "All codes grouped in the comparable unit (';' separated)"}
+
+known_issues:
+  - "**Facility counts are not yearly before 2019.** Editions between 2007 and 2017 repeat the table of the previous edition every other year; each count is kept once, under its own reference date (15 dates from 2003 to 2024)."
+  - "**Provinces created in 2009 appear from 2009 or 2011.** Before that, their facilities and beds are counted in the parent province. Use `unit_2004` for series over the whole period."
+  - "**Provinces without a hospital have no hospital rows** (for example Médiouna and Al Haouz in 2003-2004). Absence means none listed, not missing data: province sums equal the national totals in every year."
+  - "**Hospital values in 2013-2024 come from hospital lists.** When the list and the printed province total disagree, the value that makes the printed region total add up is kept, and the note says so (9 province-years)."
+  - "**A few printed values look implausible but are consistent with the report's totals**, for example Taroudant 2015 (679 beds, against about 300 in 2014 and 2016). They are kept as printed and flagged as 'isolated spike' in the note (19 province-years)."
+  - "**Patient days or admissions printed as 0 for a hospital with open beds** are set to missing (4 values)."
+  - "**University hospitals (CHU)** are included in the hospital figures of their host prefecture (for example Casablanca-Anfa, Rabat, Fès, Marrakech, Oujda, Tanger), which explains jumps when a CHU opens (Oujda 2015, Tanger 2023)."
+
+validation:
+  - {check: "Primary care facilities, province sums vs printed national total, all 15 reference dates", hdr: "Equal", source: "National row", gap: "0", verdict: pass}
+  - {check: "Primary care facilities, urban + rural parts vs printed province totals", hdr: "Equal after 1 proven correction", source: "Province rows", gap: "2 rows off by 1 (2004, printed)", verdict: note}
+  - {check: "Hospital beds, province sums vs printed national total, 2004-2024 except 2006 and 2009", hdr: "Equal", source: "National row", gap: "0", verdict: pass}
+  - {check: "Hospital beds 2003, 2006 and 2009, province sums vs printed national total", hdr: "23,181; 22,736; 22,278", source: "23,180; 22,735; 22,276", gap: "1 to 2 beds", verdict: note}
+  - {check: "Patient days and admissions, province sums vs printed national total, all 22 years", hdr: "Equal", source: "National row", gap: "0", verdict: pass}
+  - {check: "Hospital beds 2024, national total", hdr: "22,873", source: "22,873", gap: "0", verdict: pass}
+  - {check: "Primary care facilities 2024, national total", hdr: "3,065", source: "3,065", gap: "0", verdict: pass}
+
+versions:
+  - {version: "1.0.0", date: 2026-11-02, changes: "First release"}

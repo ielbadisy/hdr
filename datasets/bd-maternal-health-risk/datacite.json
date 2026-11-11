@@ -1,0 +1,99 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-bd-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Maternal health risk assessment, Kurigram"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/bd-maternal-health-risk/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Maternal health"
+        },
+        {
+          "subject": "Pregnancy"
+        },
+        {
+          "subject": "High-risk pregnancy"
+        },
+        {
+          "subject": "Classification"
+        },
+        {
+          "subject": "Bangladesh"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "dateType": "Issued"
+        },
+        {
+          "date": "2023/2023",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Bangladesh"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Clinical records of 1,205 pregnant women seen at Kurigram General Hospital, a district hospital in rural northern Bangladesh: age, blood pressure, blood sugar, body temperature, body mass index, heart rate, medical history and a pregnancy risk level (low or high).",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Daffodil International University and Kurigram General Hospital, Mojumdar MU et al. (2025). Maternal health risk factors dataset: clinical parameters and insights from rural Bangladesh. Data in Brief 59: 111363. Taken from the BioBench R package (dataset highriskpreg), which took them from the biostatlab package, which took them from the Mendeley Data file. Column names were turned into snake_case and blank risk levels coded as missing.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1016/j.dib.2025.111363",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

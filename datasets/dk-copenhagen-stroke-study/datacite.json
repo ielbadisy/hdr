@@ -1,0 +1,96 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-dk-0001.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Copenhagen Stroke Study"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/dk-copenhagen-stroke-study/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Cardiovascular disease"
+        },
+        {
+          "subject": "Stroke"
+        },
+        {
+          "subject": "Survival analysis"
+        },
+        {
+          "subject": "Prognostic models"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "dateType": "Issued"
+        },
+        {
+          "date": "1992/1993",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Denmark"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Patients admitted with acute stroke to Bispebjerg Hospital, Copenhagen, in the Copenhagen Stroke Study: 518 patients with cardiovascular risk factors, stroke subtype, Scandinavian Stroke Scale score at admission and long-term survival.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Copenhagen Stroke Study, Bispebjerg Hospital, Jorgensen HS, Nakayama H, Reith J, Raaschou HO, Olsen TS (1996). Acute stroke with atrial fibrillation. The Copenhagen Stroke Study. Stroke 27(10): 1765-1769. Taken from the BioBench R package (dataset stroke), which took them from pec::cost.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1161/01.STR.27.10.1765",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "3 files"
+      ]
+    }
+  }
+}

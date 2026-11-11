@@ -1,0 +1,84 @@
+code,name,type,region_code,region,unit_2004,unit_2004_members
+MA-CHE,Chefchaouen,province,MA-01,Tanger-Tétouan-Al Hoceïma,MA-CHE+MA-SIK,MA-CHE;MA-OUZ;MA-SIK
+MA-FAH,Fahs-Anjra,province,MA-01,Tanger-Tétouan-Al Hoceïma,MA-FAH,MA-FAH
+MA-HOC,Al Hoceïma,province,MA-01,Tanger-Tétouan-Al Hoceïma,MA-HOC,MA-HOC
+MA-LAR,Larache,province,MA-01,Tanger-Tétouan-Al Hoceïma,MA-LAR,MA-LAR
+MA-MDF,M'diq-Fnideq,prefecture,MA-01,Tanger-Tétouan-Al Hoceïma,MA-TET,MA-MDF;MA-TET
+MA-OUZ,Ouezzane,province,MA-01,Tanger-Tétouan-Al Hoceïma,MA-CHE+MA-SIK,MA-CHE;MA-OUZ;MA-SIK
+MA-TET,Tétouan,province,MA-01,Tanger-Tétouan-Al Hoceïma,MA-TET,MA-MDF;MA-TET
+MA-TNG,Tanger-Assilah,prefecture,MA-01,Tanger-Tétouan-Al Hoceïma,MA-TNG,MA-TNG
+MA-BER,Berkane,province,MA-02,L'Oriental,MA-BER,MA-BER
+MA-DRI,Driouch,province,MA-02,L'Oriental,MA-NAD,MA-DRI;MA-NAD
+MA-FIG,Figuig,province,MA-02,L'Oriental,MA-FIG,MA-FIG
+MA-GUF,Guercif,province,MA-02,L'Oriental,MA-TAZ,MA-GUF;MA-TAZ
+MA-JRA,Jerada,province,MA-02,L'Oriental,MA-JRA,MA-JRA
+MA-NAD,Nador,province,MA-02,L'Oriental,MA-NAD,MA-DRI;MA-NAD
+MA-OUJ,Oujda-Angad,prefecture,MA-02,L'Oriental,MA-OUJ,MA-OUJ
+MA-TAI,Taourirt,province,MA-02,L'Oriental,MA-TAI,MA-TAI
+MA-BOM,Boulemane,province,MA-03,Fès-Meknès,MA-BOM,MA-BOM
+MA-FES,Fès,prefecture,MA-03,Fès-Meknès,MA-FES,MA-FES
+MA-HAJ,El Hajeb,province,MA-03,Fès-Meknès,MA-HAJ,MA-HAJ
+MA-IFR,Ifrane,province,MA-03,Fès-Meknès,MA-IFR,MA-IFR
+MA-MEK,Meknès,prefecture,MA-03,Fès-Meknès,MA-MEK,MA-MEK
+MA-MOU,Moulay Yacoub,province,MA-03,Fès-Meknès,MA-MOU,MA-MOU
+MA-SEF,Sefrou,province,MA-03,Fès-Meknès,MA-SEF,MA-SEF
+MA-TAO,Taounate,province,MA-03,Fès-Meknès,MA-TAO,MA-TAO
+MA-TAZ,Taza,province,MA-03,Fès-Meknès,MA-TAZ,MA-GUF;MA-TAZ
+MA-KEN,Kénitra,province,MA-04,Rabat-Salé-Kénitra,MA-KEN,MA-KEN;MA-SIL
+MA-KHE,Khémisset,province,MA-04,Rabat-Salé-Kénitra,MA-KHE,MA-KHE
+MA-RAB,Rabat,prefecture,MA-04,Rabat-Salé-Kénitra,MA-RAB,MA-RAB
+MA-SAL,Salé,prefecture,MA-04,Rabat-Salé-Kénitra,MA-SAL,MA-SAL
+MA-SIK,Sidi Kacem,province,MA-04,Rabat-Salé-Kénitra,MA-CHE+MA-SIK,MA-CHE;MA-OUZ;MA-SIK
+MA-SIL,Sidi Slimane,province,MA-04,Rabat-Salé-Kénitra,MA-KEN,MA-KEN;MA-SIL
+MA-SKH,Skhirate-Témara,prefecture,MA-04,Rabat-Salé-Kénitra,MA-SKH,MA-SKH
+MA-AZI,Azilal,province,MA-05,Béni Mellal-Khénifra,MA-AZI,MA-AZI
+MA-BEM,Béni Mellal,province,MA-05,Béni Mellal-Khénifra,MA-BEM,MA-BEM;MA-FQH
+MA-FQH,Fquih Ben Salah,province,MA-05,Béni Mellal-Khénifra,MA-BEM,MA-BEM;MA-FQH
+MA-KHN,Khénifra,province,MA-05,Béni Mellal-Khénifra,MA-ERR+MA-KHN+MA-OUA,MA-ERR;MA-KHN;MA-MID;MA-OUA;MA-TIN
+MA-KHO,Khouribga,province,MA-05,Béni Mellal-Khénifra,MA-KHO,MA-KHO
+MA-BES,Benslimane,province,MA-06,Casablanca-Settat,MA-BES,MA-BES
+MA-BRR,Berrechid,province,MA-06,Casablanca-Settat,MA-SET,MA-BRR;MA-SET
+MA-CAS-ACH,Aïn Chock,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-ACH
+MA-CAS-AFM,Al Fida-Mers Sultan,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-AFM
+MA-CAS-ANF,Casablanca-Anfa,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-ANF
+MA-CAS-ASH,Aïn Sebaâ-Hay Mohammadi,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-ASH
+MA-CAS-BMS,Ben M'Sick,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-BMS
+MA-CAS-HHA,Hay Hassani,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-HHA
+MA-CAS-MEC,Méchouar de Casablanca,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-MEC
+MA-CAS-MRA,Moulay Rachid,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-MRA
+MA-CAS-SBE,Sidi Bernoussi,prefecture-arrondissements,MA-06,Casablanca-Settat,MA-CAS,MA-CAS-SBE
+MA-JDI,El Jadida,province,MA-06,Casablanca-Settat,MA-JDI,MA-JDI;MA-SIB
+MA-MED,Médiouna,province,MA-06,Casablanca-Settat,MA-MED,MA-MED
+MA-MOH,Mohammedia,prefecture,MA-06,Casablanca-Settat,MA-MOH,MA-MOH
+MA-NOU,Nouaceur,province,MA-06,Casablanca-Settat,MA-NOU,MA-NOU
+MA-SET,Settat,province,MA-06,Casablanca-Settat,MA-SET,MA-BRR;MA-SET
+MA-SIB,Sidi Bennour,province,MA-06,Casablanca-Settat,MA-JDI,MA-JDI;MA-SIB
+MA-CHI,Chichaoua,province,MA-07,Marrakech-Safi,MA-CHI,MA-CHI
+MA-ESI,Essaouira,province,MA-07,Marrakech-Safi,MA-ESI,MA-ESI
+MA-HAO,Al Haouz,province,MA-07,Marrakech-Safi,MA-HAO,MA-HAO
+MA-KES,El Kelâa des Sraghna,province,MA-07,Marrakech-Safi,MA-KES,MA-KES;MA-REH
+MA-MAR,Marrakech,prefecture,MA-07,Marrakech-Safi,MA-MAR,MA-MAR
+MA-REH,Rehamna,province,MA-07,Marrakech-Safi,MA-KES,MA-KES;MA-REH
+MA-SAF,Safi,province,MA-07,Marrakech-Safi,MA-SAF,MA-SAF;MA-YUS
+MA-YUS,Youssoufia,province,MA-07,Marrakech-Safi,MA-SAF,MA-SAF;MA-YUS
+MA-ERR,Errachidia,province,MA-08,Drâa-Tafilalet,MA-ERR+MA-KHN+MA-OUA,MA-ERR;MA-KHN;MA-MID;MA-OUA;MA-TIN
+MA-MID,Midelt,province,MA-08,Drâa-Tafilalet,MA-ERR+MA-KHN+MA-OUA,MA-ERR;MA-KHN;MA-MID;MA-OUA;MA-TIN
+MA-OUA,Ouarzazate,province,MA-08,Drâa-Tafilalet,MA-ERR+MA-KHN+MA-OUA,MA-ERR;MA-KHN;MA-MID;MA-OUA;MA-TIN
+MA-TIN,Tinghir,province,MA-08,Drâa-Tafilalet,MA-ERR+MA-KHN+MA-OUA,MA-ERR;MA-KHN;MA-MID;MA-OUA;MA-TIN
+MA-ZAG,Zagora,province,MA-08,Drâa-Tafilalet,MA-ZAG,MA-ZAG
+MA-AGD,Agadir-Ida-Ou-Tanane,prefecture,MA-09,Souss-Massa,MA-AGD,MA-AGD
+MA-CHT,Chtouka-Aït Baha,province,MA-09,Souss-Massa,MA-CHT,MA-CHT
+MA-INE,Inezgane-Aït Melloul,prefecture,MA-09,Souss-Massa,MA-INE,MA-INE
+MA-TAR,Taroudant,province,MA-09,Souss-Massa,MA-TAR,MA-TAR
+MA-TAT,Tata,province,MA-09,Souss-Massa,MA-TAT,MA-TAT
+MA-TIZ,Tiznit,province,MA-09,Souss-Massa,MA-GUE+MA-TIZ,MA-GUE;MA-SIF;MA-TIZ
+MA-ASZ,Assa-Zag,province,MA-10,Guelmim-Oued Noun,MA-ASZ,MA-ASZ
+MA-GUE,Guelmim,province,MA-10,Guelmim-Oued Noun,MA-GUE+MA-TIZ,MA-GUE;MA-SIF;MA-TIZ
+MA-SIF,Sidi Ifni,province,MA-10,Guelmim-Oued Noun,MA-GUE+MA-TIZ,MA-GUE;MA-SIF;MA-TIZ
+MA-TNT,Tan-Tan,province,MA-10,Guelmim-Oued Noun,MA-TNT,MA-TNT
+MA-BOD,Boujdour,province,MA-11,Laâyoune-Sakia El Hamra,MA-BOD,MA-BOD
+MA-ESM,Es-Semara,province,MA-11,Laâyoune-Sakia El Hamra,MA-ESM,MA-ESM
+MA-LAA,Laâyoune,province,MA-11,Laâyoune-Sakia El Hamra,MA-LAA,MA-LAA;MA-TAF
+MA-TAF,Tarfaya,province,MA-11,Laâyoune-Sakia El Hamra,MA-LAA,MA-LAA;MA-TAF
+MA-AOU,Aousserd,province,MA-12,Dakhla-Oued Ed-Dahab,MA-AOU,MA-AOU
+MA-OUD,Oued Ed-Dahab,province,MA-12,Dakhla-Oued Ed-Dahab,MA-OUD,MA-OUD

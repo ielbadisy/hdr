@@ -1,0 +1,112 @@
+{
+  "profile": "data-package",
+  "name": "bd-maternal-health-risk",
+  "id": "https://doi.org/10.XXXXX/hdr-bd-0001.v1.0.0",
+  "title": "Maternal health risk assessment, Kurigram",
+  "description": "Clinical records of 1,205 pregnant women seen at Kurigram General Hospital, a district hospital in rural northern Bangladesh: age, blood pressure, blood sugar, body temperature, body mass index, heart rate, medical history and a pregnancy risk level (low or high).",
+  "version": "1.0.0",
+  "created": "2026-11-11",
+  "keywords": ["Maternal health", "Pregnancy", "High-risk pregnancy", "Classification", "Bangladesh"],
+  "homepage": "https://elbadisyimad.com/hdr/datasets/bd-maternal-health-risk/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Daffodil International University and Kurigram General Hospital, Mojumdar MU et al. (2025). Maternal health risk factors dataset: clinical parameters and insights from rural Bangladesh. Data in Brief 59: 111363",
+      "path": "https://doi.org/10.17632/p5w98dvbbk.1"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Imad El Badisy",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "maternal_health_risk",
+      "path": "files/maternal_health_risk.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Antenatal records",
+      "description": "One row per pregnant woman",
+      "bytes": 50215,
+      "hash": "sha256:daa02cb8e44c27ae836ca8b331ff35d964e3fc09f7815adf96f5fb00e76cf9cd",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "integer",
+            "description": "Record identifier"
+          },
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "Age (years)"
+          },
+          {
+            "name": "systolic_bp",
+            "type": "integer",
+            "description": "Systolic blood pressure (mmHg)"
+          },
+          {
+            "name": "diastolic_bp",
+            "type": "integer",
+            "description": "Diastolic blood pressure (mmHg)"
+          },
+          {
+            "name": "blood_sugar",
+            "type": "number",
+            "description": "Blood glucose (mmol/L)"
+          },
+          {
+            "name": "body_temp",
+            "type": "integer",
+            "description": "Body temperature (degrees Fahrenheit)"
+          },
+          {
+            "name": "bmi",
+            "type": "number",
+            "description": "Body mass index (kg/m2)"
+          },
+          {
+            "name": "previous_complications",
+            "type": "integer",
+            "description": "Complications in a previous pregnancy (1 yes, 0 no)"
+          },
+          {
+            "name": "preexisting_diabetes",
+            "type": "integer",
+            "description": "Diabetes before pregnancy (1 yes, 0 no)"
+          },
+          {
+            "name": "gestational_diabetes",
+            "type": "integer",
+            "description": "Gestational diabetes (1 yes, 0 no)"
+          },
+          {
+            "name": "mental_health",
+            "type": "integer",
+            "description": "Current mental health concern (1 yes, 0 no)"
+          },
+          {
+            "name": "heart_rate",
+            "type": "integer",
+            "description": "Heart rate (beats per minute)"
+          },
+          {
+            "name": "risk_level",
+            "type": "string",
+            "description": "Pregnancy risk level (Low, High)"
+          }
+        ]
+      }
+    }
+  ]
+}

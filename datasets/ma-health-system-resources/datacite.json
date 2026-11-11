@@ -1,0 +1,114 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "event": "draft",
+      "doi": "10.XXXXX/hdr-ma-0002.v1.0.0",
+      "creators": [
+        {
+          "name": "El Badisy, Imad",
+          "nameType": "Personal",
+          "givenName": "Imad",
+          "familyName": "El Badisy"
+        }
+      ],
+      "titles": [
+        {
+          "title": "Morocco health system resources by province, 2003-2024"
+        }
+      ],
+      "publisher": {
+        "name": "HDR: Health Data for Research"
+      },
+      "publicationYear": 2026,
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Tabular data"
+      },
+      "url": "https://elbadisyimad.com/hdr/datasets/ma-health-system-resources/",
+      "version": "1.0.0",
+      "language": "en",
+      "subjects": [
+        {
+          "subject": "Health systems"
+        },
+        {
+          "subject": "Health facilities"
+        },
+        {
+          "subject": "Hospitals"
+        },
+        {
+          "subject": "Primary health care"
+        },
+        {
+          "subject": "Hospital beds"
+        },
+        {
+          "subject": "Bed occupancy"
+        },
+        {
+          "subject": "Length of stay"
+        },
+        {
+          "subject": "Subnational"
+        },
+        {
+          "subject": "Panel data"
+        },
+        {
+          "subject": "Morocco"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-11-02",
+          "dateType": "Issued"
+        },
+        {
+          "date": "2003/2024",
+          "dateType": "Other",
+          "dateInformation": "Temporal coverage"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Morocco"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Primary care facilities, public hospital beds and hospital activity for every Moroccan province and prefecture from 2003 to 2024, extracted from all 22 editions of the Ministry of Health yearly report Santé en Chiffres, harmonised to current province codes and checked against every national total printed in the reports.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Origin: Ministère de la Santé et de la Protection Sociale, Kingdom of Morocco, Santé en Chiffres (editions 2003 to 2024 (22 editions, one per data year)). Tables were read from the PDF reports with scripted parsers that use the position of each number on the page. Province and region names, spelled in many ways across editions, were matched to ISO 3166-2:MA codes with a gazetteer. Every edition was checked against the totals the report itself prints (rows, regions, nation). A printed figure was corrected only when the report's own sums prove the error; otherwise it is kept as printed and flagged in the note column.",
+          "descriptionType": "Methods"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "https://www.sante.gov.ma",
+          "relatedIdentifierType": "URL",
+          "relationType": "IsDerivedFrom"
+        }
+      ],
+      "formats": [
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/pdf"
+      ],
+      "sizes": [
+        "5 files"
+      ]
+    }
+  }
+}

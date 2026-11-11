@@ -1,0 +1,4 @@
+"file","description","rows","cols","format","bytes","sha256"
+"paquid.csv","One row per participant",2561,4,"text/csv",45678,"c4469e73415cf0356697c0c6095e71abeafaf4e5ffaabc64761269042cbd8c2e"
+"fr-paquid-dementia-cohort.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",64713,"ca96bccfc9d6b7ee329ce5e540b0dbdd55a858be34e9e56f96b2d54f19831411"
+"fr-paquid-dementia-cohort-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",56469,"3e5107d6cf0325f1e7415684901e0e72aadfd2e8e01ac1b7ab60275bae19c258"
