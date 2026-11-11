@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "copenhagen_stroke.csv","One row per patient",518,15,"text/csv",37102,"b725a2cb72be9966ac63544fd3c02db2e034691431060df538b2d58297c10f95"
-"dk-copenhagen-stroke-study.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",39122,"dec8162d9fbc4fe0bf394cd68cd94fcd08426a7603af8cb17b49e60ff92752b7"
-"dk-copenhagen-stroke-study-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57833,"5fe3894f0d4e5922d9e8a9ae7d683e2dc2c6e28f93fe1a3b339a1cbe651b1ef0"
+"dk-copenhagen-stroke-study.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",39121,"35787d9d1a050541d93ee81eec092ff8066125bd27880d98291a89a797e8fd13"
+"dk-copenhagen-stroke-study-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57833,"764a87a3c93fc3a5c0bc56f11217bf956344e7736cc9d15f3e9eff8c6f40d868"

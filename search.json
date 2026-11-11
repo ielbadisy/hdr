@@ -25,7 +25,7 @@
     "href": "datasets/us-mayo-pbc-trial/index.html#files",
     "title": "Mayo Clinic primary biliary cholangitis trial",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npbc.csv\nOne row per patient\n418\n20\n32 kB\n1dbab06d2db2…\n\n\nus-mayo-pbc-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n50 kB\na4e8a0c661af…\n\n\nus-mayo-pbc-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\nd60af8051a3c…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npbc.csv\nOne row per patient\n418\n20\n32 kB\n1dbab06d2db2…\n\n\nus-mayo-pbc-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n50 kB\n4052465c2bc2…\n\n\nus-mayo-pbc-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n6805339da170…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/us-mayo-pbc-trial/index.html#variables",
@@ -102,7 +102,7 @@
     "href": "datasets/pk-heart-failure-faisalabad/index.html#files",
     "title": "Heart failure clinical records, Faisalabad",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nheart_failure.csv\nOne row per patient\n299\n13\n12 kB\n23833b0c0653…\n\n\npk-heart-failure-faisalabad.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n27 kB\n4bc116eafc68…\n\n\npk-heart-failure-faisalabad-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n125df8f90553…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nheart_failure.csv\nOne row per patient\n299\n13\n12 kB\n23833b0c0653…\n\n\npk-heart-failure-faisalabad.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n27 kB\nee7c3c8cb64e…\n\n\npk-heart-failure-faisalabad-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n45985e99c312…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/pk-heart-failure-faisalabad/index.html#variables",
@@ -179,7 +179,7 @@
     "href": "datasets/ma-province-health-panels/index.html#files",
     "title": "Morocco province health panels, 2019-2024",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmerged_panel_wide.csv\nOne row per province and year: five diseases reported in all years, denominators, workforce totals and rates\n450\n24\n74 kB\n8ff2e23bfbab…\n\n\npathology_panel_long.csv\nOne row per year, province and disease (35 disease labels over the period)\n8,400\n5\n459 kB\n4b59f2d51636…\n\n\nhr_panel_long.csv\nOne row per year, province, table and indicator; Casablanca split into 8 prefectures\n13,776\n6\n1.0 MB\n51a5e6be66dd…\n\n\npopulation_panel_long.csv\nOne row per year, province and indicator, urban, rural and total\n7,830\n5\n535 kB\nce1ad970c180…\n\n\nma-province-health-panels.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n697 kB\n75440ffb75fa…\n\n\nma-province-health-panels-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n65 kB\nbf67884272e3…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmerged_panel_wide.csv\nOne row per province and year: five diseases reported in all years, denominators, workforce totals and rates\n450\n24\n74 kB\n8ff2e23bfbab…\n\n\npathology_panel_long.csv\nOne row per year, province and disease (35 disease labels over the period)\n8,400\n5\n459 kB\n4b59f2d51636…\n\n\nhr_panel_long.csv\nOne row per year, province, table and indicator; Casablanca split into 8 prefectures\n13,776\n6\n1.0 MB\n51a5e6be66dd…\n\n\npopulation_panel_long.csv\nOne row per year, province and indicator, urban, rural and total\n7,830\n5\n535 kB\nce1ad970c180…\n\n\nma-province-health-panels.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n697 kB\n73fb48fa85a1…\n\n\nma-province-health-panels-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n65 kB\nb7438fccd534…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-province-health-panels/index.html#variables",
@@ -263,7 +263,7 @@
     "href": "datasets/ma-gyts-youth-tobacco/index.html#files",
     "title": "Morocco Global Youth Tobacco Survey, student records",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngyts_morocco.csv\nOne row per student\n3,915\n27\n1.2 MB\na7882b03c4b7…\n\n\nma-gyts-youth-tobacco.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n337 kB\n03b841300fe0…\n\n\nma-gyts-youth-tobacco-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n4eff3b54af00…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngyts_morocco.csv\nOne row per student\n3,915\n27\n1.2 MB\na7882b03c4b7…\n\n\nma-gyts-youth-tobacco.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n337 kB\nfb4d7d648704…\n\n\nma-gyts-youth-tobacco-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n61430a8247dd…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-gyts-youth-tobacco/index.html#variables",
@@ -340,7 +340,7 @@
     "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#files",
     "title": "MRC streptomycin trial for pulmonary tuberculosis",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nstreptomycin_tb.csv\nOne row per patient\n107\n13\n12 kB\ne89576ee6baf…\n\n\ngb-streptomycin-tuberculosis-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n17 kB\nc45a12af2107…\n\n\ngb-streptomycin-tuberculosis-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n59 kB\n0e549053a3bc…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nstreptomycin_tb.csv\nOne row per patient\n107\n13\n12 kB\ne89576ee6baf…\n\n\ngb-streptomycin-tuberculosis-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n17 kB\n1cf754e6af65…\n\n\ngb-streptomycin-tuberculosis-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n59 kB\n69f755c6ec0d…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#variables",
@@ -417,7 +417,7 @@
     "href": "datasets/dk-copenhagen-stroke-study/index.html#files",
     "title": "Copenhagen Stroke Study",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncopenhagen_stroke.csv\nOne row per patient\n518\n15\n37 kB\nb725a2cb72be…\n\n\ndk-copenhagen-stroke-study.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\ndec8162d9fbc…\n\n\ndk-copenhagen-stroke-study-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n5fe3894f0d4e…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncopenhagen_stroke.csv\nOne row per patient\n518\n15\n37 kB\nb725a2cb72be…\n\n\ndk-copenhagen-stroke-study.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\n35787d9d1a05…\n\n\ndk-copenhagen-stroke-study-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n764a87a3c93f…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/dk-copenhagen-stroke-study/index.html#variables",
@@ -494,7 +494,7 @@
     "href": "datasets/bd-maternal-health-risk/index.html#files",
     "title": "Maternal health risk assessment, Kurigram",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmaternal_health_risk.csv\nOne row per pregnant woman\n1,205\n13\n50 kB\ndaa02cb8e44c…\n\n\nbd-maternal-health-risk.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n69 kB\n9709883a4940…\n\n\nbd-maternal-health-risk-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n91b3cd5eb56a…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmaternal_health_risk.csv\nOne row per pregnant woman\n1,205\n13\n50 kB\ndaa02cb8e44c…\n\n\nbd-maternal-health-risk.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n69 kB\n08caa32b4c6c…\n\n\nbd-maternal-health-risk-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n8921c46dc285…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/bd-maternal-health-risk/index.html#variables",
@@ -613,7 +613,7 @@
     "href": "about.html#contact",
     "title": "About",
     "section": "Contact",
-    "text": "Contact\nTo deposit a dataset, report an error, request a takedown or join as a curator: contact address to be added."
+    "text": "Contact\nTo deposit a dataset, report an error, request a takedown or join as a curator: ielbadisy@cm6.ma."
   },
   {
     "objectID": "about.html#references",
@@ -760,7 +760,7 @@
     "href": "deposit.html#send-your-deposit",
     "title": "Deposit a dataset",
     "section": "Send your deposit",
-    "text": "Send your deposit\nSend dataset.yml and your CSV files, zipped, to contact address to be added, with the subject “HDR deposit: your title”. We confirm receipt within two working days.\nA web upload with automatic checks will replace e-mail once the first deposits from outside the team have gone through."
+    "text": "Send your deposit\nSend dataset.yml and your CSV files, zipped, to ielbadisy@cm6.ma, with the subject “HDR deposit: your title”. We confirm receipt within two working days.\nA web upload with automatic checks will replace e-mail once the first deposits from outside the team have gone through."
   },
   {
     "objectID": "deposit.html#what-happens-next",
@@ -837,7 +837,7 @@
     "href": "datasets/au-melanoma-checkpoint-gide/index.html#files",
     "title": "Metastatic melanoma on immune checkpoint blockade",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmelanoma_gide.csv\nOne row per patient\n75\n11\n7 kB\n887a496bd5a7…\n\n\nau-melanoma-checkpoint-gide.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n15 kB\n53a0a9fecdd5…\n\n\nau-melanoma-checkpoint-gide-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\ndcdd790f9d80…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmelanoma_gide.csv\nOne row per patient\n75\n11\n7 kB\n887a496bd5a7…\n\n\nau-melanoma-checkpoint-gide.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n15 kB\n7c09659b2a55…\n\n\nau-melanoma-checkpoint-gide-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n9cd11c6fed9f…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#variables",
@@ -914,7 +914,7 @@
     "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#files",
     "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngbsg2.csv\nOne row per patient\n686\n10\n26 kB\n55339518aaf7…\n\n\nde-gbsg2-breast-cancer-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\na87e1c3285a2…\n\n\nde-gbsg2-breast-cancer-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n5ab86f476703…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngbsg2.csv\nOne row per patient\n686\n10\n26 kB\n55339518aaf7…\n\n\nde-gbsg2-breast-cancer-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\n4b824423168c…\n\n\nde-gbsg2-breast-cancer-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\nc43563b765bc…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#variables",
@@ -991,7 +991,7 @@
     "href": "datasets/fr-paquid-dementia-cohort/index.html#files",
     "title": "PAQUID cohort on brain ageing, sample of 2,561",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npaquid.csv\nOne row per participant\n2,561\n4\n46 kB\nc4469e73415c…\n\n\nfr-paquid-dementia-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n65 kB\n1b1dcd45f8f6…\n\n\nfr-paquid-dementia-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\nbd1bbe2ecff0…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npaquid.csv\nOne row per participant\n2,561\n4\n46 kB\nc4469e73415c…\n\n\nfr-paquid-dementia-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n65 kB\n648cf5a3aa5d…\n\n\nfr-paquid-dementia-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\nd1717ecdab85…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/fr-paquid-dementia-cohort/index.html#variables",
@@ -1068,7 +1068,7 @@
     "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#files",
     "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolorectal_cancer.csv\nOne row per patient\n346\n19\n55 kB\nc0469de9818f…\n\n\nma-fez-colorectal-cancer-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n34 kB\n76ba9178cd6e…\n\n\nma-fez-colorectal-cancer-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n61 kB\na4d9d3adc1d5…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolorectal_cancer.csv\nOne row per patient\n346\n19\n55 kB\nc0469de9818f…\n\n\nma-fez-colorectal-cancer-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n34 kB\n28b672d5084d…\n\n\nma-fez-colorectal-cancer-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n61 kB\n2d95f9223655…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#variables",
@@ -1145,7 +1145,7 @@
     "href": "datasets/ma-health-system-resources/index.html#files",
     "title": "Morocco health system resources by province, 2003-2024",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nfacilities.csv\nOne row per reference date, province, indicator, setting and facility type\n11,778\n13\n1.9 MB\n2789719e0b9f…\n\n\nhospitals.csv\nOne row per year, province and indicator\n7,854\n10\n1.1 MB\nffd8ffa3e84e…\n\n\nprovinces.csv\nOne row per province or prefecture code used in the data files\n83\n7\n6 kB\n6ef10dd8cacd…\n\n\nma-health-system-resources.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n754 kB\neb9bb067890f…\n\n\nma-health-system-resources-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n67 kB\n185806a0024c…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nfacilities.csv\nOne row per reference date, province, indicator, setting and facility type\n11,778\n13\n1.9 MB\n2789719e0b9f…\n\n\nhospitals.csv\nOne row per year, province and indicator\n7,854\n10\n1.1 MB\nffd8ffa3e84e…\n\n\nprovinces.csv\nOne row per province or prefecture code used in the data files\n83\n7\n6 kB\n6ef10dd8cacd…\n\n\nma-health-system-resources.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n754 kB\n9b77adafd6f4…\n\n\nma-health-system-resources-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n67 kB\nf2731180174e…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-health-system-resources/index.html#variables",
@@ -1229,7 +1229,7 @@
     "href": "datasets/nl-rotterdam-breast-cancer/index.html#files",
     "title": "Rotterdam tumour bank breast cancer cohort",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nrotterdam.csv\nOne row per patient\n2,982\n15\n149 kB\n59598780fb4c…\n\n\nnl-rotterdam-breast-cancer.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n185 kB\nde4310aa0115…\n\n\nnl-rotterdam-breast-cancer-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n6abeba0c0d96…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nrotterdam.csv\nOne row per patient\n2,982\n15\n149 kB\n59598780fb4c…\n\n\nnl-rotterdam-breast-cancer.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n185 kB\n2c5f198d72d3…\n\n\nnl-rotterdam-breast-cancer-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n26bcf3914650…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#variables",
@@ -1306,7 +1306,7 @@
     "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#files",
     "title": "Colon cancer adjuvant chemotherapy trial",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolon.csv\nTwo rows per patient, one for recurrence and one for death\n1,858\n16\n80 kB\n2b00b5369a86…\n\n\nus-colon-cancer-adjuvant-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n109 kB\n62b8880d7a43…\n\n\nus-colon-cancer-adjuvant-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n98cff4944428…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolon.csv\nTwo rows per patient, one for recurrence and one for death\n1,858\n16\n80 kB\n2b00b5369a86…\n\n\nus-colon-cancer-adjuvant-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n109 kB\n6a47331c69ae…\n\n\nus-colon-cancer-adjuvant-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\nc2a515af676a…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#variables",

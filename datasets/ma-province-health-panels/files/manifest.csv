@@ -3,5 +3,5 @@
 "pathology_panel_long.csv","One row per year, province and disease (35 disease labels over the period)",8400,5,"text/csv",459126,"4b59f2d516369d3541461166671a4101dc37ec38a47be63ab49dc2ecbc8fb2f3"
 "hr_panel_long.csv","One row per year, province, table and indicator; Casablanca split into 8 prefectures",13776,6,"text/csv",1040074,"51a5e6be66dde9ccd20db3aab92ba62bbf3bc3e8796aa04cdd36bb55bf74090a"
 "population_panel_long.csv","One row per year, province and indicator, urban, rural and total",7830,5,"text/csv",535281,"ce1ad970c1800c7497634554243016a575fa4bb2c47fc41360a0583d96c728b0"
-"ma-province-health-panels.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",697097,"75440ffb75fa153556fbc788a3d31296526e00382e31fece97a811a2119a583a"
-"ma-province-health-panels-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",64834,"bf67884272e3dec30a86ab814790bfc649bf2945c156e76e47cf3d3e84337f0b"
+"ma-province-health-panels.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",697098,"73fb48fa85a17d5e0de6fc87f0953fc028869202b0ef88b57ed713c13ac35b4a"
+"ma-province-health-panels-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",64834,"b7438fccd5347a2bb0a851c78a8303756cd68c11ef2655435fce63b119a94b9a"
