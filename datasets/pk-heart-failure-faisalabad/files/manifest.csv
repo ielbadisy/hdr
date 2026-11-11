@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "heart_failure.csv","One row per patient",299,13,"text/csv",12263,"23833b0c0653e8f326e3f076f6e7b1f9ac6f834550b79391eb55b02253ae709a"
-"pk-heart-failure-faisalabad.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",26767,"4813db55c6395f1f46305e0394346714281c32434fbae19be1fb2ce742bf3c14"
-"pk-heart-failure-faisalabad-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",56819,"0fc82f6fbadcca118502179332a4d93709afef478b5c9aad1fbad97fdcc998c7"
+"pk-heart-failure-faisalabad.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",26768,"4bc116eafc68f5415511bdf1250eb68a41345237c65fbcecefa5b9c4393340d7"
+"pk-heart-failure-faisalabad-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",56819,"125df8f905532845481e7fe750a37acc799982d081a2c37e9bddfd1ba0883760"

@@ -25,7 +25,7 @@
     "href": "datasets/us-mayo-pbc-trial/index.html#files",
     "title": "Mayo Clinic primary biliary cholangitis trial",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npbc.csv\nOne row per patient\n418\n20\n32 kB\n1dbab06d2db2…\n\n\nus-mayo-pbc-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n50 kB\n9d4bf7572409…\n\n\nus-mayo-pbc-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n80b5d126df43…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npbc.csv\nOne row per patient\n418\n20\n32 kB\n1dbab06d2db2…\n\n\nus-mayo-pbc-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n50 kB\na4e8a0c661af…\n\n\nus-mayo-pbc-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\nd60af8051a3c…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/us-mayo-pbc-trial/index.html#variables",
@@ -102,7 +102,7 @@
     "href": "datasets/pk-heart-failure-faisalabad/index.html#files",
     "title": "Heart failure clinical records, Faisalabad",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nheart_failure.csv\nOne row per patient\n299\n13\n12 kB\n23833b0c0653…\n\n\npk-heart-failure-faisalabad.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n27 kB\n4813db55c639…\n\n\npk-heart-failure-faisalabad-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n0fc82f6fbadc…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nheart_failure.csv\nOne row per patient\n299\n13\n12 kB\n23833b0c0653…\n\n\npk-heart-failure-faisalabad.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n27 kB\n4bc116eafc68…\n\n\npk-heart-failure-faisalabad-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n125df8f90553…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/pk-heart-failure-faisalabad/index.html#variables",
@@ -179,7 +179,7 @@
     "href": "datasets/ma-province-health-panels/index.html#files",
     "title": "Morocco province health panels, 2019-2024",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmerged_panel_wide.csv\nOne row per province and year: five diseases reported in all years, denominators, workforce totals and rates\n450\n24\n74 kB\n8ff2e23bfbab…\n\n\npathology_panel_long.csv\nOne row per year, province and disease (35 disease labels over the period)\n8,400\n5\n459 kB\n4b59f2d51636…\n\n\nhr_panel_long.csv\nOne row per year, province, table and indicator; Casablanca split into 8 prefectures\n13,776\n6\n1.0 MB\n51a5e6be66dd…\n\n\npopulation_panel_long.csv\nOne row per year, province and indicator, urban, rural and total\n7,830\n5\n535 kB\nce1ad970c180…\n\n\nma-province-health-panels.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n697 kB\nd3064f23953b…\n\n\nma-province-health-panels-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n65 kB\nfa3598747176…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmerged_panel_wide.csv\nOne row per province and year: five diseases reported in all years, denominators, workforce totals and rates\n450\n24\n74 kB\n8ff2e23bfbab…\n\n\npathology_panel_long.csv\nOne row per year, province and disease (35 disease labels over the period)\n8,400\n5\n459 kB\n4b59f2d51636…\n\n\nhr_panel_long.csv\nOne row per year, province, table and indicator; Casablanca split into 8 prefectures\n13,776\n6\n1.0 MB\n51a5e6be66dd…\n\n\npopulation_panel_long.csv\nOne row per year, province and indicator, urban, rural and total\n7,830\n5\n535 kB\nce1ad970c180…\n\n\nma-province-health-panels.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n697 kB\n75440ffb75fa…\n\n\nma-province-health-panels-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n65 kB\nbf67884272e3…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-province-health-panels/index.html#variables",
@@ -263,7 +263,7 @@
     "href": "datasets/ma-gyts-youth-tobacco/index.html#files",
     "title": "Morocco Global Youth Tobacco Survey, student records",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngyts_morocco.csv\nOne row per student\n3,915\n27\n1.2 MB\na7882b03c4b7…\n\n\nma-gyts-youth-tobacco.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n337 kB\n52f1f641b539…\n\n\nma-gyts-youth-tobacco-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n5ba3a97311d3…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngyts_morocco.csv\nOne row per student\n3,915\n27\n1.2 MB\na7882b03c4b7…\n\n\nma-gyts-youth-tobacco.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n337 kB\n03b841300fe0…\n\n\nma-gyts-youth-tobacco-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n4eff3b54af00…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-gyts-youth-tobacco/index.html#variables",
@@ -340,7 +340,7 @@
     "href": "datasets/gb-streptomycin-tuberculosis-trial/index.html#files",
     "title": "MRC streptomycin trial for pulmonary tuberculosis",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nstreptomycin_tb.csv\nOne row per patient\n107\n13\n12 kB\ne89576ee6baf…\n\n\ngb-streptomycin-tuberculosis-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n17 kB\n029dd7ba9843…\n\n\ngb-streptomycin-tuberculosis-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n59 kB\n5c428d6a4698…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nstreptomycin_tb.csv\nOne row per patient\n107\n13\n12 kB\ne89576ee6baf…\n\n\ngb-streptomycin-tuberculosis-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n17 kB\nc45a12af2107…\n\n\ngb-streptomycin-tuberculosis-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n59 kB\n0e549053a3bc…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/gb-streptomycin-tuberculosis-trial/index.html#variables",
@@ -417,7 +417,7 @@
     "href": "datasets/dk-copenhagen-stroke-study/index.html#files",
     "title": "Copenhagen Stroke Study",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncopenhagen_stroke.csv\nOne row per patient\n518\n15\n37 kB\nb725a2cb72be…\n\n\ndk-copenhagen-stroke-study.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\n2225037a66c4…\n\n\ndk-copenhagen-stroke-study-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n61b4ff1f2824…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncopenhagen_stroke.csv\nOne row per patient\n518\n15\n37 kB\nb725a2cb72be…\n\n\ndk-copenhagen-stroke-study.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\ndec8162d9fbc…\n\n\ndk-copenhagen-stroke-study-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n5fe3894f0d4e…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/dk-copenhagen-stroke-study/index.html#variables",
@@ -494,7 +494,7 @@
     "href": "datasets/bd-maternal-health-risk/index.html#files",
     "title": "Maternal health risk assessment, Kurigram",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmaternal_health_risk.csv\nOne row per pregnant woman\n1,205\n13\n50 kB\ndaa02cb8e44c…\n\n\nbd-maternal-health-risk.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n69 kB\nb7b635b5c05a…\n\n\nbd-maternal-health-risk-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\nad39a1b36b50…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmaternal_health_risk.csv\nOne row per pregnant woman\n1,205\n13\n50 kB\ndaa02cb8e44c…\n\n\nbd-maternal-health-risk.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n69 kB\n9709883a4940…\n\n\nbd-maternal-health-risk-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n91b3cd5eb56a…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/bd-maternal-health-risk/index.html#variables",
@@ -550,14 +550,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used.\nResearch teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. The next team starts again.\nGeneral repositories store whatever is deposited and leave quality to the depositor. International databases publish national averages and modelled estimates, not the subnational figures countries actually report. Between the two, the data that matter most for local health research have no home.\nHDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper."
+    "text": "Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used. Data that are not deposited become hard to obtain within a few years of publication (Vines et al. 2014; Tenopir et al. 2011).\nResearch teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. Even when a paper promises data “on request”, most requests go unanswered (Gabelica, Bojčić, and Puljak 2022). The next team starts again.\nGeneral repositories store whatever is deposited and leave quality to the depositor. International databases publish national averages and modelled estimates, not the subnational figures countries actually report. Between the two, the data that matter most for local health research have no home.\nHDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper (Data Citation Synthesis Group 2014). Papers that link to their data in a repository also receive more citations (Colavizza et al. 2020)."
   },
   {
     "objectID": "about.html#why-hdr-exists",
     "href": "about.html#why-hdr-exists",
     "title": "About",
     "section": "",
-    "text": "Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used.\nResearch teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. The next team starts again.\nGeneral repositories store whatever is deposited and leave quality to the depositor. International databases publish national averages and modelled estimates, not the subnational figures countries actually report. Between the two, the data that matter most for local health research have no home.\nHDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper."
+    "text": "Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used. Data that are not deposited become hard to obtain within a few years of publication (Vines et al. 2014; Tenopir et al. 2011).\nResearch teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. Even when a paper promises data “on request”, most requests go unanswered (Gabelica, Bojčić, and Puljak 2022). The next team starts again.\nGeneral repositories store whatever is deposited and leave quality to the depositor. International databases publish national averages and modelled estimates, not the subnational figures countries actually report. Between the two, the data that matter most for local health research have no home.\nHDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper (Data Citation Synthesis Group 2014). Papers that link to their data in a repository also receive more citations (Colavizza et al. 2020)."
   },
   {
     "objectID": "about.html#what-makes-hdr-different",
@@ -585,7 +585,7 @@
     "href": "about.html#standards-we-follow",
     "title": "About",
     "section": "Standards we follow",
-    "text": "Standards we follow\nFAIR principles; DataCite metadata schema 4; the Joint Declaration of Data Citation Principles; schema.org Dataset markup (for Google Dataset Search); Frictionless Data Package; Datasheets for Datasets and the GATHER statement for the content of the dataset note. We plan to apply for CoreTrustSeal certification after a year of operation."
+    "text": "Standards we follow\n\nFAIR principles for findable, accessible, interoperable and reusable data (Wilkinson et al. 2016).\nDataCite metadata schema for DOIs (DataCite Metadata Working Group 2024).\nJoint Declaration of Data Citation Principles (Data Citation Synthesis Group 2014).\nschema.org Dataset markup, for Google Dataset Search (Schema.org, n.d.).\nFrictionless Data Package for machine-readable files (Open Knowledge Foundation 2024).\nDatasheets for Datasets (Gebru et al. 2021) and the GATHER statement (Stevens et al. 2016) for the content of the dataset note.\n\nWe plan to apply for CoreTrustSeal certification after a year of operation (CoreTrustSeal Standards and Certification Board 2022)."
   },
   {
     "objectID": "about.html#maintained-by",
@@ -614,6 +614,13 @@
     "title": "About",
     "section": "Contact",
     "text": "Contact\nTo deposit a dataset, report an error, request a takedown or join as a curator: contact address to be added."
+  },
+  {
+    "objectID": "about.html#references",
+    "href": "about.html#references",
+    "title": "About",
+    "section": "References",
+    "text": "References\n\n\nColavizza, Giovanni, Iain Hrynaszkiewicz, Isla Staden, Kirstie Whitaker, and Barbara McGillivray. 2020. “The Citation Advantage of Linking Publications to Research Data.” PLOS ONE 15 (4): e0230416. https://doi.org/10.1371/journal.pone.0230416.\n\n\nCoreTrustSeal Standards and Certification Board. 2022. “CoreTrustSeal Requirements 2023-2025.” Zenodo. https://doi.org/10.5281/zenodo.7051012.\n\n\nData Citation Synthesis Group. 2014. “Joint Declaration of Data Citation Principles.” Edited by Maryann Martone. FORCE11. https://doi.org/10.25490/a97f-egyk.\n\n\nDataCite Metadata Working Group. 2024. “DataCite Metadata Schema Documentation for the Publication and Citation of Research Data and Other Research Outputs, Version 4.5.” DataCite e.V. https://doi.org/10.14454/g8e5-6293.\n\n\nGabelica, Mirko, Ružica Bojčić, and Livia Puljak. 2022. “Many Researchers Were Not Compliant with Their Published Data Sharing Statement: A Mixed-Methods Study.” Journal of Clinical Epidemiology 150: 33–41. https://doi.org/10.1016/j.jclinepi.2022.05.019.\n\n\nGebru, Timnit, Jamie Morgenstern, Briana Vecchione, et al. 2021. “Datasheets for Datasets.” Communications of the ACM 64 (12): 86–92. https://doi.org/10.1145/3458723.\n\n\nOpen Knowledge Foundation. 2024. “Data Package Standard, Version 2.” https://datapackage.org.\n\n\nSchema.org. n.d. “Dataset.” https://schema.org/Dataset.\n\n\nStevens, Gretchen A., Leontine Alkema, Robert E. Black, et al. 2016. “Guidelines for Accurate and Transparent Health Estimates Reporting: The GATHER Statement.” The Lancet 388 (10062): e19–23. https://doi.org/10.1016/S0140-6736(16)30388-9.\n\n\nTenopir, Carol, Suzie Allard, Kimberly Douglass, et al. 2011. “Data Sharing by Scientists: Practices and Perceptions.” PLoS ONE 6 (6): e21101. https://doi.org/10.1371/journal.pone.0021101.\n\n\nVines, Timothy H., Arianne Y. K. Albert, Rose L. Andrew, et al. 2014. “The Availability of Research Data Declines Rapidly with Article Age.” Current Biology 24 (1): 94–97. https://doi.org/10.1016/j.cub.2013.11.014.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18."
   },
   {
     "objectID": "rules.html",
@@ -674,42 +681,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Health data you can trace to its origin; health data for research",
+    "title": "Open data for better science",
     "section": "",
-    "text": "Open repository for health data\n\n\nResearchers anywhere can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a dataset note, and give it a DOI. Every dataset comes as CSV and Excel files with a PDF note.\n\nBrowse datasets Deposit a dataset\n\n\n14 datasets 10 countries of origin 65,141 rows of data 0 DOIs minted\nSee the full catalogue →"
+    "text": "HDR · Health Data for Research\n\n\nA curated repository of health research data. Every dataset is traced to its source, reviewed by a curator, documented in a data note and assigned a DOI, so that analyses can be reproduced and data cited like publications.\n\nBrowse datasets Deposit a dataset\n\n\n14 datasets 10 countries of origin 65,141 rows of data 0 DOIs minted\nSee the full catalogue →"
   },
   {
     "objectID": "index.html#three-files-one-doi-a-known-origin",
     "href": "index.html#three-files-one-doi-a-known-origin",
-    "title": "Health data you can trace to its origin; health data for research",
+    "title": "Open data for better science",
     "section": "Three files, one DOI, a known origin",
     "text": "Three files, one DOI, a known origin\nEvery dataset on HDR ships the same way, whoever deposits it."
   },
   {
     "objectID": "index.html#where-the-data-come-from",
     "href": "index.html#where-the-data-come-from",
-    "title": "Health data you can trace to its origin; health data for research",
+    "title": "Open data for better science",
     "section": "Where the data come from",
     "text": "Where the data come from\nCountries are shaded by the number of datasets whose origin is there. Click a country to see its datasets.\n\n  \n   No dataset yet  Fewer  More  Most:"
   },
   {
     "objectID": "index.html#from-deposit-to-doi",
     "href": "index.html#from-deposit-to-doi",
-    "title": "Health data you can trace to its origin; health data for research",
+    "title": "Open data for better science",
     "section": "From deposit to DOI",
     "text": "From deposit to DOI"
   },
   {
     "objectID": "index.html#latest-datasets",
     "href": "index.html#latest-datasets",
-    "title": "Health data you can trace to its origin; health data for research",
+    "title": "Open data for better science",
     "section": "Latest datasets",
     "text": "Latest datasets"
   },
   {
     "objectID": "index.html#what-we-stand-for",
     "href": "index.html#what-we-stand-for",
-    "title": "Health data you can trace to its origin; health data for research",
+    "title": "Open data for better science",
     "section": "What we stand for",
     "text": "What we stand for\n\n\nOpen by default. No login, no fee, open licence, open formats, machine-readable metadata."
   },
@@ -739,7 +746,7 @@
     "href": "deposit.html#how-it-works",
     "title": "Deposit a dataset",
     "section": "How it works",
-    "text": "How it works\n\n\n1\nBuild your dataset.yml below.\n\n\n2\nSend it with your CSV files.\n\n\n3\nReview within 15 working days.\n\n\n4\nPublish: CSV, Excel, PDF note and DOI."
+    "text": "How it works\n\n\n  Deposit, origin check, curator review, then open files or a restricted-access entry, a DOI for each version, and corrections as new versions\n  \n    \n      \n    \n  \n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  new\n  version\n  de-identified?\n\n  \n  \n    \n    1\n    Deposit\n    Any researcher sends data files and\n    a short metadata file, built online.\n  \n  \n    \n    2\n    Origin check\n    We open the source named and confirm\n    the data come from it.\n  \n  \n    \n    3\n    Curator review\n    Files checked against the rules and\n    values spot-checked against the source.\n  \n  \n  No checkable origin: refused\n\n  \n  \n  Error report\n  Anyone can flag a problem from the\n  dataset page. Files never change silently.\n\n  \n  Open dataset\n  CSV, Excel workbook and PDF note,\n  free to download, open licence.\n\n  \n  Restricted-access entry\n  Description and access conditions;\n  files stay with their producer.\n\n  \n  \n  Used and cited\n  in papers, theses and policy reports.\n\n  \n    \n    4\n    DOI minted for each version\n    A permanent page and a citation, like a paper.\n  \n\n\n\n  Deposit. Any researcher sends data files and a short metadata file, built online.\n  Origin check. We confirm the data come from the source named. No checkable origin: refused.\n  Curator review. Files checked against the rules and spot-checked against the source.\n  Open dataset. De-identified data: CSV, Excel and PDF note, free to download.Restricted-access entry. Sensitive data: description and access conditions; files stay with their producer.\n  DOI minted for each version. A permanent page and a citation.\n  Used, cited, corrected. Error reports lead to a new version with a new DOI. Files never change silently.\n\n\nReview takes up to 15 working days."
   },
   {
     "objectID": "deposit.html#builder",
@@ -830,7 +837,7 @@
     "href": "datasets/au-melanoma-checkpoint-gide/index.html#files",
     "title": "Metastatic melanoma on immune checkpoint blockade",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmelanoma_gide.csv\nOne row per patient\n75\n11\n7 kB\n887a496bd5a7…\n\n\nau-melanoma-checkpoint-gide.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n15 kB\n23f119bb7fc1…\n\n\nau-melanoma-checkpoint-gide-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\n3e1e11218902…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nmelanoma_gide.csv\nOne row per patient\n75\n11\n7 kB\n887a496bd5a7…\n\n\nau-melanoma-checkpoint-gide.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n15 kB\n53a0a9fecdd5…\n\n\nau-melanoma-checkpoint-gide-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n57 kB\ndcdd790f9d80…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/au-melanoma-checkpoint-gide/index.html#variables",
@@ -907,7 +914,7 @@
     "href": "datasets/de-gbsg2-breast-cancer-trial/index.html#files",
     "title": "German Breast Cancer Study Group trial 2 (GBSG-2)",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngbsg2.csv\nOne row per patient\n686\n10\n26 kB\n55339518aaf7…\n\n\nde-gbsg2-breast-cancer-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\nb79b362a286e…\n\n\nde-gbsg2-breast-cancer-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\nf83f36cab0e4…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ngbsg2.csv\nOne row per patient\n686\n10\n26 kB\n55339518aaf7…\n\n\nde-gbsg2-breast-cancer-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n39 kB\na87e1c3285a2…\n\n\nde-gbsg2-breast-cancer-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n5ab86f476703…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/de-gbsg2-breast-cancer-trial/index.html#variables",
@@ -984,7 +991,7 @@
     "href": "datasets/fr-paquid-dementia-cohort/index.html#files",
     "title": "PAQUID cohort on brain ageing, sample of 2,561",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npaquid.csv\nOne row per participant\n2,561\n4\n46 kB\nc4469e73415c…\n\n\nfr-paquid-dementia-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n65 kB\n41095dfacb49…\n\n\nfr-paquid-dementia-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\n4e3ef312506b…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\npaquid.csv\nOne row per participant\n2,561\n4\n46 kB\nc4469e73415c…\n\n\nfr-paquid-dementia-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n65 kB\n1b1dcd45f8f6…\n\n\nfr-paquid-dementia-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n56 kB\nbd1bbe2ecff0…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/fr-paquid-dementia-cohort/index.html#variables",
@@ -1061,7 +1068,7 @@
     "href": "datasets/ma-fez-colorectal-cancer-cohort/index.html#files",
     "title": "Colorectal cancer cohort, Hassan II University Hospital, Fez",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolorectal_cancer.csv\nOne row per patient\n346\n19\n55 kB\nc0469de9818f…\n\n\nma-fez-colorectal-cancer-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n34 kB\n897f8f36c121…\n\n\nma-fez-colorectal-cancer-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n61 kB\nce2da250ee99…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolorectal_cancer.csv\nOne row per patient\n346\n19\n55 kB\nc0469de9818f…\n\n\nma-fez-colorectal-cancer-cohort.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n34 kB\n76ba9178cd6e…\n\n\nma-fez-colorectal-cancer-cohort-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n61 kB\na4d9d3adc1d5…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-fez-colorectal-cancer-cohort/index.html#variables",
@@ -1138,7 +1145,7 @@
     "href": "datasets/ma-health-system-resources/index.html#files",
     "title": "Morocco health system resources by province, 2003-2024",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nfacilities.csv\nOne row per reference date, province, indicator, setting and facility type\n11,778\n13\n1.9 MB\n2789719e0b9f…\n\n\nhospitals.csv\nOne row per year, province and indicator\n7,854\n10\n1.1 MB\nffd8ffa3e84e…\n\n\nprovinces.csv\nOne row per province or prefecture code used in the data files\n83\n7\n6 kB\n6ef10dd8cacd…\n\n\nma-health-system-resources.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n754 kB\n1cd88aa970f5…\n\n\nma-health-system-resources-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n67 kB\nc78f07987c43…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nfacilities.csv\nOne row per reference date, province, indicator, setting and facility type\n11,778\n13\n1.9 MB\n2789719e0b9f…\n\n\nhospitals.csv\nOne row per year, province and indicator\n7,854\n10\n1.1 MB\nffd8ffa3e84e…\n\n\nprovinces.csv\nOne row per province or prefecture code used in the data files\n83\n7\n6 kB\n6ef10dd8cacd…\n\n\nma-health-system-resources.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n754 kB\neb9bb067890f…\n\n\nma-health-system-resources-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n67 kB\n185806a0024c…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/ma-health-system-resources/index.html#variables",
@@ -1222,7 +1229,7 @@
     "href": "datasets/nl-rotterdam-breast-cancer/index.html#files",
     "title": "Rotterdam tumour bank breast cancer cohort",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nrotterdam.csv\nOne row per patient\n2,982\n15\n149 kB\n59598780fb4c…\n\n\nnl-rotterdam-breast-cancer.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n185 kB\n31b28742ec78…\n\n\nnl-rotterdam-breast-cancer-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n5efdbb690917…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\nrotterdam.csv\nOne row per patient\n2,982\n15\n149 kB\n59598780fb4c…\n\n\nnl-rotterdam-breast-cancer.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n185 kB\nde4310aa0115…\n\n\nnl-rotterdam-breast-cancer-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n6abeba0c0d96…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/nl-rotterdam-breast-cancer/index.html#variables",
@@ -1299,7 +1306,7 @@
     "href": "datasets/us-colon-cancer-adjuvant-trial/index.html#files",
     "title": "Colon cancer adjuvant chemotherapy trial",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolon.csv\nTwo rows per patient, one for recurrence and one for death\n1,858\n16\n80 kB\n2b00b5369a86…\n\n\nus-colon-cancer-adjuvant-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n109 kB\n3a9b0d144731…\n\n\nus-colon-cancer-adjuvant-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n9f06c679c26c…\n\n\n\nFull checksums: manifest.csv."
+    "text": "Files\n\n\n\nFile\nContent\nRows\nColumns\nSize\nSHA-256\n\n\n\n\ncolon.csv\nTwo rows per patient, one for recurrence and one for death\n1,858\n16\n80 kB\n2b00b5369a86…\n\n\nus-colon-cancer-adjuvant-trial.xlsx\nAll tables in one workbook, with About and Variables sheets\n\n\n109 kB\n62b8880d7a43…\n\n\nus-colon-cancer-adjuvant-trial-note.pdf\nDataset note: description, origin, variables, checks, citation\n\n\n58 kB\n98cff4944428…\n\n\n\nFull checksums: manifest.csv."
   },
   {
     "objectID": "datasets/us-colon-cancer-adjuvant-trial/index.html#variables",

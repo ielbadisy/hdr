@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -326,6 +346,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#supported-by" id="toc-supported-by" class="nav-link" data-scroll-target="#supported-by">Supported by</a></li>
   <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">Team</a></li>
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -355,10 +376,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="why-hdr-exists" class="level2">
 <h2 class="anchored" data-anchor-id="why-hdr-exists">Why HDR exists</h2>
-<p>Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used.</p>
-<p>Research teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. The next team starts again.</p>
+<p>Much of the world’s health data is public in name only. The most detailed figures, such as cases by province, health workers by district or births by region, are printed in annual reports as PDF tables. Tables change from one edition to the next, zeros are left blank, place names are spelled differently each year, and documentation exists only in the language of the report. Every researcher who needs these numbers types them again, makes different choices, and cannot cite what they used. Data that are not deposited become hard to obtain within a few years of publication <span class="citation" data-cites="vines2014 tenopir2011">(<a href="#ref-vines2014" role="doc-biblioref">Vines et al. 2014</a>; <a href="#ref-tenopir2011" role="doc-biblioref">Tenopir et al. 2011</a>)</span>.</p>
+<p>Research teams face the mirror problem. They build careful tables from reports, surveys and registries, use them in one paper, and leave them on a laptop. Even when a paper promises data “on request”, most requests go unanswered <span class="citation" data-cites="gabelica2022">(<a href="#ref-gabelica2022" role="doc-biblioref">Gabelica, Bojčić, and Puljak 2022</a>)</span>. The next team starts again.</p>
 <p>General repositories store whatever is deposited and leave quality to the depositor. International databases publish national averages and modelled estimates, not the subnational figures countries actually report. Between the two, the data that matter most for local health research have no home.</p>
-<p>HDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper.</p>
+<p>HDR is that home. Anyone can deposit a health dataset. We publish it only if its origin is stated and checkable, describe it in a short note, and give it a DOI so it can be cited like a paper <span class="citation" data-cites="jddcp2014">(<a href="#ref-jddcp2014" role="doc-biblioref">Data Citation Synthesis Group 2014</a>)</span>. Papers that link to their data in a repository also receive more citations <span class="citation" data-cites="colavizza2020">(<a href="#ref-colavizza2020" role="doc-biblioref">Colavizza et al. 2020</a>)</span>.</p>
 </section>
 <section id="what-makes-hdr-different" class="level2">
 <h2 class="anchored" data-anchor-id="what-makes-hdr-different">What makes HDR different</h2>
@@ -426,7 +447,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="standards-we-follow" class="level2">
 <h2 class="anchored" data-anchor-id="standards-we-follow">Standards we follow</h2>
-<p>FAIR principles; DataCite metadata schema 4; the Joint Declaration of Data Citation Principles; schema.org Dataset markup (for Google Dataset Search); Frictionless Data Package; <em>Datasheets for Datasets</em> and the GATHER statement for the content of the dataset note. We plan to apply for CoreTrustSeal certification after a year of operation.</p>
+<ul>
+<li>FAIR principles for findable, accessible, interoperable and reusable data <span class="citation" data-cites="wilkinson2016">(<a href="#ref-wilkinson2016" role="doc-biblioref">Wilkinson et al. 2016</a>)</span>.</li>
+<li>DataCite metadata schema for DOIs <span class="citation" data-cites="datacite2024">(<a href="#ref-datacite2024" role="doc-biblioref">DataCite Metadata Working Group 2024</a>)</span>.</li>
+<li>Joint Declaration of Data Citation Principles <span class="citation" data-cites="jddcp2014">(<a href="#ref-jddcp2014" role="doc-biblioref">Data Citation Synthesis Group 2014</a>)</span>.</li>
+<li>schema.org Dataset markup, for Google Dataset Search <span class="citation" data-cites="schemaorg">(<a href="#ref-schemaorg" role="doc-biblioref">Schema.org, n.d.</a>)</span>.</li>
+<li>Frictionless Data Package for machine-readable files <span class="citation" data-cites="frictionless">(<a href="#ref-frictionless" role="doc-biblioref">Open Knowledge Foundation 2024</a>)</span>.</li>
+<li><em>Datasheets for Datasets</em> <span class="citation" data-cites="gebru2021">(<a href="#ref-gebru2021" role="doc-biblioref">Gebru et al. 2021</a>)</span> and the GATHER statement <span class="citation" data-cites="stevens2016">(<a href="#ref-stevens2016" role="doc-biblioref">Stevens et al. 2016</a>)</span> for the content of the dataset note.</li>
+</ul>
+<p>We plan to apply for CoreTrustSeal certification after a year of operation <span class="citation" data-cites="coretrustseal2022">(<a href="#ref-coretrustseal2022" role="doc-biblioref">CoreTrustSeal Standards and Certification Board 2022</a>)</span>.</p>
 </section>
 <section id="maintained-by" class="level2">
 <h2 class="anchored" data-anchor-id="maintained-by">Maintained by</h2>
@@ -449,6 +478,47 @@ ul.task-list li input[type="checkbox"] {
 <section id="contact" class="level2">
 <h2 class="anchored" data-anchor-id="contact">Contact</h2>
 <p>To deposit a dataset, report an error, request a takedown or join as a curator: <em>contact address to be added</em>.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-colavizza2020" class="csl-entry" role="listitem">
+Colavizza, Giovanni, Iain Hrynaszkiewicz, Isla Staden, Kirstie Whitaker, and Barbara McGillivray. 2020. <span>“The Citation Advantage of Linking Publications to Research Data.”</span> <em>PLOS ONE</em> 15 (4): e0230416. <a href="https://doi.org/10.1371/journal.pone.0230416">https://doi.org/10.1371/journal.pone.0230416</a>.
+</div>
+<div id="ref-coretrustseal2022" class="csl-entry" role="listitem">
+CoreTrustSeal Standards and Certification Board. 2022. <span>“<span>CoreTrustSeal</span> Requirements 2023-2025.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7051012">https://doi.org/10.5281/zenodo.7051012</a>.
+</div>
+<div id="ref-jddcp2014" class="csl-entry" role="listitem">
+Data Citation Synthesis Group. 2014. <span>“Joint Declaration of Data Citation Principles.”</span> Edited by Maryann Martone. FORCE11. <a href="https://doi.org/10.25490/a97f-egyk">https://doi.org/10.25490/a97f-egyk</a>.
+</div>
+<div id="ref-datacite2024" class="csl-entry" role="listitem">
+DataCite Metadata Working Group. 2024. <span>“<span>DataCite</span> Metadata Schema Documentation for the Publication and Citation of Research Data and Other Research Outputs, Version 4.5.”</span> DataCite e.V. <a href="https://doi.org/10.14454/g8e5-6293">https://doi.org/10.14454/g8e5-6293</a>.
+</div>
+<div id="ref-gabelica2022" class="csl-entry" role="listitem">
+Gabelica, Mirko, Ružica Bojčić, and Livia Puljak. 2022. <span>“Many Researchers Were Not Compliant with Their Published Data Sharing Statement: A Mixed-Methods Study.”</span> <em>Journal of Clinical Epidemiology</em> 150: 33–41. <a href="https://doi.org/10.1016/j.jclinepi.2022.05.019">https://doi.org/10.1016/j.jclinepi.2022.05.019</a>.
+</div>
+<div id="ref-gebru2021" class="csl-entry" role="listitem">
+Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, et al. 2021. <span>“Datasheets for Datasets.”</span> <em>Communications of the ACM</em> 64 (12): 86–92. <a href="https://doi.org/10.1145/3458723">https://doi.org/10.1145/3458723</a>.
+</div>
+<div id="ref-frictionless" class="csl-entry" role="listitem">
+Open Knowledge Foundation. 2024. <span>“Data Package Standard, Version 2.”</span> <a href="https://datapackage.org" class="uri">https://datapackage.org</a>.
+</div>
+<div id="ref-schemaorg" class="csl-entry" role="listitem">
+Schema.org. n.d. <span>“Dataset.”</span> <a href="https://schema.org/Dataset" class="uri">https://schema.org/Dataset</a>.
+</div>
+<div id="ref-stevens2016" class="csl-entry" role="listitem">
+Stevens, Gretchen A., Leontine Alkema, Robert E. Black, et al. 2016. <span>“Guidelines for Accurate and Transparent Health Estimates Reporting: The <span>GATHER</span> Statement.”</span> <em>The Lancet</em> 388 (10062): e19–23. <a href="https://doi.org/10.1016/S0140-6736(16)30388-9">https://doi.org/10.1016/S0140-6736(16)30388-9</a>.
+</div>
+<div id="ref-tenopir2011" class="csl-entry" role="listitem">
+Tenopir, Carol, Suzie Allard, Kimberly Douglass, et al. 2011. <span>“Data Sharing by Scientists: Practices and Perceptions.”</span> <em>PLoS ONE</em> 6 (6): e21101. <a href="https://doi.org/10.1371/journal.pone.0021101">https://doi.org/10.1371/journal.pone.0021101</a>.
+</div>
+<div id="ref-vines2014" class="csl-entry" role="listitem">
+Vines, Timothy H., Arianne Y. K. Albert, Rose L. Andrew, et al. 2014. <span>“The Availability of Research Data Declines Rapidly with Article Age.”</span> <em>Current Biology</em> 24 (1): 94–97. <a href="https://doi.org/10.1016/j.cub.2013.11.014">https://doi.org/10.1016/j.cub.2013.11.014</a>.
+</div>
+<div id="ref-wilkinson2016" class="csl-entry" role="listitem">
+Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. <span>“The <span>FAIR</span> Guiding Principles for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3: 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
+</div>
+</div>
 
 
 </section>

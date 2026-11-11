@@ -357,24 +357,94 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="how-it-works" class="level2">
 <h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
-<div class="steps steps-compact">
-<div class="step">
-<p><span class="n">1</span></p>
-<p><strong>Build</strong> your <code>dataset.yml</code> below.</p>
-</div>
-<div class="step">
-<p><span class="n">2</span></p>
-<p><strong>Send</strong> it with your CSV files.</p>
-</div>
-<div class="step">
-<p><span class="n">3</span></p>
-<p><strong>Review</strong> within 15 working days.</p>
-</div>
-<div class="step">
-<p><span class="n">4</span></p>
-<p><strong>Publish</strong>: CSV, Excel, PDF note and DOI.</p>
-</div>
-</div>
+<figure class="flow figure" aria-label="How a dataset moves through HDR">
+<svg class="flow-wide" viewbox="0 0 1000 480" role="img" aria-labelledby="flow-t">
+  <title id="flow-t">Deposit, origin check, curator review, then open files or a restricted-access entry, a DOI for each version, and corrections as new versions</title>
+  <defs>
+    <marker id="fa" viewbox="0 0 10 10" refx="9" refy="5" markerwidth="7" markerheight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="f-head"></path>
+    </marker>
+  </defs>
+
+  <!-- connectors -->
+  <path class="f-line" d="M300,55 H346" marker-end="url(#fa)"></path>
+  <path class="f-line" d="M650,55 H696" marker-end="url(#fa)"></path>
+  <path class="f-line f-dash" d="M500,110 V136" marker-end="url(#fa)"></path>
+  <path class="f-line" d="M850,110 V226" marker-end="url(#fa)"></path>
+  <path class="f-line" d="M850,190 H500 V226" marker-end="url(#fa)"></path>
+  <path class="f-line" d="M500,340 V386" marker-end="url(#fa)"></path>
+  <path class="f-line" d="M850,340 V386" marker-end="url(#fa)"></path>
+  <path class="f-line" d="M350,425 H304" marker-end="url(#fa)"></path>
+  <path class="f-line" d="M150,390 V344" marker-end="url(#fa)"></path>
+  <path class="f-line f-dash" d="M300,285 H346" marker-end="url(#fa)"></path>
+  <text class="f-tag" x="323" y="276" text-anchor="middle">new</text>
+  <text class="f-tag" x="323" y="304" text-anchor="middle">version</text>
+  <text class="f-tag" x="675" y="182" text-anchor="middle">de-identified?</text>
+
+  <!-- row 1 -->
+  <a href="./deposit.html#builder">
+    <rect class="f-box" x="0" y="0" width="300" height="110" rx="12"></rect>
+    <circle class="f-num" cx="30" cy="30" r="14"></circle><text class="f-numt" x="30" y="35" text-anchor="middle">1</text>
+    <text class="f-h" x="54" y="36">Deposit</text>
+    <text class="f-p" x="22" y="68">Any researcher sends data files and</text>
+    <text class="f-p" x="22" y="90">a short metadata file, built online.</text>
+  </a>
+  <a href="./rules.html#r1">
+    <rect class="f-box" x="350" y="0" width="300" height="110" rx="12"></rect>
+    <circle class="f-num" cx="380" cy="30" r="14"></circle><text class="f-numt" x="380" y="35" text-anchor="middle">2</text>
+    <text class="f-h" x="404" y="36">Origin check</text>
+    <text class="f-p" x="372" y="68">We open the source named and confirm</text>
+    <text class="f-p" x="372" y="90">the data come from it.</text>
+  </a>
+  <a href="./rules.html">
+    <rect class="f-box" x="700" y="0" width="300" height="110" rx="12"></rect>
+    <circle class="f-num" cx="730" cy="30" r="14"></circle><text class="f-numt" x="730" y="35" text-anchor="middle">3</text>
+    <text class="f-h" x="754" y="36">Curator review</text>
+    <text class="f-p" x="722" y="68">Files checked against the rules and</text>
+    <text class="f-p" x="722" y="90">values spot-checked against the source.</text>
+  </a>
+  <rect class="f-pill" x="390" y="140" width="220" height="34" rx="17"></rect>
+  <text class="f-pillt" x="500" y="162" text-anchor="middle">No checkable origin: refused</text>
+
+  <!-- row 2 -->
+  <rect class="f-box f-err" x="0" y="230" width="300" height="110" rx="12"></rect>
+  <text class="f-h" x="22" y="266">Error report</text>
+  <text class="f-p" x="22" y="298">Anyone can flag a problem from the</text>
+  <text class="f-p" x="22" y="320">dataset page. Files never change silently.</text>
+
+  <rect class="f-box f-open" x="350" y="230" width="300" height="110" rx="12"></rect>
+  <text class="f-h" x="372" y="266">Open dataset</text>
+  <text class="f-p" x="372" y="298">CSV, Excel workbook and PDF note,</text>
+  <text class="f-p" x="372" y="320">free to download, open licence.</text>
+
+  <rect class="f-box f-restr" x="700" y="230" width="300" height="110" rx="12"></rect>
+  <text class="f-h" x="722" y="266">Restricted-access entry</text>
+  <text class="f-p" x="722" y="298">Description and access conditions;</text>
+  <text class="f-p" x="722" y="320">files stay with their producer.</text>
+
+  <!-- row 3 -->
+  <rect class="f-box" x="0" y="390" width="300" height="70" rx="12"></rect>
+  <text class="f-h" x="22" y="420">Used and cited</text>
+  <text class="f-p" x="22" y="444">in papers, theses and policy reports.</text>
+
+  <a href="./cite.html">
+    <rect class="f-doi" x="350" y="390" width="650" height="70" rx="12"></rect>
+    <circle class="f-num f-num-inv" cx="380" cy="425" r="14"></circle><text class="f-numt f-numt-inv" x="380" y="430" text-anchor="middle">4</text>
+    <text class="f-h f-inv" x="404" y="420">DOI minted for each version</text>
+    <text class="f-p f-inv" x="404" y="444">A permanent page and a citation, like a paper.</text>
+  </a>
+</svg>
+
+<ol class="flow-tall">
+  <li><b>Deposit.</b> Any researcher sends data files and a short metadata file, built online.</li>
+  <li><b>Origin check.</b> We confirm the data come from the source named. No checkable origin: refused.</li>
+  <li><b>Curator review.</b> Files checked against the rules and spot-checked against the source.</li>
+  <li class="ft-split"><span class="ft-open"><b>Open dataset.</b> De-identified data: CSV, Excel and PDF note, free to download.</span><span class="ft-restr"><b>Restricted-access entry.</b> Sensitive data: description and access conditions; files stay with their producer.</span></li>
+  <li class="ft-doi"><b>DOI minted for each version.</b> A permanent page and a citation.</li>
+  <li><b>Used, cited, corrected.</b> Error reports lead to a new version with a new DOI. Files never change silently.</li>
+</ol>
+</figure>
+<p>Review takes up to 15 working days.</p>
 </section>
 <section id="builder" class="level2">
 <h2 class="anchored" data-anchor-id="builder">Metadata builder</h2>

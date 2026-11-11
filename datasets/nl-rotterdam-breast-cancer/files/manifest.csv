@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "rotterdam.csv","One row per patient",2982,15,"text/csv",148791,"59598780fb4c4fd26a4a32289d514fbc499f7366b753ceb2b89bbe3a3db46cde"
-"nl-rotterdam-breast-cancer.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",185316,"31b28742ec78a13d18f8f3e1679501aaaa2b33058c4037b0b7c8fa96bb20e0f1"
-"nl-rotterdam-breast-cancer-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57781,"5efdbb69091794dbc5bbc6533f633405d87c744fe2fcfb03c582450ae772e63a"
+"nl-rotterdam-breast-cancer.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",185317,"de4310aa011571ac47753e47da2fc7f726635beab70b78fbb7acba777b6c9d37"
+"nl-rotterdam-breast-cancer-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",57781,"6abeba0c0d96be905cb2b990ebcc461129af673bc4fdea7c4f0326c48d594270"

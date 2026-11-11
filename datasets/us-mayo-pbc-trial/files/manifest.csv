@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "pbc.csv","One row per patient",418,20,"text/csv",31698,"1dbab06d2db283e0e6b6b0fef1d0d5eab8cac227286eef9f2e9419e8f9994c8f"
-"us-mayo-pbc-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",49803,"9d4bf757240974958d84b7e564a75e9e7477cbe619c6f9d70f6270f6e248601e"
-"us-mayo-pbc-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",56303,"80b5d126df4314923a74d7677670ef9356ba5244a77634722d657f89bbe7d444"
+"us-mayo-pbc-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",49803,"a4e8a0c661af750eece820892b452ee486d18436c457f080ebfecc8716646d5d"
+"us-mayo-pbc-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",56303,"d60af8051a3c9d9bd6feda18db763c7f5fda1d2fb8bed656c268c36c354d0e16"

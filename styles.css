@@ -298,3 +298,43 @@ main:has(.hero) > header#title-block-header { display: none; }
 .supporters p { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.25rem 2.5rem; margin: 0.75rem 0 0; }
 .supporters img { height: 52px; width: auto; max-width: 100%; padding: 0.5rem 0.9rem; background: #fff; border-radius: 8px; box-sizing: content-box; }
 @media (max-width: 520px) { .supporters img { height: 40px; } }
+
+/* ---------- Process diagram ---------- */
+.flow { margin: 1.5rem 0 2.5rem; }
+.flow-wide { width: 100%; height: auto; display: block; font-family: inherit; }
+.flow-wide a { cursor: pointer; }
+.flow-wide a:hover .f-box { stroke: var(--indigo); }
+.f-box { fill: var(--card); stroke: var(--line); stroke-width: 1.5; }
+.f-open { stroke: var(--ok); stroke-width: 2; }
+.f-restr { stroke: var(--warn); stroke-width: 2; stroke-dasharray: 6 4; }
+.f-err { fill: var(--surface); }
+.f-doi { fill: var(--indigo); }
+.f-line { fill: none; stroke: var(--ink-soft); stroke-width: 1.6; }
+.f-dash { stroke-dasharray: 5 4; }
+.f-head { fill: var(--ink-soft); }
+.f-num { fill: var(--indigo-soft); }
+.f-numt { fill: var(--indigo); font-size: 15px; font-weight: 600; }
+.f-num-inv { fill: rgba(255,255,255,0.2); }
+.f-numt-inv, .f-inv { fill: #fff; }
+.f-h { fill: var(--ink); font-size: 19px; font-weight: 600; }
+.f-p { fill: var(--ink-soft); font-size: 14.5px; }
+.f-tag { fill: var(--ink-soft); font-size: 12.5px; font-style: italic; }
+.f-pill { fill: var(--bad-bg); stroke: var(--pdf); stroke-width: 1; }
+.f-pillt { fill: var(--pdf); font-size: 13px; }
+body.quarto-dark .f-doi { fill: #4338CA; }
+body.quarto-dark .f-pill { fill: rgba(185,28,28,0.15); }
+body.quarto-dark .f-pillt { fill: #fca5a5; }
+.flow-tall { display: none; list-style: none; padding: 0; margin: 0; counter-reset: ft; }
+.flow-tall li { position: relative; border: 1px solid var(--line); border-radius: 10px; padding: 0.75rem 0.9rem; background: var(--card); margin-bottom: 1.6rem; color: var(--ink-soft); font-size: 0.95rem; }
+.flow-tall li b { color: var(--ink); }
+.flow-tall li:not(:last-child)::after { content: "↓"; position: absolute; left: 50%; bottom: -1.5rem; transform: translateX(-50%); color: var(--ink-soft); }
+.flow-tall .ft-split { display: grid; gap: 0.6rem; border: none; padding: 0; background: none; }
+.ft-split span { border-radius: 10px; padding: 0.75rem 0.9rem; background: var(--card); }
+.ft-open { border: 2px solid var(--ok); }
+.ft-restr { border: 2px dashed var(--warn); }
+.flow-tall .ft-doi { background: #4338CA; border-color: #4338CA; color: #e0e7ff; }
+.flow-tall .ft-doi b { color: #fff; }
+@media (max-width: 760px) { .flow-wide { display: none; } .flow-tall { display: block; } }
+.flow-wide a, .flow-wide a text { text-decoration: none !important; }
+.flow-wide .f-h.f-inv, .flow-wide .f-p.f-inv { fill: #fff; }
+.flow-wide .f-p.f-inv { fill: #e0e7ff; }

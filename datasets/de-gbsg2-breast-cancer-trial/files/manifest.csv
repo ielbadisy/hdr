@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "gbsg2.csv","One row per patient",686,10,"text/csv",25955,"55339518aaf7314719d43d9d108710f38a54e2d41b435c215bec903c5bf7a178"
-"de-gbsg2-breast-cancer-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",38892,"b79b362a286e62833377a9fe15d918dc8d29d42aa2dc1db5b85a80cf387ba673"
-"de-gbsg2-breast-cancer-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",55998,"f83f36cab0e4e2d500ce370503aff601c4cf7ff662c7980319223bd33cd5ff28"
+"de-gbsg2-breast-cancer-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",38892,"a87e1c3285a2e0a95dbf6e0bf83628952584d162cde8361d469cbf4f2449b7e3"
+"de-gbsg2-breast-cancer-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",55998,"5ab86f476703a2dae0b60b5bca2ab5e63b02344bc51c013bdcbaad4843a147ac"
