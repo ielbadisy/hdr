@@ -2,5 +2,5 @@
 "facilities.csv","One row per reference date, province, indicator, setting and facility type",11778,13,"text/csv",1901818,"2789719e0b9f63e65068659e6ffebb0db28f74553845a36c541e5c9ee9b828d7"
 "hospitals.csv","One row per year, province and indicator",7854,10,"text/csv",1085491,"ffd8ffa3e84ee2e6cbf80f8f5fbe35ebc3d8204538433afc72abeab2768468f1"
 "provinces.csv","One row per province or prefecture code used in the data files",83,7,"text/csv",6245,"6ef10dd8cacd256938648162bc56330b006a441d7e1603d2c6cefa00ac478e0d"
-"ma-health-system-resources.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",753784,"9b77adafd6f4c39f40e8b3ebf3b340c0f4347aab579ed15efb37826935126c51"
-"ma-health-system-resources-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",67092,"f2731180174eb8d9fc5f4f3062b246d144c78c2116c4045a2117405e13741b1b"
+"ma-health-system-resources.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",753784,"710b188498ee4b5f70702cd8a4e87b0a2d88348b7e5f4c5e0def99d883bc30d0"
+"ma-health-system-resources-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",67092,"c9cdfa385441b31b88b7f565420708dbd98bb1c5e05dac5a1bf4a42af33d56a1"

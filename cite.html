@@ -315,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#cite-the-version-you-used" id="toc-cite-the-version-you-used" class="nav-link active" data-scroll-target="#cite-the-version-you-used">Cite the version you used</a></li>
   <li><a href="#cite-the-origin-too" id="toc-cite-the-origin-too" class="nav-link" data-scroll-target="#cite-the-origin-too">Cite the origin too</a></li>
-  <li><a href="#how-dois-work-on-hdr" id="toc-how-dois-work-on-hdr" class="nav-link" data-scroll-target="#how-dois-work-on-hdr">How DOIs work on HDR</a></li>
+  <li><a href="#dois" id="toc-dois" class="nav-link" data-scroll-target="#dois">How DOIs work on HDR</a></li>
   <li><a href="#data-availability-statement" id="toc-data-availability-statement" class="nav-link" data-scroll-target="#data-availability-statement">Data availability statement</a></li>
   <li><a href="#cite-hdr-itself" id="toc-cite-hdr-itself" class="nav-link" data-scroll-target="#cite-hdr-itself">Cite HDR itself</a></li>
   </ul>
@@ -357,10 +357,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="cite-the-origin-too">Cite the origin too</h2>
 <p>HDR datasets come from an origin: a report, a survey, a registry or a study. Cite it as well. The dataset page and the note give the origin in full.</p>
 </section>
-<section id="how-dois-work-on-hdr" class="level2">
-<h2 class="anchored" data-anchor-id="how-dois-work-on-hdr">How DOIs work on HDR</h2>
+<section id="dois" class="level2">
+<h2 class="anchored" data-anchor-id="dois">How DOIs work on HDR</h2>
+<p>HDR registers its DOIs as a member of <a href="https://datacite.org">DataCite</a>, the international agency that issues DOIs for research data. Each DOI points to a permanent record with standard metadata (<a href="https://doi.org/10.14454/g8e5-6293">DataCite Metadata Schema 4.5</a>), so the dataset can be found in DataCite Search, Google Dataset Search and reference managers, and its citations can be counted.</p>
+<p>During the pilot phase HDR is completing its DataCite membership. DOIs are not yet active, and dataset pages show “Pending”. The example DOIs below use the placeholder prefix <code>10.XXXXX</code>.</p>
 <ul>
-<li>Every version gets its own DOI, minted through DataCite, for example <code>10.XXXXX/hdr-ma-0001.v1.0.0</code>.</li>
+<li>Every version gets its own DOI, registered with DataCite, for example <code>10.XXXXX/hdr-ma-0001.v1.0.0</code>.</li>
 <li>A <strong>concept DOI</strong> (<code>10.XXXXX/hdr-ma-0001</code>) always resolves to the latest version.</li>
 <li>A DOI always resolves, even if a dataset is withdrawn: it then leads to a page explaining why.</li>
 <li>Version numbers follow the rule <em>major.minor.patch</em>: a new table or a change of meaning raises the major number, added rows the minor number, corrected values the patch number.</li>
