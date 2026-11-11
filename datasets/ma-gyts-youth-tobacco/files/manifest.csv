@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "gyts_morocco.csv","One row per student",3915,27,"text/csv",1230612,"a7882b03c4b79e2a5cf92185cf702fd219ab3536be933b2e5a3175224f8ed44f"
-"ma-gyts-youth-tobacco.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",337246,"205a6bbce51337c77a5c38c20ac38eefd58fa4880cb6c8f602826bcf1fd81692"
-"ma-gyts-youth-tobacco-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",55689,"087e334ea89ef66e05b22b1f69d0ff28ad58b448074c7598133f895a3b641fae"
+"ma-gyts-youth-tobacco.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",337245,"bb32dec64f9dec8747f6a2973b4f5c9bfbabcb6a05c568b68971b1e8410f4684"
+"ma-gyts-youth-tobacco-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",55689,"25eaf83004cfc3e91ebce194bfa2226aacb1f30d164eaf0e345b3bdfde8b7902"

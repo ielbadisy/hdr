@@ -1,4 +1,4 @@
 "file","description","rows","cols","format","bytes","sha256"
 "streptomycin_tb.csv","One row per patient",107,13,"text/csv",11831,"e89576ee6baff6b31fa437175af61551eb184d4f4ab58c66e57a814bd16e8030"
-"gb-streptomycin-tuberculosis-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",16828,"26a7e78ffb04a9681a80d4139c6fcf9e9766c0daa15e7b73c3bd39655c530e7e"
-"gb-streptomycin-tuberculosis-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",58916,"5ce00df101f787c4e5f387814c1124b5e0f2d77cc1bfe1345de7005b5a81d1ff"
+"gb-streptomycin-tuberculosis-trial.xlsx","All tables in one workbook, with About and Variables sheets",,,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",16828,"48fcbf2947448fe5b02f888cd3d40e436adeefa1dc293c7083643c41b9b4c6f0"
+"gb-streptomycin-tuberculosis-trial-note.pdf","Dataset note: description, origin, variables, checks, citation",,,"application/pdf",58916,"fcd9029137fe4d727cb6347d0ce1a849dc4138231df9f8957ff1f2d84efcb2da"
